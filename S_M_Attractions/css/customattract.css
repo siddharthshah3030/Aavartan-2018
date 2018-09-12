@@ -1,0 +1,29 @@
+
+
+@media screen and (max-width: 650px) {
+
+  .el__text {
+    font-size: 16px;
+
+
+  }
+
+  .el__content {
+
+    padding: 18px;
+
+  }
+  .ghosttext {
+    : absolute;
+    /* padding-top: 10%; */
+    bottom: 5%;
+
+  }
+.cont {
+  padding: 150px 5px;
+}
+.el__bg {
+  width: calc(100vw - 5px);
+}
+
+}
