@@ -279,6 +279,7 @@ lightbox = new Lightbox options
         $lightbox.find('.lb-caption').html(this.album[this.currentImageIndex].title).fadeIn('fast');
       }
       if (this.album.length > 1) {
+        console.log(this.album.length)
         selectedevent = this;
         $lightbox.find('.lb-number').html(
           '<div id="toggles">  <input type="checkbox" name="checkbox1" id="checkbox1" class="ios-toggle" checked/><label for="checkbox1" class="checkbox-label" data-off="not registered" data-on="registered"></label> </div>'
