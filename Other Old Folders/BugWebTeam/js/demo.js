@@ -4,13 +4,13 @@
  *
  * Licensed under the MIT license.
  * http://www.opensource.org/licenses/mit-license.php
- * 
+ *
  * Copyright 2018, Codrops
  * http://www.codrops.com
  */
 {
     const lineEq = (y2, y1, x2, x1, currentVal) => {
-        // y = mx + b 
+        // y = mx + b
         var m = (y2 - y1) / (x2 - x1), b = y1 - m * x1;
         return m * currentVal + b;
     };
@@ -44,12 +44,12 @@
 		}
 		return { x : posx, y : posy }
 	};
-    
+
     class Item {
 		constructor(el, options) {
             this.DOM = {el: el};
 
-            this.options = {   
+            this.options = {
                 image: {
                     translation : {x: -10, y: -10, z: 0},
                     rotation : {x: 0, y: 0, z: 0}
@@ -83,10 +83,10 @@
             this.DOM.animatable.deco = this.DOM.el.querySelector('.box__deco');
             this.DOM.animatable.shadow = this.DOM.el.querySelector('.box__shadow');
             this.DOM.animatable.content = this.DOM.el.querySelector('.box__content');
-            
+
             this.initEvents();
         }
-        initEvents() { 
+        initEvents() {
             let enter = false;
             this.mouseenterFn = () => {
                 if ( enter ) {
@@ -127,28 +127,28 @@
             const mousepos = getMousePos(ev);
             // Document scrolls.
             const docScrolls = {
-                left : document.body.scrollLeft + document.documentElement.scrollLeft, 
+                left : document.body.scrollLeft + document.documentElement.scrollLeft,
                 top : document.body.scrollTop + document.documentElement.scrollTop
             };
             const bounds = this.DOM.el.getBoundingClientRect();
             // Mouse position relative to the main element (this.DOM.el).
-            const relmousepos = { 
-                x : mousepos.x - bounds.left - docScrolls.left, 
-                y : mousepos.y - bounds.top - docScrolls.top 
+            const relmousepos = {
+                x : mousepos.x - bounds.left - docScrolls.left,
+                y : mousepos.y - bounds.top - docScrolls.top
             };
-            
+
             // Movement settings for the animatable elements.
             for (let key in this.DOM.animatable) {
                 if ( this.DOM.animatable[key] == undefined || this.options[key] == undefined ) {
                     continue;
                 }
-                
+
                 let t = this.options[key] != undefined ? this.options[key].translation || {x:0,y:0,z:0} : {x:0,y:0,z:0},
                     r = this.options[key] != undefined ? this.options[key].rotation || {x:0,y:0,z:0} : {x:0,y:0,z:0};
 
                 setRange(t);
                 setRange(r);
-                
+
                 const transforms = {
                     translation : {
                         x: (t.x[1]-t.x[0])/bounds.width*relmousepos.x + t.x[0],
@@ -215,7 +215,7 @@
             itemElems.push(this.contentItem.querySelector('.box__text'));
             itemElems.push(this.contentItem.querySelector('.box__deco'));
             itemElems.push(this.contentItem.querySelector('.overlay__content'));
-            
+
             for (let el of itemElems) {
                 if ( el == null ) continue;
                 const bounds = el.getBoundingClientRect();
@@ -288,7 +288,7 @@
                     const el = item.DOM.animatable[key];
                     if ( el ) {
                         const bounds = el.getBoundingClientRect();
-                        
+
                         let x;
                         let y;
                         const win = {width: window.innerWidth, height: window.innerHeight};
@@ -310,7 +310,7 @@
                             x = -1*lineEq(10, 700, 0, win.width, Math.abs(bounds.left+bounds.width - win.width));
                             y = getRandomInt(-25,25);
                         }
-                        
+
                         TweenMax.to(el, 0.4, {
                             ease: 'Power3.easeOut',
                             delay: lineEq(0, 0.3, 0, win.width, Math.abs(bounds.left+bounds.width - win.width)),
@@ -318,7 +318,7 @@
                             y: y,
                             rotationZ: getRandomInt(-10,10),
                             opacity: 0
-                        }); 
+                        });
                     }
                 }
             }
@@ -327,7 +327,7 @@
             if ( !this.isPreviewOpen ) return;
             this.isPreviewOpen = false;
             this.overlay.hide();
-            
+
             for (let item of this.items) {
                 for (let key in item.DOM.animatable) {
                     const el = item.DOM.animatable[key];
@@ -341,7 +341,7 @@
                             y: 0,
                             rotationZ: 0,
                             opacity: 1
-                        }); 
+                        });
                     }
                 }
             }

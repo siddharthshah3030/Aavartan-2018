@@ -468,6 +468,13 @@ main {
 }
 
 @media screen and (max-width: 55em) {
+	/* .grid {
+		display: grid;
+		align-items: center;
+		/* padding: 3rem 3rem 15rem 3rem; */
+		/* grid-row-gap: 2rem; */
+		/* grid-template-columns: repeat(2,calc(100% / 2)); */
+	/* } */ 
 	.content {
 		flex-direction: column;
 		height: auto;

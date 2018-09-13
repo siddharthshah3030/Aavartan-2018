@@ -47,3 +47,19 @@ document.getElementById('menuclose').addEventListener("click",e=>{
   }
 
 });
+
+
+
+
+onClick = "getIndex(this);"
+
+function getIndex(node) {
+  console.log("sid check scroll test");
+// abcd()
+window.scroll({
+  top: 0,
+  left: 0,
+  behavior: 'smooth'
+});
+
+}
