@@ -76,6 +76,26 @@ $sql = "SELECT * FROM registered_events WHERE id='$id'";
 
 	</head>
 	<body style="background: black;" class="particletext confetti">
+        <?php
+include('connection.php');
+session_start();
+$id = $_SESSION['id'];
+$sql = "SELECT * FROM registered_events WHERE id='$id'";
+    $result = mysqli_query($link, $sql);
+    if($result){
+        $data = "";
+        $row = mysqli_fetch_array($result, MYSQLI_ASSOC);
+        for($i=1;$i<=sizeOf($row);$i++)
+        {
+        $data.=$row[$i];
+        }
+        echo '<div id="eventdata">'.$data.'</div>';
+    }
+    else{
+        echo '<div class="alert alert-danger">Error running the query!</div>';
+        exit;
+    }
+?>
 
 
 
