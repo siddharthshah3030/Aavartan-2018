@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Aavartan18</title>
+		<meta name="description" content="Perspective Page View Navigation: Transforms the page in 3D to reveal a menu" />
+		<meta name="keywords" content="3d page, menu, navigation, mobile, perspective, css transform, web development, web design" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<link rel="stylesheet" type="text/css" href="css/star.css" />
+		<link rel="stylesheet" type="text/css" href="css/custom.css" />
+		<link rel="stylesheet" type="text/css" href="css/background.css">
+		<link rel="stylesheet" type="text/css" href="css/game/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/game/game.css" />
+		<!-- csstransforms3d-shiv-cssclasses-prefixed-teststyles-testprop-testallprops-prefixes-domprefixes-load -->
+		<script src="js/modernizr.custom.25376.js"></script>
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	</head>
+	<body style="background: black;" class="particletext confetti">
+		<div class="w3-row">
+		<div id="perspective" class="perspective effect-laydown">
+			<div class="container" style="background:black;">
+				<div class="wrapper"  >
+
+<!-- wrapper needed for scroll -->
+<!--<div id="particles-js"></div>-->
+
+
+
+				<div id="menunavbar" style="margin-bottom:1vw;position:sticky;top:0px;width:100%;">
+					 <button id="showMenu" style="display: inline-block;float:right;background:black;color:white;text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #00ffff , 0 0 70px #00ffff , 0 0 80px #00ffff , 0 0 100px #00ffff ;
+">Menu</button>
+					 <img src="images/Aavartan.png" height="70vw" width="auto" style="display: inline-block;">
+				 
+				 <div class="game-holder" id="gameHolder" style="background-color:black;">
+				 	
+			<div class="header" >
+				
+				<h1 style="color: white; text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #00ffff , 0 0 70px #00ffff , 0 0 80px #00ffff , 0 0 100px #00ffff ;
+"><span></span>AAVARTAN 2018</h1>
+				<h2 style="color: white;">Imagine Improve Implement</h2>
+				<div class="score" id="score">
+					<div class="score__content" id="level">
+						<div class="score__label">level</div>
+						<div class="score__value score__value--level" id="levelValue">1</div>
+						<svg class="level-circle" id="levelCircle" viewbox="0 0 200 200">
+							<circle id="levelCircleBgr" r="80" cx="100" cy="100" fill="none" stroke="#d1b790" stroke-width="24px" />
+							<circle id="levelCircleStroke" r="80" cx="100" cy="100" fill="none" #f25346 stroke="#68c3c0" stroke-width="14px" stroke-dasharray="502" />
+						</svg>
+					</div>
+					<div class="score__content" id="dist">
+						<div class="score__label">distance</div>
+						<div class="score__value score__value--dist" id="distValue">000</div>
+					</div>
+					<div class="score__content" id="energy">
+						<div class="score__label">energy</div>
+						<div class="score__value score__value--energy" id="energyValue">
+							<div class="energy-bar" id="energyBar"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="world" id="world" style="background-color: black">
+				
+			</div>
+			<div class="message message--replay" id="replayMessage">Click to Replay</div>
+			
+		</div>
+	</div>
+		<!-- Demo links -->
+		<!-- <nav class="meta">
+			<a class="codrops-icon codrops-icon--prev" href="http://tympanus.net/Development/Interactive3DMallMap/" title="Previous Demo"><span>Previous Demo</span></a>
+			<a class="codrops-icon codrops-icon--drop" href="http://tympanus.net/codrops/?p=26501" title="Back to the article"><span>Back to the Codrops article</span></a>
+			<a class="demo-link" href="part1.html">Part 1</a>
+			<a class="demo-link" href="part2.html">Part 2</a>
+		</nav> -->
+		
+				</div><!-- wrapper -->
+			</div><!-- /container -->
+
+			<a id="menuclose" href="#" ><span class="close">&times;</span></a>
+   <div id="particles"></div>
+			<nav class="outer-nav top horizontal" style="text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #ff00de , 0 0 70px #ff00de , 0 0 80px #ff00de , 0 0 100px #ff00de ;">
+				<a href="#" class="icon-home">Home</a>
+				<a href="#" class="icon-news">News</a>
+				<a href="#" class="icon-image">Images</a>
+				<a href="#" class="icon-upload">Uploads</a>
+				<a href="#" class="icon-star">Favorites</a>
+				<a href="#" class="icon-mail">Messages</a>
+				<a href="#" class="icon-lock">Security</a>
+			</nav>
+
+		</div><!-- /perspective -->
+
+	</div>
+
+
+<!-- particles.js lib - https://github.com/VincentGarreau/particles.js --> 
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+		<script src="js/classie.js"></script>
+		<script src="js/menu.js"></script>
+		<script src="js/particle.js"></script>
+		<script src="js/particleapp.js"></script>
+		<script src="js/custom.js"></script>
+		<script  src="js/index.js"></script>
+		<script type="text/javascript" src="js/game/TweenMax.min.js"></script>
+		<script type="text/javascript" src="js/game/three.min.js"></script>
+		<script type="text/javascript" src="js/game/game.js" /></script>
+
+		
+	</body>
+</html>
