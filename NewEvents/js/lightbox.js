@@ -417,9 +417,22 @@ function secondevent() {
     // $( ".ios-toggle" ).trigger( "click" );
 
 }
-
+// var sid = document.getElementById('eventdata').value
+var sid = '1 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0';
+var ar = sid.split(''); // split string on comma space
+console.log( ar );
+// console.log(sid)
+// var sidd = sid.splice(17, 0, "null");
+// sidd = sidd.splice(18, 0, "null");
+// sidd = sidd.splice(20, 0, "null");
+// sidd = sidd.splice(21, 0, "null");
+// sidd = sidd.splice(22, 0, "null");
+// sidd = sidd.splice(23, 0, "null");
+// sidd = sidd.splice(26, 0, "null");
+// sidd = sidd.splice(27, 0, "null");
+// sidd = sidd.splice(28, 0, "null");
 function firstevent(){
-  if (evr[selectedevent.currentImageIndex] === 1 ) {
+  if (ar[selectedevent.currentImageIndex] == 1 ) {
     $('.ios-toggle').prop('checked', true);
 
   } else {
