@@ -145,7 +145,7 @@ main {
 .grid {
 	width: 100%;
 	max-width: 1440px;
-	margin: 0 auto;
+	margin: 20vh auto 0;
 	padding-bottom: 10rem;
 }
 
@@ -474,7 +474,7 @@ main {
 		/* padding: 3rem 3rem 15rem 3rem; */
 		/* grid-row-gap: 2rem; */
 		/* grid-template-columns: repeat(2,calc(100% / 2)); */
-	/* } */ 
+	/* } */
 	.content {
 		flex-direction: column;
 		height: auto;
