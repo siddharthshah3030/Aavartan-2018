@@ -22,14 +22,10 @@
 
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <style>
-body{
-	overflow-y:scroll; 
-	color:white;
-}
-#signupform {
+#loginform {
 background-color:rgba(72,72,72,0.4);
-padding-left:25px;
-padding-right:52px;
+padding-left:15px;
+padding-right:35px;
 padding-top:35px;
 padding-bottom:50px;
 width: 450px;
@@ -41,7 +37,7 @@ margin-left: -210px;
 -moz-border-radius: 7px;
 -webkit-border-radius: 7px;
 }
-select,input {
+input {
 color:#3c3c3c;
 font-family: Helvetica, Arial, sans-serif;
 font-weight:500;
@@ -52,7 +48,10 @@ background-color: #fbfbfb;
 padding: 13px 13px 13px 54px;
 margin-bottom: 10px;
 width:100%;
-color:black;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+-ms-box-sizing: border-box;
+box-sizing: border-box;
 border: 3px solid rgba(0,0,0,0);
 }
 </style>
@@ -62,89 +61,40 @@ border: 3px solid rgba(0,0,0,0);
 <body style="background: black;" class="particletext confetti">
 
 <div class="w3-row">
-
 <div id="perspective" class="perspective effect-laydown">
-
 <div class="container" style="background:black;">
 
 <div class="wrapper"  >	
-
 <!-- wrapper needed for scroll -->
 <div id="menunavbar" style="margin-bottom:1vw;position:sticky;top:0px;width:100%;background-image: url('test.gif'); height: 100%;   background-position: center;background-repeat: no-repeat;background-size: cover;" >
 <button id="showMenu" style="display: inline-block;float:right;background:black;color:white;text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #ff00de , 0 0 70px #ff00de , 0 0 80px #ff00de , 0 0 100px #ff00de ;">Menu</button>
 <img src="images/Aavartan.png" height="70vw" width="auto" style="display: inline-block;">
 <h2 style="color: white; text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #00ffff , 0 0 70px #00ffff , 0 0 80px #00ffff , 0 0 100px #00ffff ;"><span></span>Login Portal</h1>
 <br>
-
 </div>
-<div id="particles-js"></div>
-
 <br>
 <br>
 <br>
-
-    <center>
-        <form id="signupform" method="POST"  class="col-sm-offset-3 col-sm-6">
-        <!--Sign up message from PHP file-->
-        <div id="signupmessage"></div>
-        <div class="form-group">
-            <label for="name" >Name</label>
-        <input type="text" class="form-control" id="name" name="name" autofocus required>
-        </div>
-        <div class="form-group">
-            <label for="contact">Contact Number</label>
-        <input type="number" class="form-control" id="contact" name="contact" minlength="10" maxlength="10" required>
-        </div>
-        <div class="form-group">
-            <label for="branch">Branch</label>
-        <input type="text" class="form-control" id="branch" name="branch" required>
-        </div>
-        <div class="form-group">
-            <label for="course">Course/Degree</label>
-        <input type="text" class="form-control" id="course" name="course" required>
-        </div>
-        <div class="form-group">
-            <label for="semester">Semester</label>
-        <!--<input type="number" class="form-control" id="semester" name="semester" min="1" max="10" required>-->
-        <select class="form-control" id="semester" name="semester" required>
-            <option value="1st">1st</option>
-            <option value="2nd">2nd</option>
-            <option value="3rd">3rd</option>
-            <option value="4th">4th</option>
-            <option value="5th">5th</option>
-            <option value="6th">6th</option>
-            <option value="7th">7th</option>
-            <option value="8th">8th</option>
-            <option value="9th">9th</option>
-            <option value="10th">10th</option>
-          </select>
-        </div>
-        <div class="form-group">
-            <label for="college">College/University</label>
-        <input type="text" class="form-control" id="college" name="college" required>
-        </div>
-        <div class="form-group">
-            <label for="email">Email</label>
-        <input type="email" class="form-control" id="email" name="email" required>
-        </div>
-        <div class="form-group">
-            <label for="password1">Create Password</label>
-        <input type="password" class="form-control" id="password1" name="password1" required>
-        </div>
-        <div class="form-group">
-            <label for="password2">Re-enter Password</label>
-        <input type="password" class="form-control" id="password2" name="password2" required>
-        </div>
-        <br>
-        <div class="form-group">
-        <button type="submit" class="btn btn-lg btn-success" style="float:left;">Sign up</button>
-        <p style="float:right;">Already Registered?<a href="http://beta.aavartan.org/akash/login.html">login</a></p>
-        </div>
-    </form>
-    </center>
-
+<center>
+<form id="loginform" method="POST"  class="col-lg-offset-3 col-lg-6">
+<div id="loginmessage"></div>
+<div class="form-group">
+<label for="loginemail">Email</label>
+<input type="email" class="form-control" id="loginemail" name="loginemail" required>
+</div>
+<br>
+<div class="form-group">
+<label for="loginpassword">Enter Password</label>
+<input type="password" class="form-control" id="loginpassword" name="loginpassword" required>
+</div>
+<div class="form-group">
+	<br>
+<button type="submit" class="btn btn-success btn-lg" style="float: left;">Login</button>
+<a  href="forgotpassword.html" style="float: right;padding-top: 6px;color:white;">Forgot Password</a>
+</div>
+</form>
+</center>
 </div><!-- wrapper -->
-
 </div><!-- /container -->
 <a id="menuclose" href="#" ><span class="close">&times;</span></a>
 <nav class="outer-nav top horizontal" style="text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #ff00de , 0 0 70px #ff00de , 0 0 80px #ff00de , 0 0 100px #ff00de ;">
@@ -157,7 +107,6 @@ border: 3px solid rgba(0,0,0,0);
 <a href="#" class="icon-lock">Security</a>
 </nav>
 </div><!-- /perspective -->
-
 </div>
 <script src="js/classie.js"></script>
 <script src="js/menu.js"></script>
