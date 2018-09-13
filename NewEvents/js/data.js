@@ -5,10 +5,10 @@ var evd = [
 {
   title: "October Sky",
   about: "In this event, students will showcase their talent in the field of rocket science, fluid dynamics and projectile motion. This is an interesting technical event in which students will have to prepare a ROCKET with the help of 2 liter bottle of cold drinks and a LAUNCHER, to project it by the hydraulic pressure, filled inside the rocket and launcher",
-  description: Null,
-  round1: Null,
-  round2: Null,
-  round3: Null,
+  description: "",
+  round1: "",
+  round2: "",
+  round3: "",
   judging_criteria: "Event would be judge on the following parameters: - Level 1• Maximum range of the rocket.Level 2 • Whether the October hits the target or not and if it hits the target then at what point it scores on hitting? • How close it is from the target.",
   venue: "Hockey Ground",
   team: "individual",
@@ -21,9 +21,9 @@ var evd = [
   description: "This event will be conducted in two rounds. ",
   round1: "Aptitude test : <br>This round is will be an aptitude test. 30 questions will be given to the students wil a time limit of 30 minutes. Questions will be related to the Autocad software and general aptitude.",
   round2: "Final round :In this round students will be given the dimensions of an object and they will have to make a 3D design of the object in Autocad in given time limit.",
-  round3: Null,
-  rules:"1. Use of internet, smart phones and tutorial videos is strictly prohibited. Anyone caught using any of the above means will be immediately disqualified.<br>2. A team should not have more than 3 members."
-  judging_criteria: "Round 1: This round will be judged on the basis of score obtained by the teams in aptitude test. Round 2: This round will be judged on the basis of time taken by the teams to complete the given task.",
+  round3: "",
+  rules:"1. Use of internet, smart phones and tutorial videos is strictly prohibited. Anyone caught using any of the above means will be immediately disqualified.<br>2. A team should not have more than 3 members.",
+  judging_criteria: "Round 1 This round will be judged on the basis of score obtained by the teams in aptitude test. Round 2 This round will be judged on the basis of time taken by the teams to complete the given task.",
   venue: "any classroom",
   team: "1. A team consists of maximum 3 members. <br>2. One laptop is mandatory in each team. <br>3. Teams must have Autocad software installed in their laptops.",
   coordinators: "sid: 9770306466, akash: 234798547"
@@ -32,12 +32,12 @@ var evd = [
 
 {
   title: "Lan Gaming",
-  about: "",
+  about: ",",
   description: "Games will be played on computers connected via network <br>• NFS (Need for Speed) <br>• FIFA on Xbox <br>• Pain <br>• Counter Strike<br>",
   round1: "",
   round2: "",
   round3: "",
-  rules:"• Fifa and Nfs will played by individual • All rounds will be knock out. "
+  rules:"• Fifa and Nfs will played by individual • All rounds will be knock out. ",
   judging_criteria: "",
   venue: "Lab",
   team: "individual",
@@ -47,12 +47,12 @@ var evd = [
 
 {
   title: "Sherlock Holmes ",
-  about: "This is a crime-investigation and detective event which challenges the conventional way of thinking and very much lives by the ideology: "The only promise a puzzle makes is an answer." An event with set of clues linking to one another using team’s analytical & technical knowledge. Also a run against time and mutual understanding of team. Be the "007", "sherlock holmes" and "spy kids" of ur arena!!..and crack out d clue nuts!! If you think your navigation skills are sharp and your puzzle solving is sharper then this event is for you. The teams will be given a clue, which when solved will lead to a series of subsequent puzzles and a new location. The clues will be concealed around the campus. Teams should construe the clues and puzzles and which is first in doing so is the winner. So….Do you have the witty skills of SHERLOCK HOLMES!!?? ",
+  about: "This is a crime-investigation and detective event which challenges the conventional way of thinking and very much lives by the ideology:"+ "The only promise a puzzle makes is an answer."+" An event with set of clues linking to one another using team’s analytical & technical knowledge. Also a run against time and mutual understanding of team. Be the"+" 007 " + "sherlock holmes" + " and" + "spy kids"+ " of ur arena!!..and crack out d clue nuts!! If you think your navigation skills are sharp and your puzzle solving is sharper then this event is for you. The teams will be given a clue, which when solved will lead to a series of subsequent puzzles and a new location. The clues will be concealed around the campus. Teams should construe the clues and puzzles and which is first in doing so is the winner. So….Do you have the witty skills of SHERLOCK HOLMES!!?? ",
   description: "“Once you eliminate the impossible, whatever remains, no matter how improbable, must be the truth.” -Sherlock Holmes As the name suggests Sherlock Holmes is an offline detective event filled with puzzles, riddles and clues which the participant is supposed to decipher. The event consists of total 7 rounds, first round being the aptitude test to screen the teams and the difficulty level will keep on rising in the successive rounds as one proceeds. ",
   round1: "",
   round2: "",
   round3: "",
-  rules:"1. Maximum 3 members per team are allowed. 2. On the basis of aptitude round, 50 teams will go to the next level. 3. Internet usage is allowed. 4. In case of any disputes the decision taken by the technical committee will be final and binding. "
+  rules:"1. Maximum 3 members per team are allowed. 2. On the basis of aptitude round, 50 teams will go to the next level. 3. Internet usage is allowed. 4. In case of any disputes the decision taken by the technical committee will be final and binding. ",
   judging_criteria: "",
   venue: "Any classroom",
   team: "Max 3 Members",
@@ -64,17 +64,17 @@ var evd = [
   title: "Khet",
   about: "In present day we utilize a lot of big instruments which utilize refractive and reflective properties of light. This property has immense application in engineering world. Hence we bring you a new event which will enhance your knowledge on properties of light. This is a team event consisting of maximum 3 members. ",
   description: "",
-  round1: "In this round, basically your imagination is judged based on concept of mirror and its properties like reflection, refraction, total internal reflection etc. Description: Each team shall be given 5min and provided 8 small pieces of mirror of size 8cm*8cm. The team is given a source of laser beam and a target and is asked to make a mirror maze, or an arrangement out of their imagination using concepts of multiple reflections and strike the target with laser beam within the given time. ",
-  round2: "Khet is a chess-like abstract strategy board game using lasers. Teams take turns moving Egyptian-themed pieces around the playing field, firing their laser after each move. Description: Each team starts the game with a few playing pieces, arranged in a pre-defined configuration and a laser. The pieces in the game are: Sphinx : The Sphinxes hold the lasers. They may not move (each team's is located at their closest right-hand corner) but may be rotated in place so as to fire down the rank instead of the file. A Sphinx is unaffected by laser fire, whether the opponent's or its own reflected back upon itself. Pharaoh : The Pharaoh is the most important piece for each side, similar to a king in chess. If it is hit with a laser, it is destroyed and its owner loses the game. Scarab : Scarabs consist primarily of large, dual-sided mirrors. They reflect a laser coming in from any direction and thus cannot be eliminated from the board. Pyramid :Pyramids have a single diagonal mirror, and form the primary mechanism for directing the path the path of the laser. They are vulnerable to a hit from two of the four sides. Obelisk : Large pillars with no mirrored sides, these are vulnerable to attack from any direction, and therefore useful mostly as an emergency sacrifice to protect another piece (such as the Pharaoh). Anubis : Anubis has the advantage that, despite still being un-mirrored, they are not affected by a laser strike on the front; they must be hit on the sides or rear in order to be eliminated.",
+  round1: "In this round, basically your imagination is judged based on concept of mirror and its properties like reflection, refraction, total internal reflection etc. Description: Each team shall be given 5min and provided 8 small pieces of mirror of size 8cm*8cm. The team is given a source of laser beam and a target and is asked to make a mirror maze, or an arrangement out of their imagination using concepts of multiple reflections and strike the target with laser beam within the given time.",
+   round2: " and form the primary mechanism for directing the path the path of the laser. They are vulnerable to a hit from two of the four sides. Obelisk : Large pillars with no mirrored sides, these are vulnerable to attack from any direction, and therefore useful mostly as an emergency sacrifice to protect another piece (such as the Pharaoh). Anubis : Anubis has the advantage that, despite still being un-mirrored, they are not affected by a laser strike on the front;cvb gfklnbfgnbfgnbf gnbfgx  nbgnbj nbkjgjbhjbhbhbjhbjhbghj nbjkgnbjgnbjfgnblgfnblgfn blkfng blkfgnblgnblk gnb lgn blfgnblfgn blfgn blgfn blgfnblfgnb ln gblgnflb  gflkb nfglbn fglkb  ngf gfnlkb fgn bklfg nblkg n blfgn bl fgn blfgnb fglbnfglkbngfkb gfnkkkkkkkkkkkkkkkkkkkkkkkkkkkkkbkgb ngkb ngk nblgn bl fgnbl gfnbkgnfbl k fng blkfgnblkngf  lkbnfglbngf lkbnfgnb fgxnb kgf nbgfnblkfgnblk gfnblkgfnblkfgn bkng bngf lbnflgkbfgx bfg bfg ngh n hgncg ncgh  jch jcghh cghjch gjcg hj hjh jhf jf they must be hit on the sides or rear in order to be eliminated.",
   round3: "",
-  rules:". Silver moves first. Teams alternate turns, with each team moving only his/her own pieces. All the pieces, including Pharaohs, can be moved. <br>2. Each team has a Sphinx which contains a laser. It is not a playing piece and cannot be eliminated from play. It is located in its special corner space. The Sphinx can be rotated to point the laser down either the first column or the first row and is only optional. If a team chooses to rotate the Sphinx as his/her turn, it must be rotated before the head is pushed and the laser is fired <br>3. A turn consists of moving any one piece one step in any direction (including diagonally) or of rotating a piece a quarter turn (90 degrees) in either direction without changing squares. A piece cannot be moved and rotated on the same turn or rotated more than a quarter twist on one turn. <br>4. No red piece, including a Scarab, can move into any square containing a silvermark. No silver piece, including a Scarab, can move into any square containing a redmark that are located along portions of the edges of the board. <br>5. Except for the Scarab, no piece can move into a square occupied by another piece of either colour. <br>6. The Scarab can swap places with an adjacent Pyramid or Anubis, but not with a Pharaoh or another Scarab piece. Neither piece rotates during the swap. <br>7. If the laser beam stops on a non-mirrored surface of a Pyramid that piece is removed from the board. <br>8. If the laser beam stops on the front side of an Anubis piece, the Anubis is not removed from the board and the turn is over—this piece is impervious to a hit on its front. If the laser beam strikes a side or back of an Anubis, that piece is removed from the board. <br>9. The laser is fired only once at the end of a team’s turn. The turn is over whether or not a piece is hit. Teams may not test where the beam will go by firing the laser before completing their moves. <br>10. The game ends when a beam illuminates a Pharaoh. The winner is the team whose Pharaoh wasn’t hit. A team who illuminates his or her own Pharaoh is out of luck."
+   rules: "Silver moves first. Teams alternate turns, with each team moving only his/her own pieces. All the pieces, including Pharaohs, can be moved. <br>2. Each team has a Sphinx which contains a laser. It is not a playing piece and cannot be eliminated from play. It is located in its special corner space. The Sphinx can be rotated to point the laser down either the first column or the first row and is only optional. If a team chooses to rotate the Sphinx as his/her turn, it must be rotated before the head is pushed and the laser is fired <br>3. A turn consists of moving any one piece one step in any direction (including diagonally) or of rotating a piece a quarter turn (90 degrees) in either direction without changing squares. A piece cannot be moved and rotated on the same turn or rotated more than a quarter twist on one turn. <br>4. No red piece, including a Scarab, can move into any square containing a silvermark. No silver piece, including a Scarab, can move into any square containing a redmark that are located along portions of the edges of the board. <br>5. Except for the Scarab, no piece can move into a square occupied by another piece of either colour. <br>6. The Scarab can swap places with an adjacent Pyramid or Anubis, but not with a Pharaoh or another Scarab piece. Neither piece rotates during the swap. <br>7. If the laser beam stops on a non-mirrored surface of a Pyramid that piece is removed from the board. <br>8. If the laser beam stops on the front side of an Anubis piece, the Anubis is not removed from the board and the turn is over—this piece is impervious to a hit on its front. If the laser beam strikes a side or back of an Anubis, that piece is removed from the board. <br>9. The laser is fired only once at the end of a team’s turn. The turn is over whether or not a piece is hit. Teams may not test where the beam will go by firing the laser before completing their moves. <br>10. The game ends when a beam illuminates a Pharaoh. The winner is the team whose Pharaoh wasn’t hit. A team who illuminates his or her own Pharaoh is out of luck.",
   judging_criteria: "1. The team which completes the game in least time wins. <br>2. If two teams complete the game in same time, then the one with least number of hits is declared winner.",
   venue: "nitrr mein",
   team: "Max 3 Members",
   coordinators: "sid: 9770306466, akash: 234798547"
 
 },
-
+// Khet is a chess-like abstract strategy board game using lasers. Teams take turns moving Egyptian-themed pieces around the playing field, firing their laser after each move. Description: Each team starts the game with a few playing pieces, arranged in a pre-defined configuration and a laser. The pieces in the game are: Sphinx : The Sphinxes hold the lasers. They may not move (each team's is located at their closest right-hand corner) but may be rotated in place so as to fire down the rank instead of the file. A Sphinx is unaffected by laser fire, whether the opponent's or its own reflected back upon itself. Pharaoh : The Pharaoh is the most important piece for each side, similar to a king in chess. If it is hit with a laser, it is destroyed and its owner loses the game. Scarab : Scarabs consist primarily of large, dual-sided mirrors. They reflect a laser coming in from any direction and thus cannot be eliminated from the board. Pyramid :Pyramids have a single diagonal mirror,
 {
   title: "MARVEL TREASURE HUNT",
   about: "",
@@ -98,7 +98,7 @@ var evd = [
   round3: "1. Virtual money will be provided to each teams qualified for this round.<br>2. Auction of various football players will be done and bidding will be done by each teams.<br>3. Each player will be rated according to their current market value.<br>4. Team having the highest overall rating will emerge as winner.",
   judging_criteria: "",
   venue: "nitrr",
-  team: ""
+  team: "",
   coordinators: "sid: 9770306466, akash: 234798547"
 
 },
@@ -131,19 +131,7 @@ var evd = [
 
 },
 
-{
-  title: "Sale your stock[managerial event]",
-  about: "",
-  description: "",
-  round1: "basic economics  and aptitude questions.",
-  round2: "The 8 teams will play for second round.<br>We will have 8 chits of mobile and laptop companies. Each team will get one chit .<br>One by one each team has to give a small presentation of their product. While a team is presenting their product , others have to analyse them  Now what they have to do is they have to invest their money on  rest of the 7 teams which were competing with them. <br>Now every team will tell their investment making sure that itbis less than total amount of shares. <br>So then we see the loss or profit on every team that will be calculated by the difference between the investment and the total shares actually sold. <br>So now the value of shares of every company is calculated and invested score is calculated.<br>Team with the greatest score will win the competition.",
-  round3: "",
-  judging_criteria: "",
-  venue: "Any classroom",
-  team: "individual",
-  coordinators: "sid: 9770306466, akash: 234798547"
 
-},
 
 {
   title: "CAPTURE THE MOMENT",
@@ -203,6 +191,72 @@ var evd = [
 
 
 
+{
+  title: "Sale your stock[managerial event]",
+  about: "",
+  description: "",
+  round1: "basic economics  and aptitude questions.",
+  round2: "The 8 teams will play for second round.<br>We will have 8 chits of mobile and laptop companies. Each team will get one chit .<br>One by one each team has to give a small presentation of their product. While a team is presenting their product , others have to analyse them  Now what they have to do is they have to invest their money on  rest of the 7 teams which were competing with them. <br>Now every team will tell their investment making sure that itbis less than total amount of shares. <br>So then we see the loss or profit on every team that will be calculated by the difference between the investment and the total shares actually sold. <br>So now the value of shares of every company is calculated and invested score is calculated.<br>Team with the greatest score will win the competition.",
+  round3: "",
+  judging_criteria: "",
+  venue: "Any classroom",
+  team: "individual",
+  coordinators: "sid: 9770306466, akash: 234798547"
+
+},
+
+{
+  title: "Rush Hour [not finalised yet the games which are going to conduct in this]",
+  about: "coming sson is a fun, technical based event which enhances skills of the newly introduced engineers, forcing them to implement basic technical skills under pressure. ",
+   description: "The event shall consist of a series of small events to complete in a given time. The person who completes the series in minimum time will grab the prize. The events will be as described below Event Name  Ball in the pool    Three tables are to be placed at a distance of 2ft. from each other . 9 glasses are arranged in 3x3 order and are placed on the middle table .The competition will be between two rival participants standing 2ft away from the other two tables. Participants need to get the balls inside the glass in the middle row .The participant who does this at the earliest in the given time will be declared the winner.    Event Name  Cup it up   4 plastic cups are provided along with 3 note cards to the participants.Participants will have to create a tower with provided cups by placing note cards between each cup. Once the tower is bulit , participants will have to remove each note card one-by-one , so that all 4 cups rest in a single stack.   Event Name Pyramid of cups <br>Plastic cups are provided to the particpants.Participants will have to create a pyramid of cups. Once the pyramid is built, participant will have to slide down the cups to create a single stack. The participant who achieves this feat at first will be declared aa the winner. <br>Event Name: Lift it…!!if c can… <br>Three tables are to be placed at a distance of 5-6 ft from each other . Soft drink cans will be placed on top of the tables placed at the extremes.Two teams consisting of two players each will be given a straw each which they will have to use to lift up the empty cans by passing it through the straw holder in the can held by the participants mouth on both ends.The team which successfully places three cans on the middle table by carrying them from the tables at the extremes at first wins the competition. <br>Event Name: Knock Down <br>There is a table of approx. length 2 ft. Plastic cups are placed on the table in a row. Participants have to blow the baloon provided by their mouth and use the exhaled air to knock down the plastic cups.",
+  round1: "",
+  round2: "",
+  round3: "",
+  judging_criteria: "",
+  venue: "Central Garden",
+  team: "individual",
+  coordinators: "sid: 9770306466, akash: 234798547"
+
+},
+{
+  title: "Rush Hour [not finalised yet the games which are going to conduct in this]",
+  about: "coingosson is a fun, technical based event which enhances skills of the newly introduced engineers, forcing them to implement basic technical skills under pressure. ",
+   description: "The event shall consist of a series of small events to complete in a given time. The person who completes the series in minimum time will grab the prize. The events will be as described below Event Name  Ball in the pool    Three tables are to be placed at a distance of 2ft. from each other . 9 glasses are arranged in 3x3 order and are placed on the middle table .The competition will be between two rival participants standing 2ft away from the other two tables. Participants need to get the balls inside the glass in the middle row .The participant who does this at the earliest in the given time will be declared the winner.    Event Name  Cup it up   4 plastic cups are provided along with 3 note cards to the participants.Participants will have to create a tower with provided cups by placing note cards between each cup. Once the tower is bulit , participants will have to remove each note card one-by-one , so that all 4 cups rest in a single stack.   Event Name Pyramid of cups <br>Plastic cups are provided to the particpants.Participants will have to create a pyramid of cups. Once the pyramid is built, participant will have to slide down the cups to create a single stack. The participant who achieves this feat at first will be declared aa the winner. <br>Event Name: Lift it…!!if c can… <br>Three tables are to be placed at a distance of 5-6 ft from each other . Soft drink cans will be placed on top of the tables placed at the extremes.Two teams consisting of two players each will be given a straw each which they will have to use to lift up the empty cans by passing it through the straw holder in the can held by the participants mouth on both ends.The team which successfully places three cans on the middle table by carrying them from the tables at the extremes at first wins the competition. <br>Event Name: Knock Down <br>There is a table of approx. length 2 ft. Plastic cups are placed on the table in a row. Participants have to blow the baloon provided by their mouth and use the exhaled air to knock down the plastic cups.",
+  round1: "",
+  round2: "",
+  round3: "",
+  judging_criteria: "",
+  venue: "Central Garden",
+  team: "individual",
+  coordinators: "sid: 9770306466, akash: 234798547"
+
+},
+{
+  title: "Rush Hour [not finalised yet the games which are going to conduct in this]",
+  about: "coming soon is a fun, technical based event which enhances skills of the newly introduced engineers, forcing them to implement basic technical skills under pressure. ",
+   description: "The event shall consist of a series of small events to complete in a given time. The person who completes the series in minimum time will grab the prize. The events will be as described below Event Name  Ball in the pool    Three tables are to be placed at a distance of 2ft. from each other . 9 glasses are arranged in 3x3 order and are placed on the middle table .The competition will be between two rival participants standing 2ft away from the other two tables. Participants need to get the balls inside the glass in the middle row .The participant who does this at the earliest in the given time will be declared the winner.    Event Name  Cup it up   4 plastic cups are provided along with 3 note cards to the participants.Participants will have to create a tower with provided cups by placing note cards between each cup. Once the tower is bulit , participants will have to remove each note card one-by-one , so that all 4 cups rest in a single stack.   Event Name Pyramid of cups <br>Plastic cups are provided to the particpants.Participants will have to create a pyramid of cups. Once the pyramid is built, participant will have to slide down the cups to create a single stack. The participant who achieves this feat at first will be declared aa the winner. <br>Event Name: Lift it…!!if c can… <br>Three tables are to be placed at a distance of 5-6 ft from each other . Soft drink cans will be placed on top of the tables placed at the extremes.Two teams consisting of two players each will be given a straw each which they will have to use to lift up the empty cans by passing it through the straw holder in the can held by the participants mouth on both ends.The team which successfully places three cans on the middle table by carrying them from the tables at the extremes at first wins the competition. <br>Event Name: Knock Down <br>There is a table of approx. length 2 ft. Plastic cups are placed on the table in a row. Participants have to blow the baloon provided by their mouth and use the exhaled air to knock down the plastic cups.",
+  round1: "",
+  round2: "",
+  round3: "",
+  judging_criteria: "",
+  venue: "Central Garden",
+  team: "individual",
+  coordinators: "sid: 9770306466, akash: 234798547"
+
+},
+{
+  title: "Rush Hour [not finalised yet the games which are going to conduct in this]",
+  about: "coming soon is a fun, technical based event which enhances skills of the newly introduced engineers, forcing them to implement basic technical skills under pressure. ",
+   description: "The event shall consist of a series of small events to complete in a given time. The person who completes the series in minimum time will grab the prize. The events will be as described below Event Name  Ball in the pool    Three tables are to be placed at a distance of 2ft. from each other . 9 glasses are arranged in 3x3 order and are placed on the middle table .The competition will be between two rival participants standing 2ft away from the other two tables. Participants need to get the balls inside the glass in the middle row .The participant who does this at the earliest in the given time will be declared the winner.    Event Name  Cup it up   4 plastic cups are provided along with 3 note cards to the participants.Participants will have to create a tower with provided cups by placing note cards between each cup. Once the tower is bulit , participants will have to remove each note card one-by-one , so that all 4 cups rest in a single stack.   Event Name Pyramid of cups <br>Plastic cups are provided to the particpants.Participants will have to create a pyramid of cups. Once the pyramid is built, participant will have to slide down the cups to create a single stack. The participant who achieves this feat at first will be declared aa the winner. <br>Event Name: Lift it…!!if c can… <br>Three tables are to be placed at a distance of 5-6 ft from each other . Soft drink cans will be placed on top of the tables placed at the extremes.Two teams consisting of two players each will be given a straw each which they will have to use to lift up the empty cans by passing it through the straw holder in the can held by the participants mouth on both ends.The team which successfully places three cans on the middle table by carrying them from the tables at the extremes at first wins the competition. <br>Event Name: Knock Down <br>There is a table of approx. length 2 ft. Plastic cups are placed on the table in a row. Participants have to blow the baloon provided by their mouth and use the exhaled air to knock down the plastic cups.",
+  round1: "",
+  round2: "",
+  round3: "",
+  judging_criteria: "",
+  venue: "Central Garden",
+  team: "individual",
+  coordinators: "sid: 9770306466, akash: 234798547"
+
+},
 
 
 {
@@ -236,7 +290,7 @@ var evd = [
 {
   title: "Rush Hour [not finalised yet the games which are going to conduct in this]",
   about: "This is a fun, technical based event which enhances skills of the newly introduced engineers, forcing them to implement basic technical skills under pressure. ",
-  description: "The event shall consist of a series of small events to complete in a given time. The person who completes the series in minimum time will grab the prize. The events will be as described below:<br>Event Name: Ball in the pool<br>Three tables are to be placed at a distance of 2ft. from each other . 9 glasses are arranged in 3x3 order and are placed on the middle table .The competition will be between two rival participants standing 2ft away from the other two tables. Participants need to get the balls inside the glass in the middle row .The participant who does this at the earliest in the given time will be declared the winner..<br>Event Name: Cup it up <br>4 plastic cups are provided along with 3 note cards to the participants.Participants will have to create a tower with provided cups by placing note cards between each cup. Once the tower is bulit , participants will have to remove each note card one-by-one , so that all 4 cups rest in a single stack. <br>Event Name: Pyramid of cups <br>Plastic cups are provided to the particpants.Participants will have to create a pyramid of cups. Once the pyramid is built, participant will have to slide down the cups to create a single stack. The participant who achieves this feat at first will be declared aa the winner. <br>Event Name: Lift it…!!if c can… <br>Three tables are to be placed at a distance of 5-6 ft from each other . Soft drink cans will be placed on top of the tables placed at the extremes.Two teams consisting of two players each will be given a straw each which they will have to use to lift up the empty cans by passing it through the straw holder in the can held by the participants mouth on both ends.The team which successfully places three cans on the middle table by carrying them from the tables at the extremes at first wins the competition. <br>Event Name: Knock Down <br>There is a table of approx. length 2 ft. Plastic cups are placed on the table in a row. Participants have to blow the baloon provided by their mouth and use the exhaled air to knock down the plastic cups.",
+   description: "The event shall consist of a series of small events to complete in a given time. The person who completes the series in minimum time will grab the prize. The events will be as described below Event Name  Ball in the pool    Three tables are to be placed at a distance of 2ft. from each other . 9 glasses are arranged in 3x3 order and are placed on the middle table .The competition will be between two rival participants standing 2ft away from the other two tables. Participants need to get the balls inside the glass in the middle row .The participant who does this at the earliest in the given time will be declared the winner.    Event Name  Cup it up   4 plastic cups are provided along with 3 note cards to the participants.Participants will have to create a tower with provided cups by placing note cards between each cup. Once the tower is bulit , participants will have to remove each note card one-by-one , so that all 4 cups rest in a single stack.   Event Name Pyramid of cups <br>Plastic cups are provided to the particpants.Participants will have to create a pyramid of cups. Once the pyramid is built, participant will have to slide down the cups to create a single stack. The participant who achieves this feat at first will be declared aa the winner. <br>Event Name: Lift it…!!if c can… <br>Three tables are to be placed at a distance of 5-6 ft from each other . Soft drink cans will be placed on top of the tables placed at the extremes.Two teams consisting of two players each will be given a straw each which they will have to use to lift up the empty cans by passing it through the straw holder in the can held by the participants mouth on both ends.The team which successfully places three cans on the middle table by carrying them from the tables at the extremes at first wins the competition. <br>Event Name: Knock Down <br>There is a table of approx. length 2 ft. Plastic cups are placed on the table in a row. Participants have to blow the baloon provided by their mouth and use the exhaled air to knock down the plastic cups.",
   round1: "",
   round2: "",
   round3: "",
@@ -247,6 +301,19 @@ var evd = [
 
 },
 
+{
+  title: "Rush Hour [not finalised yet the games which are going to conduct in this]",
+  about: "coming soon a fun, technical based event which enhances skills of the newly introduced engineers, forcing them to implement basic technical skills under pressure. ",
+   description: "The event shall consist of a series of small events to complete in a given time. The person who completes the series in minimum time will grab the prize. The events will be as described below Event Name  Ball in the pool    Three tables are to be placed at a distance of 2ft. from each other . 9 glasses are arranged in 3x3 order and are placed on the middle table .The competition will be between two rival participants standing 2ft away from the other two tables. Participants need to get the balls inside the glass in the middle row .The participant who does this at the earliest in the given time will be declared the winner.    Event Name  Cup it up   4 plastic cups are provided along with 3 note cards to the participants.Participants will have to create a tower with provided cups by placing note cards between each cup. Once the tower is bulit , participants will have to remove each note card one-by-one , so that all 4 cups rest in a single stack.   Event Name Pyramid of cups <br>Plastic cups are provided to the particpants.Participants will have to create a pyramid of cups. Once the pyramid is built, participant will have to slide down the cups to create a single stack. The participant who achieves this feat at first will be declared aa the winner. <br>Event Name: Lift it…!!if c can… <br>Three tables are to be placed at a distance of 5-6 ft from each other . Soft drink cans will be placed on top of the tables placed at the extremes.Two teams consisting of two players each will be given a straw each which they will have to use to lift up the empty cans by passing it through the straw holder in the can held by the participants mouth on both ends.The team which successfully places three cans on the middle table by carrying them from the tables at the extremes at first wins the competition. <br>Event Name: Knock Down <br>There is a table of approx. length 2 ft. Plastic cups are placed on the table in a row. Participants have to blow the baloon provided by their mouth and use the exhaled air to knock down the plastic cups.",
+  round1: "",
+  round2: "",
+  round3: "",
+  judging_criteria: "",
+  venue: "Central Garden",
+  team: "individual",
+  coordinators: "sid: 9770306466, akash: 234798547"
+
+},
 
 
 ];

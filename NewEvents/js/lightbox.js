@@ -1,4 +1,4 @@
-
+iterator = 0;
 /*
 Lightbox v2.51
 by Lokesh Dhakar - http://www.lokeshdhakar.com
@@ -281,16 +281,33 @@ lightbox = new Lightbox options
       if (this.album.length > 1) {
         console.log(this.album.length)
         selectedevent = this;
+        if(this.album.length == 13){
+          iterator = 0;
+        }
+        if(this.album.length == 2){
+          iterator = 13;
+        }
+        if(this.album.length == 3){
+          iterator = 15;
+        }
+        if(this.album.length == 4){
+          iterator = 15;
+        }
+        console.log(this.currentImageIndex)
+        console.log(iterator)
+        console.log(this.currentImageIndex+iterator)
         $lightbox.find('.lb-number').html(
           '<div id="toggles">  <input type="checkbox" name="checkbox1" id="checkbox1" class="ios-toggle" checked/><label for="checkbox1" class="checkbox-label" data-off="not registered" data-on="registered"></label> </div>'
-        + '</br></br><strong>About Event:</strong></br>' +  evd[1].about
-        + '</br></br><strong>Event Description:</strong></br>' +  evd[1].description
+        + '</br></br><strong>About Event:</strong></br>' +  evd[this.currentImageIndex+iterator].about
+        + '</br></br><strong>Event Description:</strong></br>' +  evd[this.currentImageIndex+iterator].description
         + '</br></br><strong>Rules And Regulations</strong>'
-        + '</br><strong>Round1:</strong></br>' +  evd[1].round1
-        + '</br></br><strong>Round2:</strong></br>' +  evd[1].round2
-        + '</br></br><strong>Venue</strong></br>' +  evd[1].venue + ' '
-        + '</br></br><strong>Team</strong></br>' +  evd[1].team + ' '
-        + '</br></br><strong>Coordinators</strong></br>' +  evd[1].coordinators + ' '
+        + '</br><strong>Round1:</strong></br>' +  evd[this.currentImageIndex+iterator].round1
+        + '</br></br><strong>Round2:</strong></br>' +  evd[this.currentImageIndex+iterator].round2
+        + '</br></br><strong>Round3:</strong></br>' +  evd[this.currentImageIndex+iterator].round3
+        + '</br></br><strong>Judging Criteria:</strong></br>' +  evd[this.currentImageIndex+iterator].judging_criteria
+        + '</br></br><strong>Venue</strong></br>' +  evd[this.currentImageIndex+iterator].venue + ' '
+        + '</br></br><strong>Team</strong></br>' +  evd[this.currentImageIndex+iterator].team + ' '
+        + '</br></br><strong>Coordinators</strong></br>' +  evd[this.currentImageIndex+iterator].coordinators + ' '
 
          + (this.currentImageIndex + 1) + ' '
          + this.options.labelOf + '  '
