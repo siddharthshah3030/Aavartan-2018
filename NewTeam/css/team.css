@@ -57,7 +57,7 @@ article:hover {
   transform: scale(1.2, 1.2);
 
 }
-img {
+section img {
   width: var(--size);
 	height: var(--size);
 	position: absolute;
@@ -71,7 +71,7 @@ img {
 	z-index:  10;
 }
 article:hover img {transform: translate(-50%, -50%) rotate(-110deg);}
-h2 {font-size: 100%;}
+section h2 {font-size: 100%;}
 figure {
 	display: flex;
 	flex-direction: column;
@@ -106,4 +106,7 @@ body > p {
 	font-size: 1.5rem;
 	margin: 2rem 0 1rem calc(var(--size) * .5);
 	font-weight: 200;
+}
+#showmenu{
+  position: sticky;
 }
