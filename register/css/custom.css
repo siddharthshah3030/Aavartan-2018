@@ -1,8 +1,0 @@
-/* #menunavbar{
-	z-index: 3;
-} */
-canvas{
- position: fixed;
- vertical-align:bottom;
- z-index: 0;
-}
