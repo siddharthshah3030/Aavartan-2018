@@ -1,0 +1,40 @@
+.close {
+    color: #eee;
+    float: right;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.close:hover,
+.close:focus {
+    color: grey;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#menuclose{
+	position:  absolute;
+	right: 5%;
+	top: 5%;
+}
+#menunavbar{
+	z-index: 3;
+}
+
+#eventcontainer{
+  /* height: 90vh; */
+  padding-top:  10vh;
+}
+.wrapper{
+  height: 75vh;
+}
+#emenu{
+  z-index:3;
+  position: fixed;
+  /* top:0px; */
+  width:100%;
+}
+
+canvas{
+  border-width: 0px;
+}

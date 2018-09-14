@@ -1,0 +1,32 @@
+
+body{
+  background-color: #000;
+}
+.canvas {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+#wrapper{
+  /* display: flex; */
+  height: auto;
+  width: auto;
+}
+
+.contentgalaxy {
+  /* background: rgba(0, 0, 0, 0.5); */
+  /* color: #f4f4f4; */
+  height: auto;;
+  margin: auto;
+  padding: 2rem;
+  position: relative;
+  overflow: hidden;
+  width: 768px;
+  z-index: 1;
+}
+section {
+  z-index: 99;
+}

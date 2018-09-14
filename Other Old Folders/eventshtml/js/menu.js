@@ -4,12 +4,12 @@
  *
  * Licensed under the MIT license.
  * http://www.opensource.org/licenses/mit-license.php
- *
+ * 
  * Copyright 2013, Codrops
  * http://www.codrops.com
  */
 (function() {
-
+	
 	function scrollY() {
 		return window.pageYOffset || docElem.scrollTop;
 	}
@@ -58,7 +58,6 @@
 		});
 
 		container.addEventListener( clickevent, function( ev ) {
-			console.log("click event of menu triggere")
 			if( classie.has( perspectiveWrapper, 'animate') ) {
 				var onEndTransFn = function( ev ) {
 					if( support && ( ev.target.className !== 'container' || ev.propertyName.indexOf( 'transform' ) == -1 ) ) return;
