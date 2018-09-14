@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Aavartan18</title>
+		<meta name="description" content="Perspective Page View Navigation: Transforms the page in 3D to reveal a menu" />
+		<meta name="keywords" content="3d page, menu, navigation, mobile, perspective, css transform, web development, web design" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<link rel="stylesheet" type="text/css" href="css/star.css" />
+		<link rel="stylesheet" type="text/css" href="css/custom.css" />
+		<link rel="stylesheet" type="text/css" href="css/background.css">
+		<link rel="stylesheet" type="text/css" href="css/sponsor/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+		<script>document.documentElement.className = 'js';</script>
+		<!-- csstransforms3d-shiv-cssclasses-prefixed-teststyles-testprop-testallprops-prefixes-domprefixes-load -->
+		<script src="js/modernizr.custom.25376.js"></script>
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<style>
+		.buttonxyz {
+width: 110px;
+padding-top: 5px;
+padding-bottom: 5px;
+text-align: center;
+color: #000;
+text-transform: uppercase;
+font-weight: 90;
+margin-top:8px;
+margin-left: 30px;
+margin-bottom: 30px;
+cursor: pointer;
+display: inline-block;
+}
+
+.buttonxyz-1{
+background-color: transparent;
+border: 3px solid #00d7c3;
+border-radius: 50px;
+-webkit-transition: all .15s ease-in-out;
+transition: all .15s ease-in-out;
+color: #00d7c3;
+}
+.buttonxyz-1:hover {
+box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3;
+border: 3px solid #00d7c3;
+}
+</style>
+	</head>
+	<body style="background: black;font-family:Helvetica Neue,Helvetica,Arial,sans-serif" class="particletext confetti">
+		<div class="w3-row">
+		<div id="perspective" class="perspective effect-laydown">
+			<div class="container" style="background:black;">
+				<div class="wrapper"  >
+					<!-- <div id="particles-js"></div> -->
+<!-- wrapper needed for scroll -->
+				<div id="menunavbar" style="margin-bottom:1vw;position:sticky;top:0px;width:100%;" >
+					<button id="showMenu" class="buttonxyz buttonxyz-1" style="display: inline-block;float:right;background:black;color:white">Menu</button>
+					 <img src="images/Aavartan.png" height="70vw" width="auto" style="display: inline-block;">
+
+
+				<br>
+				<br>
+
+
+<!-- write the section here
+ -->
+
+
+
+
+
+</div>
+
+ <h2 style="color: white; text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #00ffff , 0 0 70px #00ffff , 0 0 80px #00ffff , 0 0 100px #00ffff ;
+"><span></span> Reach Out to Our Team </h2>
+				 <br><br><br>
+
+
+
+
+    </div><!-- wrapper -->
+<div class="contact">
+
+  <div class="wrapper centered" align="center" id="maine">
+    <article class="letter" align="center" id="contact">
+      <div class="side">
+        <h1>Contact us</h1>
+        <p>
+          <textarea placeholder="Your message" id="message"></textarea>
+          <span id="merror" class="error"></span>
+          <span id="mreq" class="request"></span>
+        </p>
+      </div>
+      <div class="side" id="myBtn">
+        <p>
+        	<span id="nerror" class="error"></span>
+          <input type="text" placeholder="Your name" id="name" >
+
+        </p>
+        <p>
+        	<span id="eerror" class="error"></span>
+          <input type="text" placeholder="Your email" id="email" >
+
+        </p>
+        <p>
+        	<span id="perror" class="error"></span>
+          <input type="text" placeholder="Mobile" id="phone" >
+
+        </p>
+        <span id="incomp" class="error"></span>
+        <center>
+          <p>
+            <button id="sendLetter" type="submit" value="send">Send</button>
+          </p>
+        </center>
+      </div>
+    </article>
+    <div class="envelope front"></div>
+    <div class="envelope back"></div>
+  </div>
+  <div>
+  <center><p class="result-message centered" id="thank">Thank you for your message. Hope to see you at Aavartan!!</p></center>
+  </div>
+</div>
+    </div><!-- /container -->
+			<a id="menuclose" href="#" ><span class="close">&times;</span></a>
+			<nav class="outer-nav top horizontal" style="text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #ff00de , 0 0 70px #ff00de , 0 0 80px #ff00de , 0 0 100px #ff00de ;">
+				<a href="#" class="icon-home">Home</a>
+				<a href="#" class="icon-news">News</a>
+				<a href="#" class="icon-image">Images</a>
+				<a href="#" class="icon-upload">Uploads</a>
+				<a href="#" class="icon-star">Favorites</a>
+				<a href="#" class="icon-mail">Messages</a>
+				<a href="#" class="icon-lock">Security</a>
+			</nav>
+		</div><!-- /perspective -->
+	</div>
+
+
+<!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
+
+		<script src="js/classie.js"></script>
+		<script src="js/menu.js"></script>
+
+		<script src="js/custom.js"></script>
+		<script  src="js/index.js"></script>
+
+		<script  src="js/contactumain.js"></script>
+
+	</body>
+</html>
