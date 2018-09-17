@@ -8,6 +8,9 @@ error_reporting(E_ERROR | E_PARSE);
       <link rel="stylesheet" type="text/css" href="css/loader.css">
       <!-- loader begins -->
       <div id = "loaderbody">
+         <div class="stars"></div>
+<div class="twinkling"></div><!-- 
+<div class="clouds"></div> -->
          <div  class="body">
             <span>
             <span></span>

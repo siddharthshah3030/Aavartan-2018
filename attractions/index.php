@@ -11,7 +11,8 @@
 
 		<!-- loader begins -->
 		<div id = "loaderbody">
-
+  <div class="stars"></div>
+<div class="twinkling"></div>
 		<div  class="body">
   <span>
     <span></span>

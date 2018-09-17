@@ -43,6 +43,7 @@
     </style>
   </head>
   <body style="font-family:Helvetica Neue,Helvetica,Arial,sans-serif" class="particletext confetti" >
+
     <div class="w3-row">
       <div id="perspective" class="perspective effect-laydown">
         <div class="container" style="">
@@ -59,7 +60,10 @@
             </div>
            
             <br>
-            <section class="content">
+            <div class="stars"></div>
+<div class="twinkling"></div>
+<section class="content">
+
               <div class="grid grid--effect-deneb">
                 <a href="vigyaan/cse.pdf" target="blank" class="grid__item grid__item--c1">
                   <div class="stack">

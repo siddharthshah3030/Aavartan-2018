@@ -57,7 +57,8 @@
               <!-- <h2 style="color: white; text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #00ffff , 0 0 70px #00ffff , 0 0 80px #00ffff , 0 0 100px #00ffff ;"><span></span> Sponsors </h2> -->
         
            
-               <br>
+               <br>        <div class="stars"></div>
+<div class="twinkling"></div>
               <section class="content">
                 <div class="grid grid--effect-vega">
                   <a href="https://www.facebook.com/tvsmotorcompany/?ref=br_rs" class="grid__item grid__item--c1">

@@ -2,6 +2,7 @@
 <html lang="en" class="no-js">
    <head>
       <?php include 'meta.php' ?>
+
       <link rel="stylesheet" type="text/css" href="css/normalize.css" />
       <link rel="stylesheet" type="text/css" href="css/demo.css" />
       <link rel="stylesheet" type="text/css" href="css/component.css" />
@@ -126,18 +127,13 @@ audio.play();
       <script type="text/javascript" src="js/game/TweenMax.min.js"></script>
       <script type="text/javascript" src="js/game/three.min.js"></script>
       <script type="text/javascript" src="js/game/game.js" /></script>
-	   <script>
-		var audio_file = new Audio('play.mp3')
-		audio_file.addEventListener('timeupdate', function(){
-			console.log("executed");
-               var buffer = .44
-                if(this.currentTime > this.duration - buffer){
-                    this.currentTime = 0
-                    this.play()
-                }}, false);
+      <script>
 
-      function runs_on_desktop(){   var isWindows = (navigator.userAgent.toLowerCase().indexOf("windows nt") != -1      && navigator.userAgent.toLowerCase().indexOf("touch") == -1);  var isMacintosh = (navigator.userAgent.toLowerCase().indexOf("macintosh") != -1);   var isLinux = (navigator.userAgent.toLowerCase().indexOf("linux") != -1    && navigator.userAgent.toLowerCase().indexOf("android") == -1);         return isWindows || isMacintosh || isLinux;}var musicToPlay = null;/* * Plays and loops a music file AFTER the user RELEASES * their finger from the canvas. There must be the music * files in the "html5game" directory. * There must be 2 versions of the same file: a .mp3 and a .ogg. * @param file File name WITHOUT EXTENSION!*/function html5_play_music(file){ if (!runs_on_desktop()) {     musicToPlay = file;     var canvas = document.getElementById("canvas");    canvas.addEventListener("touchend", startMusicOnMobile, false);   }  else     startMusic(file);}function startMusicOnMobile(){      event.preventDefault();    if (musicToPlay == null || musicToPlay == "")      return;     startMusic(musicToPlay);   musicToPlay = null;     setTimeout(    function()     {        var canvas = document.getElementById("canvas");       canvas.removeListener("touchend", startMusicOnMobile, false);     },    1);}function startMusic(file){   // first of all delete the audio element if already exists  var audio = document.getElementById("gameMusic");  if (audio)  {     audio.parentNode.removeChild(audio);   }     // create a new audio element audio = document.createElement("audio");  audio.setAttribute("id", "gameMusic"); audio.setAttribute("loop", "true");    var mp3 = document.createElement("source");  mp3.setAttribute("src", "html5game/" + file + ".mp3");   mp3.setAttribute("type", "audio/mpeg");   audio.appendChild(mp3);    var ogg = document.createElement("source");  ogg.setAttribute("src", "html5game" + file + ".ogg"); ogg.setAttribute("type", "audio/ogg"); audio.appendChild(ogg);    audio.play();        document.body.appendChild(audio);}
+
+
 
 	  </script>
+           <script type="text/javascript" src="js/loader.js" /></script>
+
    </body>
 </html>
