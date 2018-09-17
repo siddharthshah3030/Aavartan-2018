@@ -312,7 +312,7 @@
         </div>
         <div class="col-lg-3 col-md-4 col-sm-6 ">
             <div class="our-team">
-                <img src="images/indrisha.jpg">
+                <img src="images/1.jpg">
                 <div class="team-content">
                     <h3 class="title">Arpit Jain</h3>
                     <span class="post">Head Cordinator</span>

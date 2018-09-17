@@ -50,62 +50,62 @@
          overflow-y: scroll;
          color:white;
          }
-         table { 
-         width: 750px; 
-         border-collapse: collapse; 
+         table {
+         width: 750px;
+         border-collapse: collapse;
          margin:50px auto;
          }
          /* Zebra striping */
-         tr:nth-of-type(odd) { 
+         tr:nth-of-type(odd) {
          background: #eee;
          color:black;
          }
-         th:nth-of-type(even) { 
+         th:nth-of-type(even) {
          background: #000;
          color:white;
          }
-         td, th { 
-         padding: 10px; 
-         border: 1px solid #ccc; 
-         text-align: left; 
+         td, th {
+         padding: 10px;
+         border: 1px solid #ccc;
+         text-align: left;
          font-size: 18px;
          }
-         /* 
+         /*
          Max width before this PARTICULAR table gets nasty
          This query will take effect for any screen smaller than 760px
          and also iPads specifically.
          */
-         @media 
+         @media
          only screen and (max-width: 760px),
          (min-device-width: 768px) and (max-device-width: 1024px)  {
-         table { 
-         width: 100%; 
+         table {
+         width: 100%;
          }
          /* Force table to not be like tables anymore */
-         table, thead, tbody, th, td, tr { 
-         display: block; 
+         table, thead, tbody, th, td, tr {
+         display: block;
          }
          /* Hide table headers (but not display: none;, for accessibility) */
-         thead tr { 
+         thead tr {
          position: absolute;
          top: -9999px;
          left: -9999px;
          }
          tr { border: 1px solid #ccc; }
-         td { 
+         td {
          /* Behave  like a "row" */
          border: none;
-         border-bottom: 1px solid #eee; 
+         border-bottom: 1px solid #eee;
          position: relative;
          }
-         td:before { 
+         td:before {
          /* Now like a table header */
          position: absolute;
          /* Top/left values mimic padding */
          top: 6px;
          left: 6px;
-         width: 45%; 
-         padding-right: 10px; 
+         width: 45%;
+         padding-right: 10px;
          white-space: nowrap;
          /* Label the data */
          content: attr(data-column);
@@ -135,14 +135,14 @@
                <br>
                <br>
                <br>
-              
+
                <?php
-               
+
                      include('connection.php');
                      if(!isset($_SESSION['id'])){
                         echo'<h1 class="heading" style="margin:70px 0px 50px 0px;">You must login first to access your dashboard!</h1>';
                      }
-                     else{ 
+                     else{
                           $id = $_SESSION['id'];
                         $sql = "SELECT * FROM users WHERE id='$id'";
                          $result = mysqli_query($link, $sql);
@@ -194,23 +194,23 @@
                      <div class='col-lg-5''>
                           <h2>Registered Events</h2>
                      <table class='table table-condensed table-hover table-bordered' style='text-align: center;'>";
-                     
-                     
+
+
                      $sql = "SELECT * FROM registered_events WHERE id='$id'";
                      $result = mysqli_query($link, $sql);
                      if(!$result){
                      echo '<div class="alert alert-danger">Error running the query!</div>';
                      exit;
                      }
-                     
-                     
+
+
                      $sql = "SELECT event_name FROM events";
                      $result2 = mysqli_query($link, $sql);
                      if(!$result2){
                      echo '<div class="alert alert-danger">Error running the query!</div>';
                      exit;
                      }
-                     
+
                      $row = mysqli_fetch_array($result, MYSQLI_ASSOC);
                      $row2 = mysqli_fetch_array($result2, MYSQLI_ASSOC);
                      $sno = 1;
@@ -228,9 +228,9 @@
                          $sno++;
                      }
                      $row2 = mysqli_fetch_array($result2, MYSQLI_ASSOC);
-                     
+
                      }
-                     
+
                      echo "</table>
                      </div>
                      </div>";

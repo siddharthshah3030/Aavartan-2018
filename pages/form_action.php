@@ -21,7 +21,7 @@
  ****************************************************************************************************************************/
 
 //Function for trimming data in required format...
-  function test_input($data) 
+  function test_input($data)
   {
     $data = trim($data);
     $data = stripslashes($data);
@@ -43,55 +43,55 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
   $validation=0;
 
   //name validation
-  if (empty($_POST["name"])) 
+  if (empty($_POST["name"]))
   {
     $name_error = "Name is required";
-  } 
-  else 
+  }
+  else
   {
     $name = test_input($_POST["name"]);
     // check if name only contains letters and whitespace
-    if (!preg_match("/^[a-zA-Z ]*$/",$name)) 
+    if (!preg_match("/^[a-zA-Z ]*$/",$name))
     {
-      $name_error = "Only letters and white space allowed"; 
+      $name_error = "Only letters and white space allowed";
     }
     else $validation++;
   }
 
   //email validation
-  if (empty($_POST["email"])) 
+  if (empty($_POST["email"]))
   {
     $email_error = "Email is required";
-  } 
-  else 
+  }
+  else
   {
     $email = test_input($_POST["email"]);
     // check if e-mail address is well-formed
-    if (!filter_var($email, FILTER_VALIDATE_EMAIL)) 
+    if (!filter_var($email, FILTER_VALIDATE_EMAIL))
     {
-      $email_error = "Invalid email format"; 
+      $email_error = "Invalid email format";
     }
     else $validation++;
   }
 
 /*  //phone validation..
-  if (empty($_POST["phone"])) 
+  if (empty($_POST["phone"]))
   {
     $phone_error = "Phone is required";
-  } 
-  else 
+  }
+  else
   {
     $phone = test_input($_POST["phone"]);
     // check if e-mail address is well-formed
-    if (!preg_match("/^(\d[\s-]?)?[\(\[\s-]{0,2}?\d{3}[\)\]\s-]{0,2}?\d{3}[\s-]?\d{4}$/i",$phone)) 
+    if (!preg_match("/^(\d[\s-]?)?[\(\[\s-]{0,2}?\d{3}[\)\]\s-]{0,2}?\d{3}[\s-]?\d{4}$/i",$phone))
     {
-      $phone_error = "Invalid phone number"; 
+      $phone_error = "Invalid phone number";
     }
     else $validation++;
   }*/
 
   //message validation..
-  if (empty($_POST["message"])) 
+  if (empty($_POST["message"]))
   {
     $message_error = "Message is required";
   }
@@ -102,24 +102,24 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
   }
 
   #validation Ends here..value should be 4 to procees...
- 
+
   if($validation==3)
   {
-  
+
     //Successful validation...
     //Connect to server using: Mysqli Procedural...
-    
+
     /*
       >Database name:contactus
       >Table name:person
       >Table Elements: [Id(primary,autoincrement); Name Phone; Email; Message]
 
      */
-    
+
     $server="localhost";
-    $username="aavartan_ram";
-    $password="ram123";
-    $dbname="aavartan_18";
+    $username="root";
+    $password="";
+    $dbname="aavartan";
 
     //Establish Connection
     $conn = mysqli_connect($server, $username, $password, $dbname);
@@ -133,7 +133,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
 
     //Connection Ensured.. *****Check for Duplicacy of (Email-Phone)****
     //Try inserting data into table
-    
+
     $sql = "INSERT INTO contact (NAME,EMAIL,MESSAGE) VALUES ('$name','$email','$message')";
 
     if (mysqli_query($conn, $sql))  //Data entered successfully
