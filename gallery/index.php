@@ -56,9 +56,9 @@
                     
                      <br>
                      <br>
-                  </div>
-                   <center><h2 style="text-align:center;color: white; text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #00ffff , 0 0 70px #00ffff , 0 0 80px #00ffff , 0 0 100px #00ffff ;">
+             <center>      <h2 style="text-align:center;color: white; text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #00ffff , 0 0 70px #00ffff , 0 0 80px #00ffff , 0 0 100px #00ffff ;">
                     Gallery</h2></center>
+                  </div>
                   <!-- <div id="particles-js"></div> -->
                   <main>
                      <div class="content">
