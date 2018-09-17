@@ -3,6 +3,8 @@
 	<head>
 		 <?php include '../meta.php'; ?>
 		<title>Aavartan18</title>
+    <meta content='width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;' name='viewport' />
+
 		<link rel="stylesheet" type="text/css" href="css/loader.css" />
 	</head>
 	<body>
@@ -29,8 +31,7 @@
   <span></span>
 </div>
 <h2>Brace Yourselves</h2>
-<br>
-<br>
+
 <h1>Attractions will be released Soon !</h1>
 </div>
 </body>
