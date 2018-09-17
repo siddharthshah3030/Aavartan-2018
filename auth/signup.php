@@ -12,7 +12,6 @@
       <link rel="stylesheet" type="text/css" href="css/background.css">
       <!-- csstransforms3d-shiv-cssclasses-prefixed-teststyles-testprop-testallprops-prefixes-domprefixes-load -->
       <script src="js/modernizr.custom.25376.js"></script>
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
       <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
       <style>
       .button {
@@ -42,7 +41,7 @@
          border: 3px solid #00d7c3;
          }
          body{
-         overflow-y:scroll; 
+         overflow-y:scroll;
          color:white;
          }
          #signupform {
@@ -55,19 +54,22 @@
          float: left;
          left: 50%;
          position: absolute;
+
          margin-top:30px;
          margin-left: -210px;
          -moz-border-radius: 7px;
          -webkit-border-radius: 7px;
          }
          #signupform{
-         background: url("https://media.giphy.com/media/KVZWZQoS0yqfIiTAKq/giphy.gif");
+
          background-attachment: fixed;
          background-position: center;
          background-repeat: no-repeat;
          background-size: cover;
          }
          select,input {
+           padding-left: 5%;
+           padding-right:5%;
          color:black;
          font-family: Helvetica, Arial, sans-serif;
          font-weight:500;
@@ -75,8 +77,9 @@
          border-radius: 0;
          line-height: 22px;
          background-color: white;
-         padding: 13px 13px 13px 54px;
+         padding: 10px 10px ;
          margin-bottom: 10px;
+         margin-right:10%;
          width:100%;
          color:black;
          border: 3px solid rgba(0,0,0,0);
@@ -95,7 +98,7 @@
       <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
    </head>
    <body style="background: black;" class="particletext confetti">
-      <div class="w3-row">
+
          <div id="perspective" class="perspective effect-laydown">
             <div class="container" style="background:black;">
                <div class="wrapper"  >
@@ -107,7 +110,6 @@
                      <span></span>Registration Portal</h1>
                      <br>
                   </div>
-                  <div id="particles-js"></div>
                   <br>
                   <br>
                   <br>
@@ -166,7 +168,7 @@
                         <br>
                         <div class="form-group">
                            <button type="submit" class="btn btn-lg btn-success" style="float:left;">Sign up</button>
-                           <p style="float:right;">Already Registered?<a href="http://test.aavartan.org/auth/login.php">login</a></p>
+                           <p style="float:right;margin-right:4%;">Already Registered?<a href="login.php">login</a></p>
                         </div>
                      </form>
                   </center>

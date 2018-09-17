@@ -2,7 +2,12 @@
 <html lang="en" class="no-js">
    <head>
       <?php include '../meta.php' ;
+      session_start();
       error_reporting(E_ERROR | E_PARSE);
+      if (isset($_SESSION['id']))
+   {
+       header("location: dashboard.php");
+    }
       ?>
       <link rel="stylesheet" type="text/css" href="css/normalize.css" />
       <link rel="stylesheet" type="text/css" href="css/demo.css" />
@@ -62,10 +67,12 @@
          font-weight:500;
          font-size: 18px;
          border-radius: 0;
-         line-height: 22px;
+         line-height: 32px;
          background-color: #fbfbfb;
          padding: 13px 13px 13px 54px;
          margin-bottom: 10px;
+         padding-left: 10%;
+         padding-right:10%;
          width:100%;
          -webkit-box-sizing: border-box;
          -moz-box-sizing: border-box;
@@ -74,7 +81,7 @@
          border: 3px solid rgba(0,0,0,0);
          }
          #loginform{
-         background: url("https://media.giphy.com/media/KVZWZQoS0yqfIiTAKq/giphy.gif");
+         /* background: url("https://media.giphy.com/media/KVZWZQoS0yqfIiTAKq/giphy.gif"); */
          background-attachment: fixed;
          background-position: center;
          background-repeat: no-repeat;
@@ -124,7 +131,7 @@
                         <div class="form-group">
                            <br>
                            <button type="submit" class="btn btn-success btn-lg" style="float: left;">Login</button>
-                           <a  href="forgotpassword.php" style="float: right;padding-top: 6px;">Forgot Password</a>
+                           <a  href="forgotpassword.php" style="float: right;padding-top: 6px;margin-right:40px;">Forgot Password</a>
                         </div>
                      </form>
                   </center>

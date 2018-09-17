@@ -1,8 +1,8 @@
 <?php
    //<!--Start session-->
    session_start();
-   include('connection.php'); 
-   
+   include('connection.php');
+
    //<!--Check user inputs-->
    //    <!--Define error messages-->
    $errors ='';
@@ -18,28 +18,28 @@
    if(empty($_POST["name"])){
        $errors .= $missingUsername;
    }else{
-       $name = filter_var($_POST["name"], FILTER_SANITIZE_STRING);   
+       $name = filter_var($_POST["name"], FILTER_SANITIZE_STRING);
    }
    //Get email
    if(empty($_POST["email"])){
-       $errors .= $missingEmail;   
+       $errors .= $missingEmail;
    }else{
        $email = filter_var($_POST["email"], FILTER_SANITIZE_EMAIL);
        if(!filter_var($email, FILTER_VALIDATE_EMAIL)){
-           $errors .= $invalidEmail;   
+           $errors .= $invalidEmail;
        }
    }
    //Get passwords
    if(empty($_POST["password1"])){
-       $errors .= $missingPassword; 
+       $errors .= $missingPassword;
    }elseif(!(strlen($_POST["password1"])>6
             and preg_match('/[A-Z]/',$_POST["password1"])
             and preg_match('/[0-9]/',$_POST["password1"])
            )
           ){
-       $errors .= $invalidPassword; 
+       $errors .= $invalidPassword;
    }else{
-       $password1 = filter_var($_POST["password1"], FILTER_SANITIZE_STRING); 
+       $password1 = filter_var($_POST["password1"], FILTER_SANITIZE_STRING);
        if(empty($_POST["password2"])){
            $errors .= $missingPassword2;
        }else{
@@ -61,7 +61,7 @@
    $semester = filter_var($_POST["semester"], FILTER_SANITIZE_NUMBER_INT);
    $college = filter_var($_POST["college"], FILTER_SANITIZE_STRING);
    //no errors
-   
+
    //Prepare variables for the queries
    $name = mysqli_real_escape_string($link, $name);
    $email = mysqli_real_escape_string($link, $email);
@@ -70,7 +70,7 @@
    $course = mysqli_real_escape_string($link, $course);
    $semester = mysqli_real_escape_string($link, $semester);
    $college = mysqli_real_escape_string($link, $college);
-   
+
    $password1 = mysqli_real_escape_string($link, $password1);
    //$password = md5($password);
    $password1 = hash('sha256', $password1);
@@ -106,13 +106,13 @@
        //(2*2*2*2)*2*2*2*2*...*2
        //16*16*...*16
        //32 characters
-   
+
    //Insert user details and activation code in the users table
-   
+
    $sql = "INSERT INTO users (`name`, `phoneno`, `branch`, `course`, `semester`, `college`, `email`, `password`, `activation`) VALUES ('$name', '$contact', '$branch', '$course', '$semester', '$college', '$email', '$password1', '$activationKey')";
    $result = mysqli_query($link, $sql);
    if(!$result){
-       echo '<div class="alert alert-danger">There was an error inserting the users details in the database!</div>'; 
+       echo '<div class="alert alert-danger">There was an error inserting the users details in the database!</div>';
        exit;
    }
    $sql = "SELECT * FROM users WHERE email = '$email'";
@@ -122,15 +122,19 @@
    $sql = "INSERT INTO `registered_events`(`id`) VALUES (".$id.")";
    $result = mysqli_query($link, $sql);
    if(!$result){
-       echo '<div class="alert alert-danger">There was an error inserting the users details in the database!2</div>'; 
+       echo '<div class="alert alert-danger">There was an error inserting the users details in the database!2</div>';
        exit;
+   }else{
+     //Send the user an email with a link to activate.php with their email and activation code
+     $message = "Please click on this link to activate your account:\n\n";
+     $message .= "http://test.aavartan.org/auth/activate.php?email=" . urlencode($email) . "&key=$activationKey";
+     if(mail($email, 'Confirm your Registration', $message, 'From:'.'technocracy@aavartan.org')){
+            echo "<div class='alert alert-success'>Thank for your registring! A confirmation email has been sent to $email. Please click on the activation link to activate your account.</div>";
+            header('Location: localhost/index.php');
+            exit();
    }
-   
-   //Send the user an email with a link to activate.php with their email and activation code
-   $message = "Please click on this link to activate your account:\n\n";
-   $message .= "http://test.aavartan.org/auth/activate.php?email=" . urlencode($email) . "&key=$activationKey";
-   if(mail($email, 'Confirm your Registration', $message, 'From:'.'technocracy@aavartan.org')){
-          echo "<div class='alert alert-success'>Thank for your registring! A confirmation email has been sent to $email. Please click on the activation link to activate your account.</div>";
+
+
    }
-           
+
            ?>

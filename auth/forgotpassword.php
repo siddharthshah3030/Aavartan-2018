@@ -69,7 +69,7 @@
          border: 3px solid rgba(0,0,0,0);
          }
          #forgotpasswordform{
-         background: url("https://media.giphy.com/media/KVZWZQoS0yqfIiTAKq/giphy.gif");
+         /* background: url("https://media.giphy.com/media/KVZWZQoS0yqfIiTAKq/giphy.gif"); */
          background-attachment: fixed;
          background-position: center;
          background-repeat: no-repeat;
