@@ -293,10 +293,17 @@ lightbox = new Lightbox options
         if(this.album.length == 3){
           iterator = 22;
         }
+      var   usrmessage;
+        var usercheck =  document.getElementById('eventdata').getAttribute('data-value')
+        if(usercheck == "")  {
+        usrmessage = "log in to register"
+
+        } else {
+        usrmessage  =   "not registered"
+        }
         var xyz=evd[this.currentImageIndex+iterator].akash;
-        console.log(xyz);
         $lightbox.find('.lb-number').html(
-           '<div class="mihir" onClick="mihirsir('+xyz+')" id="toggles">  <input  type="checkbox" name="checkbox" id="checkbox" data-value="'+evd[this.currentImageIndex+iterator].akash+'" class="ios-toggle" checked/><label for="checkbox1" class="checkbox-label" data-off="not registered" data-on="registered"></label> </div>'
+           '<div class="mihir" onClick="mihirsir('+xyz+')" id="toggles">  <input  type="checkbox" name="checkbox" id="checkbox" data-value="'+evd[this.currentImageIndex+iterator].akash+'" class="ios-toggle" checked/><label for="checkbox1" class="checkbox-label" data-off="'+usrmessage+'" data-on="registered"></label> </div>'
         + '</br></br><strong>About Event:</strong></br>' +  evd[this.currentImageIndex+iterator].about
         + '</br></br><strong>Event Description:</strong></br>' +  evd[this.currentImageIndex+iterator].description
         + '</br></br><strong>Rules And Regulations</strong>'
@@ -384,6 +391,10 @@ lightbox = new Lightbox options
 
 }).call(this);
 
+
+
+
+
 $( ".ios-toggle" ).on( "click", function() {
   $('.ios-toggle').prop('checked', false);
   if (evr[selectedevent.currentImageIndex] === 1 ) {
@@ -397,16 +408,21 @@ $( ".ios-toggle" ).on( "click", function() {
 });
 
 function secondevent() {
+  var usercheck =  document.getElementById('eventdata').getAttribute('data-value')
 
-      if (evr[selectedevent.currentImageIndex] === 1 ) {
-    $('.ios-toggle').attr("disabled", true);
+  if(usercheck == "")  {
+  } else {
 
-      } else {
-        $('.ios-toggle').prop('checked', true);
-        evr[selectedevent.currentImageIndex] = 1;
+    if (evr[selectedevent.currentImageIndex] === 1 ) {
+      $('.ios-toggle').attr("disabled", true);
+
+    } else {
+      $('.ios-toggle').prop('checked', true);
+      evr[selectedevent.currentImageIndex] = 1;
 
 
-      }
+    }
+  }
 
     // });
     // $( ".ios-toggle" ).trigger( "click" );
