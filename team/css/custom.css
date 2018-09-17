@@ -14,9 +14,9 @@
 
 #menuclose{
 	position:  absolute;
-	right: 5%;
-	top: 5%;
-}
+	   right: 2%;
+    top: 2%;
+    z-index: 2;
 #menunavbar{
 	z-index: 3;
 
