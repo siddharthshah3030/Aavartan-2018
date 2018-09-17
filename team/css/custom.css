@@ -16,7 +16,8 @@
 	position:  absolute;
 	   right: 2%;
     top: 2%;
-    z-index: 2;
+    z-index: 2;}
+
 #menunavbar{
 	z-index: 3;
 
@@ -24,4 +25,11 @@
 .section{
   padding-right: calc(var(--size) * .5);
 
+}
+
+.container {
+/*margin: ;*/
+/*padding: 0;*/
+padding: auto 5%;
+width: 100%;
 }
