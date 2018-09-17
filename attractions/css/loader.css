@@ -1,15 +1,25 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300);
+html{
+  overflow: hidden;
+  height: 100%;
+  width: 100%;  
+
+
+}
 body {
   background-color: black;
   overflow: hidden;
-  
+  height: 100%;
+  width: 100%;  
   color:white;
 }
 
 #loaderbody{
+  
   width: 100%;
   height: 100%;
   background-color: black;
+
 }
 h1 {
   position: absolute;
@@ -260,4 +270,16 @@ h2 {
     left: -100%;
     opacity: 0;
   }
+}
+html{
+  overflow: hidden;
+
+  
+
+}
+body {
+  background-color: black;
+  overflow: hidden;
+
+  color:white;
 }
