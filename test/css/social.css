@@ -1,0 +1,80 @@
+ul {
+    display: flex ;
+    position: absolute;
+    
+    top: 94%;
+    left: 50%;
+    transform: translate(-55%,-50%);
+}
+
+
+ul li {
+    list-style: inline;
+
+}
+
+ ul li a {
+     width: 50px;                               /* عرض الايقونات */
+     height: 50px;                               /* طول الايقونات */
+     background-color: #FFFFFF;                     /* لون الخلفية  */
+     text-align: center; 
+     font-size: 30px;                           /* حجم الخط الخاص بالايقونة */
+     line-height: 50px;                         /* إرتفاع الخط - ملحوظة لازم يكون نفس حجم الطول والعرض  */
+     margin: 0 10px;                            /* التباعد من اليمين والشمال */
+     display: block; 
+     border-radius: 50%;                         /* حجم الالتفاف لصنع دائرة */
+     position: relative;
+     overflow: hidden;
+     border: solid 3px #ffffff;
+     z-index: 2;
+}
+
+ul li a .fa {
+    position: relative;
+    color: #262626;                 /*  لون الايقونة الاساسى */
+    transition: .5s;
+    z-index: 3;
+}
+
+ul li a:hover .fa {
+    color: #FFFFFF;                 /* لون الايقونة بعد الهوفر */
+    transform: rotateY(360deg);
+}
+
+
+ul li a:before {
+    content: '';
+    position: absolute;
+    top: 100% ;
+    left: 0% ;
+    width: 100%;
+    height: 100%;
+    background-color: #FF0000;
+    transition: .5s;
+    z-index:1 ;
+}
+
+ul li a:hover:before {
+    top: 0 ;
+}
+
+
+ul li:nth-child(1) a:before {
+    background-color:#3b5999 ; /* الفيس بوك*/
+}
+
+ul li:nth-child(2) a:before {
+    background-color:#55acee ; /* تويتر */
+}
+
+
+
+
+
+ul li:nth-child(3) a:before {
+    background-color:#0077B5 ; /* لينكد ان */
+}
+
+ul li:nth-child(4) a:before {
+    background-color:#e4405f ; /* إنستجرام */
+}
