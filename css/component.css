@@ -622,7 +622,7 @@ html, body, .perspective {
 	}
 
 	.outer-nav.horizontal {
-		font-size: 1.7em;
+		font-size: 0.8em;
 		width: 6.2em;
 	}
 
@@ -647,7 +647,7 @@ html, body, .perspective {
 @media screen and (max-width: 31em), screen and (max-height: 36.2em) {
 	.outer-nav.horizontal,
 	.outer-nav.vertical {
-		font-size: 1.2em;
+		font-size: 0.8em;
 		width: 6.8em;
 	}
 

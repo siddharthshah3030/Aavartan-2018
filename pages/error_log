@@ -1,0 +1,2 @@
+[16-Sep-2018 18:04:24 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/aavartan/test.aavartan.org/pages/form_action.php on line 125
+[16-Sep-2018 18:07:05 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/aavartan/test.aavartan.org/pages/form_action.php:143) in /home/aavartan/test.aavartan.org/pages/form_action.php on line 146

@@ -1,0 +1,1 @@
+[16-Sep-2018 17:18:10 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ram'@'localhost' (using password: YES) in /home/aavartan/test.aavartan.org/auth/connection.php on line 2
