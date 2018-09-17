@@ -649,7 +649,9 @@ html, body, .perspective {
 		font-size: 1.0em;
 		width: 90%;
 	}
-
+	.outer-nav.horizontal a {
+width: 35%;
+}
 	.outer-nav.right {
 		right: auto;
 		left: 0%;
