@@ -208,7 +208,7 @@
 
 <div class="container">
     <div class="row">
-        <div class="col-md-4 col-sm-6">
+        <div class="col-lg-3 col-md-4 col-sm-6 ">
             <div class="our-team">
                 <img src="images/indrisha.jpg">
                 <div class="team-content">
@@ -216,77 +216,51 @@
                     <span class="post">Web Developer</span>
                     <ul class="social">
                         <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
                     </ul>
                 </div>
             </div>
         </div>
-        <div class="col-md-4 col-sm-6">
+          <div class="col-lg-3 col-md-4 col-sm-6 ">
             <div class="our-team">
                 <img src="images/indrisha.jpg">
                 <div class="team-content">
-                    <h3 class="title">Kristiana</h3>
-                    <span class="post">Web Designer</span>
+                    <h3 class="title">Williamson</h3>
+                    <span class="post">Web Developer</span>
                     <ul class="social">
                         <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
                     </ul>
                 </div>
             </div>
-        </div>
-           <div class="col-md-4 col-sm-6">
+        </div>  <div class="col-lg-3 col-md-4 col-sm-6 ">
             <div class="our-team">
                 <img src="images/indrisha.jpg">
                 <div class="team-content">
-                    <h3 class="title">Kristiana</h3>
-                    <span class="post">Web Designer</span>
+                    <h3 class="title">Williamson</h3>
+                    <span class="post">Web Developer</span>
                     <ul class="social">
                         <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
                     </ul>
                 </div>
             </div>
-        </div>
-           <div class="col-md-4 col-sm-6">
+        </div>  <div class="col-lg-3 col-md-4 col-sm-6 ">
             <div class="our-team">
                 <img src="images/indrisha.jpg">
                 <div class="team-content">
-                    <h3 class="title">Kristiana</h3>
-                    <span class="post">Web Designer</span>
+                    <h3 class="title">Williamson</h3>
+                    <span class="post">Web Developer</span>
                     <ul class="social">
                         <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
                     </ul>
                 </div>
             </div>
-        </div>
-           <div class="col-md-4 col-sm-6">
+        </div>  <div class="col-lg-3 col-md-4 col-sm-6 ">
             <div class="our-team">
                 <img src="images/indrisha.jpg">
                 <div class="team-content">
-                    <h3 class="title">Kristiana</h3>
-                    <span class="post">Web Designer</span>
+                    <h3 class="title">Williamson</h3>
+                    <span class="post">Web Developer</span>
                     <ul class="social">
                         <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>   <div class="col-md-4 col-sm-6">
-            <div class="our-team">
-                <img src="images/indrisha.jpg">
-                <div class="team-content">
-                    <h3 class="title">Kristiana</h3>
-                    <span class="post">Web Designer</span>
-                    <ul class="social">
-                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
                     </ul>
                 </div>
             </div>
