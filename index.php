@@ -10,7 +10,7 @@
       <link rel="stylesheet" type="text/css" href="css/background.css">
       <link rel="stylesheet" type="text/css" href="css/game/demo.css" />
       <link rel="stylesheet" type="text/css" href="css/game/game.css" />
-      <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+      <!-- <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet"> -->
       <script src="https://use.fontawesome.com/dbb72ac4f9.js"></script>
       <link rel="stylesheet" type="text/css" href="css/social.css">
       <script src="js/modernizr.custom.25376.js"></script>

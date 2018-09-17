@@ -28,8 +28,11 @@
 *, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 
 body {
-	background: #ddd;
-	color: #5a5350;
+	background: #0f0c29; 
+background: -webkit-linear-gradient(to left, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	/*color: #5a5350;*/
 	font-weight: 300;
 	font-family: 'Lato', Calibri, Arial, sans-serif;
 	overflow-y: fixed;

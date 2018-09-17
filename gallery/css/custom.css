@@ -7,3 +7,10 @@ li {
 #rig{
   z-index: 5;
 }
+center >h2{
+    position: absolute;
+    top: 4%;
+    justify-content: center;
+    margin: 0 auto;
+    left: 40%;
+}
