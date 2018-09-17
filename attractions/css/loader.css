@@ -27,7 +27,8 @@ h1 {
   font-weight: 800;
   font-size: 20px;
   /* text-transform: uppercase; */
-  top: 65%;
+  top: 70%;
+  left: 40%;
   /*right: 0px;*/
   /*margin-left: -20px;*/
   color:y;
@@ -38,7 +39,7 @@ h2 {
   font-weight: bold;
   font-size: 26px;
   /* text-transform: uppercase; */
-  right: 5%;
+  left: 50%;
   /*margin-left: 20px;*/
   top: 55%;
   color:yellow;
@@ -282,4 +283,32 @@ body {
   overflow: hidden;
 
   color:white;
+}
+
+
+@media screen and (max-width: 600px) {
+
+h1 {
+  position: absolute;
+  font-family: 'Open Sans';
+  font-weight: 800;
+  font-size: 20px;
+  /* text-transform: uppercase; */
+  top: 70%;
+  left: 10%;
+  /*right: 0px;*/
+  /*margin-left: -20px;*/
+  color:y;
+}
+h2 {
+  position: absolute;
+  font-family: 'Open Sans';
+  font-weight: bold;
+  font-size: 26px;
+  /* text-transform: uppercase; */
+  right: 10%;
+  /*margin-left: 20px;*/
+  top: 55%;
+  color:yellow;
+}
 }
