@@ -61,7 +61,7 @@
 <br>
 <br>
 	             </div>
-		  <section>
+		 <!--  <section>
 				
 					<article >
 					<figure>
@@ -204,17 +204,103 @@
 				</article>
                 
 		  </section>
+ -->
 
+<div class="container">
+    <div class="row">
+        <div class="col-md-4 col-sm-6">
+            <div class="our-team">
+                <img src="images/indrisha.jpg">
+                <div class="team-content">
+                    <h3 class="title">Williamson</h3>
+                    <span class="post">Web Developer</span>
+                    <ul class="social">
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <div class="our-team">
+                <img src="images/indrisha.jpg">
+                <div class="team-content">
+                    <h3 class="title">Kristiana</h3>
+                    <span class="post">Web Designer</span>
+                    <ul class="social">
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+           <div class="col-md-4 col-sm-6">
+            <div class="our-team">
+                <img src="images/indrisha.jpg">
+                <div class="team-content">
+                    <h3 class="title">Kristiana</h3>
+                    <span class="post">Web Designer</span>
+                    <ul class="social">
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+           <div class="col-md-4 col-sm-6">
+            <div class="our-team">
+                <img src="images/indrisha.jpg">
+                <div class="team-content">
+                    <h3 class="title">Kristiana</h3>
+                    <span class="post">Web Designer</span>
+                    <ul class="social">
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+           <div class="col-md-4 col-sm-6">
+            <div class="our-team">
+                <img src="images/indrisha.jpg">
+                <div class="team-content">
+                    <h3 class="title">Kristiana</h3>
+                    <span class="post">Web Designer</span>
+                    <ul class="social">
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>   <div class="col-md-4 col-sm-6">
+            <div class="our-team">
+                <img src="images/indrisha.jpg">
+                <div class="team-content">
+                    <h3 class="title">Kristiana</h3>
+                    <span class="post">Web Designer</span>
+                    <ul class="social">
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
-
-
-		<svg width="0" height="0">
+	<!-- 	<svg width="0" height="0">
 		  <defs>
 		    <clipPath id="hexagono" clipPathUnits="objectBoundingBox">
 		      <polygon points=".25 0, .75 0, 1 .5, .75 1, .25 1, 0 .5" />
 		    </clipPath>
 		  </defs>
-		</svg>
+		</svg> -->
     </div><!-- wrapper -->
     </div><!-- /container -->
 			<a id="menuclose" href="#" ><span class="close">&times;</span></a>
