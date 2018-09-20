@@ -33,12 +33,12 @@ error_reporting(E_ERROR | E_PARSE);
          <br/>
          <h1>Reaching Aavartan18</h1>
       </div>
+      <link rel="stylesheet" type="text/css" href="css/background.css">
       <link rel="stylesheet" type="text/css" href="css/normalize.css" />
       <link rel="stylesheet" type="text/css" href="css/menudemo.css" />
       <link rel="stylesheet" type="text/css" href="css/component.css" />
       <link rel="stylesheet" type="text/css" href="css/star.css" />
       <link rel="stylesheet" type="text/css" href="css/custom.css" />
-      <link rel="stylesheet" type="text/css" href="css/background.css">
 
       <link rel="stylesheet" type="text/css" href="css/eventnormalize.css" />
       <link rel="stylesheet" type="text/css" href="css/eventdemo.css" />
@@ -80,31 +80,31 @@ error_reporting(E_ERROR | E_PARSE);
    </head>
    <body style="background: #291B2C;" class="particletext confetti">
      <?php
-       //  include('connection.php');
-         // session_start();
-         // if(isset($_SESSION['id'])){
-         // $id = $_SESSION['id'];
-         // $sql = "SELECT * FROM registered_events WHERE id='$id'";
-         //     $result = mysqli_query($link, $sql);
-         //     if($result){
-         //         $data = "";
-         //         $row = mysqli_fetch_array($result, MYSQLI_ASSOC);
-         //         for($i=1;$i<sizeOf($row);$i++)
-         //         {
-         //         $data.=$row[$i];
-         //         $data.=' ';
-         //         }
-         //         echo '<div data-value="'.$data.'" id="eventdata"></div>';
-         //     }
-         //     else{
-         //         echo '<div class="alert alert-danger">Error running the query!</div>';
-         //         exit;
-         //     }
-         // }
-         // else{
-         //     echo '<div data-value="" id="eventdata"></div>';
-         // }
-         ?> */
+        include('connection.php');
+         session_start();
+         if(isset($_SESSION['id'])){
+         $id = $_SESSION['id'];
+         $sql = "SELECT * FROM registered_events WHERE id='$id'";
+             $result = mysqli_query($link, $sql);
+             if($result){
+                 $data = "";
+                 $row = mysqli_fetch_array($result, MYSQLI_ASSOC);
+                 for($i=1;$i<sizeOf($row);$i++)
+                 {
+                 $data.=$row[$i];
+                 $data.=' ';
+                 }
+                 echo '<div data-value="'.$data.'" id="eventdata"></div>';
+             }
+             else{
+                 echo '<div class="alert alert-danger">Error running the query!</div>';
+                 exit;
+             }
+         }
+         else{
+             echo '<div data-value="" id="eventdata"></div>';
+         }
+         ?> 
       <div class="w3-row">
          <div id="perspective" class="perspective effect-laydown">
             <div class="container" style="background:black;">
