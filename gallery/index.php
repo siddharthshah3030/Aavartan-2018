@@ -40,11 +40,7 @@
          border: 3px solid #00d7c3;
          }
       </style>
-      <!-- csstransforms3d-shiv-cssclasses-prefixed-teststyles-testprop-testallprops-prefixes-domprefixes-load -->
       <script src="js/modernizr.custom.25376.js"></script>
-      <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-lazyload/10.17.0/lazyload.min.js"></script> -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/layzr.js/2.2.2/layzr.min.js"></script>
-      <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
    </head>
    <body style="background: #291B2C;" class="particletext confetti demo-1">
 
@@ -54,7 +50,7 @@
             <div class="container" style="background:black;">
                <div class="wrapper"  >
                   <!-- wrapper needed for scroll -->
-                  <div id="menunavbar" style="position:sticky;top:0px;width:100%;background-image: url('test.gif'); height: 100%;   background-position: center;background-repeat: no-repeat;background-size: cover;" >
+                  <div id="menunavbar" style="position:relative;top:0px;width:100%;background-image: url('test.gif'); height: 100%;   background-position: center;background-repeat: no-repeat;background-size: cover;" >
                      <button id="showMenu" class="button button-1" style="display: inline-block;float:right;background:black;color:white;text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #ff00de , 0 0 70px #ff00de , 0 0 80px #ff00de , 0 0 100px #ff00de ;">Menu</button>
                      <img src="images/Aavartan.png" height="50px" width="160px" style="display: inline-block;">
 
@@ -549,20 +545,14 @@
             <a id="menuclose" href="#" ><span class="close">&times;</span></a>
             <?php include '../header.php' ?>
          </div>
-         <!-- /perspective -->
       </div>
-      <!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
-      <!-- <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> -->
       <script src="js/classie.js"></script>
       <script src="js/menu.js"></script>
-      <!-- <script src="js/particle.js"></script> -->
-      <!-- <script src="js/particleapp.js"></script> -->
       <script src="js/custom.js"></script>
       <script  src="js/index.js"></script>
       <script src='js/anime.min.js'></script>
       <script src='js/pieces.min.js'></script>
       <script src='js/demo.js'></script>
-      <!-- <img src="35.gif" alt="Photo" data-echo="img/5.jpg"> -->
       <script src="js/echo.js"></script>
       <script src="js/change.js"></script>
   <script>
