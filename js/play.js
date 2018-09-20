@@ -1,7 +1,7 @@
 $('#play-video').on('click', function(e){
   e.preventDefault();
-  init()
 this.style.display = "none";
+  init()
 
   // window.addEventListener("load",init,!1);
 });
