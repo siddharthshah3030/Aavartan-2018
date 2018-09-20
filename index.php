@@ -38,7 +38,7 @@
       <link rel="stylesheet" type="text/css" href="css/background.css">
       <link rel="stylesheet" type="text/css" href="css/game/demo.css" />
       <link rel="stylesheet" type="text/css" href="css/game/game.css" />
-      <link rel="stylesheet" type="text/css" href="css/play.css" />
+      <!-- <link rel="stylesheet" type="text/css" href="css/play.css" /> -->
       <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
       <script src="https://use.fontawesome.com/dbb72ac4f9.js"></script>
       <link rel="stylesheet" type="text/css" href="css/social.css">
@@ -116,7 +116,7 @@
                               </div>
                            </div>
                         </div>
-                       <a id="play-video" class="video-play-button" href="#"><center><span></span></center><br> click to play</a>
+                       <!-- <a id="play-video" class="video-play-button" href="#"><center><span></span></center><br> click to play</a> -->
 
 
 

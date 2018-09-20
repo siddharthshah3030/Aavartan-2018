@@ -8,12 +8,12 @@
 		<meta name="keywords" content="grid, css, layout, template, hover, content, gsap, tweenmax, overlay" />
 		<meta name="author" content="Codrops" />
 		<link rel="shortcut icon" href="favicon.ico">
-		<link rel="stylesheet" type="text/css" href="css/loader.css" />
+	<!-- 	<link rel="stylesheet" type="text/css" href="css/loader.css" />
 		      <div id = "loaderbody">
          <div class="stars"></div>
 <div class="twinkling"></div><!-- 
 <div class="clouds"></div> -->
-         <div  class="body">
+      <!--    <div  class="body">
             <span>
             <span></span>
             <span></span>
@@ -34,7 +34,7 @@
          <h2>Brace Yourselves</h2>
          <br/>
          <h1>Reaching Aavartan18</h1>
-      </div>
+      </div> --> -->
 		<link rel="stylesheet" type="text/css" href="css/base.css" />
 		<link rel="stylesheet" type="text/css" href="css/title.css" />
 
