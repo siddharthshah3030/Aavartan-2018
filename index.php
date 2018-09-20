@@ -157,7 +157,7 @@ aria-hidden="true"></i></a></li>
 
 
 	  </script>
-           <script type="text/javascript" src="js/play.js" /></script>
+           <!-- <script type="text/javascript" src="js/play.js" /></script> -->
            <script type="text/javascript" src="js/loader.js" /></script>
 
    </body>
