@@ -42,7 +42,7 @@
          box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3;
          border: 3px solid #00d7c3;
          }
-    form { max-width:420px; margin:50px auto; }
+    form { max-width:420px; margin:50px auto 0px; }
 
 .feedback-input {
   color:white;
@@ -60,7 +60,6 @@
   box-sizing: border-box;
   outline:0;
 }
-
 
 .feedback-input:focus { border:2px solid #CC4949; }
 
@@ -86,6 +85,10 @@ textarea {
   font-weight:700;
 }
 [type="submit"]:hover { background:#CC4949; }
+p>a{
+  color: cyan;
+  font-size: 22px;
+}
       </style>
       <script>
       window.onload = function(){
@@ -165,7 +168,7 @@ function check() {
    <input type="password" class="feedback-input" id="password2" name="password2" placeholder="Re Enter Password" autofocus required>
 
   <input type="submit" value="SUBMIT" />
-  <p style="float:right;margin-right:4%;color:white;">Already Registered?<a href="login.php">login</a></p>
+  <p style="float:right;margin-right:4%;color:white;">Already Registered?<a href="login.php"> login</a></p>
   <br>
   <br>
   <br>
