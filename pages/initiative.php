@@ -61,7 +61,7 @@
               <br>
               <div class="con">
                 <div class="sub_con">
-                   <h2 style="color: white; text-shadow: 0 0 10px rgba(255,255,255,0) , 0 0 20px rgba(255,255,255,0) , 0 0 30px rgba(255,255,255,0) , 0 0 40px #00ffff , 0 0 70px #00ffff , 0 0 80px #00ffff , 0 0 100px #00ffff ;
+                   <h2 style="color: white; text-shadow: 0 0 0px rgba(255,255,255,0.1) , 0 0 20px rgba(255,255,255,0.1) , 0 0 30px rgba(255,255,255,0.1) , 0 0 30px #006666 , 0 0 30px #006666 , 0 0 30px #006666 , 0 0 30px #006666 ;
                 ">
               <span></span>Initiatives</h1>
               <br>

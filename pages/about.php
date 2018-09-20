@@ -64,7 +64,7 @@
               <br>
               <div class="con" id="fullpage">
                 <div class="sub_con" >
-                     <h2 style="color: white; text-align:center;text-shadow: 0 0 10px rgba(255,255,255,0) , 0 0 20px rgba(255,255,255,0) , 0 0 30px rgba(255,255,255,0) , 0 0 40px #00ffff , 0 0 70px #00ffff , 0 0 80px #00ffff , 0 0 100px #00ffff ;
+                     <h2 style="color: white; text-align:center;text-shadow: 0 0 10px rgba(00,255,255,0) , 0 0 20px rgba(00,255,255,0) , 0 0 30px rgba(00,255,255,0) , 0 0 40px #00ffff , 0 0 50px #00ffff , 0 0 60px #00ffff , 0 0 70px #00ffff ;
                 ">
               <span></span>About Us</h2>
                   <section style="background:rgba(255,100,100, 0.3);padding-left:3%;padding-top:3%;padding-bottom:3%;padding-right:3%;opacity:0.5;" >

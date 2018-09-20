@@ -59,7 +59,7 @@
                 <div id="menunavbar" style="margin-bottom:1vw;position:static;top:0px;width:100%;" >
                 <button id="showMenu"class="button button-1" style="display: inline-block;float:right;color:white">Menu</button>
                 <img src="images/Aavartan.png" height="50px" width="160px" style="display: inline-block;">
-                    <h2 style="color: white; text-shadow: 0 0 10px rgba(255,255,255,0) , 0 0 20px rgba(255,255,255,0) , 0 0 30px rgba(255,255,255,0) , 0 0 40px #00ffff , 0 0 70px #00ffff , 0 0 80px #00ffff , 0 0 100px #00ffff ;"><span></span> Vigyaan </h2>
+                    <h2 style="color: white; text-shadow: 0 0 10px rgba(00,255,255,0) , 0 0 20px rgba(00,255,255,0) , 0 0 30px rgba(00,255,255,0) , 0 0 40px #008888 , 0 0 50px #008888 , 0 0 60px #00aaaa , 0 0 70px #00aa ;"><span></span> Vigyaan </h2>
               </div>
             </div>
            

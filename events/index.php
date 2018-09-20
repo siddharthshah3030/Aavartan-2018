@@ -79,32 +79,32 @@ error_reporting(E_ERROR | E_PARSE);
          </style>
    </head>
    <body style="background: #291B2C;" class="particletext confetti">
-      <?php
-         include('connection.php');
-         session_start();
-         if(isset($_SESSION['id'])){
-         $id = $_SESSION['id'];
-         $sql = "SELECT * FROM registered_events WHERE id='$id'";
-             $result = mysqli_query($link, $sql);
-             if($result){
-                 $data = "";
-                 $row = mysqli_fetch_array($result, MYSQLI_ASSOC);
-                 for($i=1;$i<sizeOf($row);$i++)
-                 {
-                 $data.=$row[$i];
-                 $data.=' ';
-                 }
-                 echo '<div data-value="'.$data.'" id="eventdata"></div>';
-             }
-             else{
-                 echo '<div class="alert alert-danger">Error running the query!</div>';
-                 exit;
-             }
-         }
-         else{
-             echo '<div data-value="" id="eventdata"></div>';
-         }
-         ?>
+     <?php
+       //  include('connection.php');
+         // session_start();
+         // if(isset($_SESSION['id'])){
+         // $id = $_SESSION['id'];
+         // $sql = "SELECT * FROM registered_events WHERE id='$id'";
+         //     $result = mysqli_query($link, $sql);
+         //     if($result){
+         //         $data = "";
+         //         $row = mysqli_fetch_array($result, MYSQLI_ASSOC);
+         //         for($i=1;$i<sizeOf($row);$i++)
+         //         {
+         //         $data.=$row[$i];
+         //         $data.=' ';
+         //         }
+         //         echo '<div data-value="'.$data.'" id="eventdata"></div>';
+         //     }
+         //     else{
+         //         echo '<div class="alert alert-danger">Error running the query!</div>';
+         //         exit;
+         //     }
+         // }
+         // else{
+         //     echo '<div data-value="" id="eventdata"></div>';
+         // }
+         ?> */
       <div class="w3-row">
          <div id="perspective" class="perspective effect-laydown">
             <div class="container" style="background:black;">
@@ -133,19 +133,19 @@ error_reporting(E_ERROR | E_PARSE);
                            <h3 class="pb-title">Technical</h3>
                            <div class="pb-scroll">
                               <ul class="pb-strip">
-                                 <li><a href="images/large/17.jpg" rel="lightbox[album1]" title="October Sky"><img  height="150px" width="160px" src="images/small/17.png" /></a></li>
-                                 <li><a href="images/large/16.jpg" rel="lightbox[album1]" title="CAD-alyst"><img  height="150px" width="160px" src="images/small/16.png" /></a></li>
-                                 <li><a href="images/large/6.jpg" rel="lightbox[album1]" title="Lan Gaming"><img height="150px" width="160px"  src="images/small/6.png" /></a></li>
-                                 <li><a href="images/large/7.jpg" rel="lightbox[album1]" title="Sherlock Holmes"><img height="150px" width="160px"  src="images/small/7.png" /></a></li>
-                                 <li><a href="images/large/5.jpg" rel="lightbox[album1]" title="Khet"><img  height="150px" width="160px"  height="150px" width="120px" src="images/small/5.png" /></a></li>
-                                 <li><a href="images/large/12.jpg" rel="lightbox[album1]" title="MARVEL HUNT"><img height="150px" width="120px"  src="images/small/12.png" /></a></li>
-                                 <li><a href="images/large/40.jpg" rel="lightbox[album1]" title="FOOT-TRONICA"><img height="150px" width="140px"  src="images/small/40.png" /></a></li>
-                                 <li><a href="images/large/41.jpg" rel="lightbox[album1]" title="Crazy Codes"><img  height="150px" width="160px"  src="images/small/41.png" /></a></li>
-                                 <li><a href="images/large/42.jpg" rel="lightbox[album1]" title="Gwiggle"><img  height="150px" width="160px" src="images/small/42.png" /></a></li>
-                                 <li><a href="images/large/43.jpg" rel="lightbox[album1]" title="CAPTURE THE MOMENT"><img  height="150px" width="160px" src="images/small/43.png" /></a></li>
-                                 <li><a href="images/large/44.jpg" rel="lightbox[album1]" title="CODENESIA"><img  height="150px" width="160px" src="images/small/44.png" /></a></li>
-                                 <li><a href="images/large/45.jpeg" rel="lightbox[album1]" title="Kya aap 5vi pass se tezz h??"><img  height="150px" width="160px" src="images/small/45.png" /></a></li>
-                                 <li><a href="images/large/18.jpg" rel="lightbox[album1]" title="GRAVITY CONTROL"><img height="150px" width="160px"  src="images/small/46.png" /></a></li>
+                                 <li><a href="images/large/17.jpg" rel="lightbox[album1]" title="October Sky"><img  height="150px" width="150px" src="images/small/17.jpg" /></a></li>
+                                 <li><a href="images/large/16.jpg" rel="lightbox[album1]" title="CAD-alyst"><img  height="150px" width="150px" src="images/small/16.jpg" /></a></li>
+                                 <li><a href="images/large/6.jpg" rel="lightbox[album1]" title="Lan Gaming"><img height="150px" width="150px"  src="images/small/6.jpg" /></a></li>
+                                 <li><a href="images/large/7.jpg" rel="lightbox[album1]" title="Sherlock Holmes"><img height="150px" width="150px"  src="images/small/7.jpg" /></a></li>
+                                 <li><a href="images/large/5.jpg" rel="lightbox[album1]" title="Khet"><img  height="150px" width="150px"  height="150px" width="120px" src="images/small/5.jpg" /></a></li>
+                                 <li><a href="images/large/12.jpg" rel="lightbox[album1]" title="MARVEL HUNT"><img height="150px" width="150px"  src="images/small/12.jpg" /></a></li>
+                                 <li><a href="images/large/40.jpg" rel="lightbox[album1]" title="FOOT-TRONICA"><img height="150px" width="140px"  src="images/small/40.jpg" /></a></li>
+                                 <li><a href="images/large/41.jpg" rel="lightbox[album1]" title="Crazy Codes"><img  height="150px" width="150px"  src="images/small/41.png" /></a></li>
+                                 <li><a href="images/large/42.jpg" rel="lightbox[album1]" title="Gwiggle"><img  height="150px" width="150px" src="images/small/42.jpg" /></a></li>
+                                 <li><a href="images/large/43.jpg" rel="lightbox[album1]" title="CAPTURE THE MOMENT"><img  height="150px" width="150px" src="images/small/43.jpg" /></a></li>
+                                 <li><a href="images/large/44.jpg" rel="lightbox[album1]" title="CODENESIA"><img  height="150px" width="150px" src="images/small/44.jpg" /></a></li>
+                                 <li><a href="images/large/45.jpg" rel="lightbox[album1]" title="Kya aap 5vi pass se tezz h??"><img  height="150px" width="150px" src="images/small/45.jpg" /></a></li>
+                                 <li><a href="images/large/18.jpg" rel="lightbox[album1]" title="GRAVITY CONTROL"><img height="150px" width="150px"  src="images/small/46.png" /></a></li>
                               </ul>
                            </div>
                         </div>
@@ -153,10 +153,10 @@ error_reporting(E_ERROR | E_PARSE);
                            <h3 class="pb-title">Managerial.</h3>
                            <div class="pb-scroll">
                               <ul class="pb-strip">
-                                 <li><a href="images/large/47.jpg" rel="lightbox[album2]" title="Sale your stock"><img height="150px" width="160px"  src="images/small/47.png" /></a></li>
-                                 <li><a href="#" rel="lightbox[album2]" title="Coming Soon"><img height="150px" width="160px" src="images/giphy.gif" /></a></li>
-                                 <li><a href="#" rel="lightbox[album2]" title="Coming Soon"><img height="150px" width="160px" src="images/giphy.gif" /></a></li>
-                                 <li><a href="#" rel="lightbox[album2]" title="Coming Soon"><img height="150px" width="160px" src="images/giphy.gif" /></a></li>
+                                 <li><a href="images/large/47.jpg" rel="lightbox[album2]" title="Sale your stock"><img height="150px" width="150px"  src="images/small/47.png" /></a></li>
+                                 <li><a href="#" rel="lightbox[album2]" title="Coming Soon"><img height="150px" width="150px" src="images/giphy.gif" /></a></li>
+                                 <li><a href="#" rel="lightbox[album2]" title="Coming Soon"><img height="150px" width="150px" src="images/giphy.gif" /></a></li>
+                                 <li><a href="#" rel="lightbox[album2]" title="Coming Soon"><img height="150px" width="150px" src="images/giphy.gif" /></a></li>
                                  <!--
                                     <li><a href="images/large/15.jpg" rel="lightbox[album2]" title="Love"><img src="images/small/15.jpg" /></a></li>
                                     <li><a href="images/large/16.jpg" rel="lightbox[album2]" title="Friendship"><img src="images/small/16.jpg" /></a></li>
@@ -172,11 +172,11 @@ error_reporting(E_ERROR | E_PARSE);
                            <h3 class="pb-title">Robotics</h3>
                            <div class="pb-scroll">
                               <ul class="pb-strip">
-                                 <li><a href="#" rel="lightbox[album3]" title="Coming Soon"><img height="150px" width="160px" src="images/giphy.gif" /></a></li>
-                                 <li><a href="#" rel="lightbox[album3]" title="Coming Soon"><img height="150px" width="160px" src="images/giphy.gif" /></a></li>
-                                 <li><a href="#" rel="lightbox[album3]" title="Coming Soon"><img height="150px" width="160px" src="images/giphy.gif" /></a></li>
-                                 <li><a href="#" rel="lightbox[album3]" title="Coming Soon"><img height="150px" width="160px" src="images/giphy.gif" /></a></li>
-                                 <li><a href="#" rel="lightbox[album3]" title="Coming Soon"><img height="150px" width="160px" src="images/giphy.gif" /></a></li>
+                                 <li><a href="#" rel="lightbox[album3]" title="Coming Soon"><img height="150px" width="150px" src="images/giphy.gif" /></a></li>
+                                 <li><a href="#" rel="lightbox[album3]" title="Coming Soon"><img height="150px" width="150px" src="images/giphy.gif" /></a></li>
+                                 <li><a href="#" rel="lightbox[album3]" title="Coming Soon"><img height="150px" width="150px" src="images/giphy.gif" /></a></li>
+                                 <li><a href="#" rel="lightbox[album3]" title="Coming Soon"><img height="150px" width="150px" src="images/giphy.gif" /></a></li>
+                                 <li><a href="#" rel="lightbox[album3]" title="Coming Soon"><img height="150px" width="150px" src="images/giphy.gif" /></a></li>
 
                                  <!--
                                     <li><a href="images/large/8.jpg" rel="lightbox[album3]" title="Softness"><img src="images/small/8.jpg" /></a></li>
