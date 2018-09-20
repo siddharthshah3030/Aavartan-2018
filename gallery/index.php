@@ -42,9 +42,13 @@
       </style>
       <!-- csstransforms3d-shiv-cssclasses-prefixed-teststyles-testprop-testallprops-prefixes-domprefixes-load -->
       <script src="js/modernizr.custom.25376.js"></script>
+      <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-lazyload/10.17.0/lazyload.min.js"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/layzr.js/2.2.2/layzr.min.js"></script>
       <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
    </head>
    <body style="background: #291B2C;" class="particletext confetti demo-1">
+
+
       <div class="w3-row">
          <div id="perspective" class="perspective effect-laydown">
             <div class="container" style="background:black;">
@@ -151,14 +155,14 @@
                      </li>
                      <li onClick=getIndex(this) value=7>
                         <a class="rig-cell" >
-                        <img class="rig-img"  data-echo="img/7.jpg" src="img/7.jpg">
+                        <img class="rig-img"  data-echo="img/7.jpg" src="loading.svg">
                         <span class="rig-overlay"></span>
                         <span class="rig-text">amazin caption here</span>
                         </a>
                      </li>
                      <li onClick=getIndex(this) value=8>
                         <a class="rig-cell" >
-                        <img class="rig-img"  data-echo="img/8.jpg" src="img/8.jpg">
+                        <img class="rig-img " alt="..." data-normal="img/3.jpg" data-retina="img/8.jpg" src="img/8.jpg"  >
                         <span class="rig-overlay"></span>
                         <span class="rig-text">amazin caption here</span>
                         </a>
@@ -188,6 +192,19 @@
       <!-- <img src="35.gif" alt="Photo" data-echo="img/5.jpg"> -->
       <script src="js/echo.js"></script>
       <script src="js/change.js"></script>
-    
+  <script>
+  echo.init({
+    offset: 100,
+    throttle: 250,
+    unload: false,
+    callback: function (element, op) {
+      console.log(element, 'has been', op + 'ed')
+    }
+  });
+
+  // echo.render(); is also available for non-scroll callbacks
+  </script>
+
+
    </body>
 </html>
