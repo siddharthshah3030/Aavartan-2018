@@ -10,6 +10,7 @@
       <link rel="stylesheet" type="text/css" href="css/background.css">
       <link rel="stylesheet" type="text/css" href="css/game/demo.css" />
       <link rel="stylesheet" type="text/css" href="css/game/game.css" />
+      <link rel="stylesheet" type="text/css" href="css/play.css" />
       <!-- <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet"> -->
       <script src="https://use.fontawesome.com/dbb72ac4f9.js"></script>
       <link rel="stylesheet" type="text/css" href="css/social.css">
@@ -87,6 +88,12 @@
                               </div>
                            </div>
                         </div>
+                        <a id="play-video" class="video-play-button" href="#">
+  <span></span>
+</a>
+
+
+
                         <div class="world" id="world" style="background: #291B2C;">
                         </div>
                         <div class="message message--replay" id="replayMessage">Click to Replay</div>
@@ -125,6 +132,7 @@ aria-hidden="true"></i></a></li>
 
 	  </script>
            <script type="text/javascript" src="js/loader.js" /></script>
+           <script type="text/javascript" src="js/play.js" /></script>
 
    </body>
 </html>
