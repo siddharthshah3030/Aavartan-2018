@@ -88,9 +88,7 @@
                               </div>
                            </div>
                         </div>
-                        <a id="play-video" class="video-play-button" href="#">
-  <span></span>
-</a>
+                       <center> <a id="play-video" class="video-play-button" href="#"><span></span><br> <br>click to play</a></center>
 
 
 
