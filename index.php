@@ -60,7 +60,7 @@
                      <img src="images/Aavartan.png" height="53vw" width="auto" style="display: inline-block;">
                      <div class="game-holder" id="gameHolder" style="background-color:black;">
                         <div class="header" style="margin-top:-1%;" >
-                           <h1 style="color: white; text-shadow: 0 0 10px rgba(255,255,255,0.3) , 0 0 20px rgba(255,255,255,0.3) , 0 0 30px rgba(255,255,255,0.3) , 0 0 40px #00ffff , 0 0 70px #00ffff , 0 0 80px #00ffff , 0 0 100px #00ffff ;
+                           <h1 style="color: white; text-shadow: 0 0 10px rgba(255,255,255,0.1) , 0 0 20px rgba(255,255,255,0.1) , 0 0 30px rgba(255,255,255,0.1) , 0 0 50px #00aaaa , 0 0 50px #00aaaa , 0 0 20px #00aaaa , 0 0 50px #00aaaa ;
                               "><span></span>AAVARTAN 2018</h1>
                      
                            <h2 style="color: white;">Imagine Improve Implement</h2>
