@@ -54,13 +54,15 @@
             <div id="menunavbar" style="margin-bottom:1vw;position:sticky;top:0px;width:100%;" >
               <button id="showMenu" class="buttonxyz buttonxyz-1" style="display: inline-block;float:right;background:black;color:white">Menu</button>
               <img src="images/Aavartan.png" height="50px" width="160px" style="display: inline-block;">
-              <h2 style="color: white; text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #00ffff , 0 0 70px #00ffff , 0 0 80px #00ffff , 0 0 100px #00ffff ;
-                ">
-              <span></span>Initiatives</h1>
+             
               <br>
               <br>
               <div class="con">
                 <div class="sub_con">
+                   <h2 style="color: white; text-shadow: 0 0 10px rgba(255,255,255,0) , 0 0 20px rgba(255,255,255,0) , 0 0 30px rgba(255,255,255,0) , 0 0 40px #00ffff , 0 0 70px #00ffff , 0 0 80px #00ffff , 0 0 100px #00ffff ;
+                ">
+              <span></span>Initiatives</h1>
+              <br>
                   <div style="background:rgba(255,100,0, 0.3);padding-left:3%;padding-top:3%;padding-bottom:3%;padding-right:3%;opacity:0.5;">
                     <div class="topic">Vision</div>
                     <div class="content">The vision of our Digital India Initiative is to help people get aware technologically and to use information technology to revolutionize public services

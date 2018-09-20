@@ -1,37 +1,13 @@
+<header>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.0/sweetalert.min.js"></script>
+</header>
 <?php
 //Start session
 session_start();
 //Connect to the database
 include("connection.php");
-//Check user inputs
-    //Define error messages
-$errors = '';
-$missingEmail = '<p><stong>Please enter your email address!</strong></p>';
-$missingPassword = '<p><stong>Please enter your password!</strong></p>'; 
-    //Get email and password
-    //Store errors in errors variable
-if(empty($_POST["loginemail"])){
-    $errors .= $missingEmail;   
-}
-else{
-    $email = filter_var($_POST["loginemail"], FILTER_SANITIZE_EMAIL);
-}
-
-if(empty($_POST["loginpassword"])){
-    $errors .= $missingPassword;   
-}
-else{
-    $password = filter_var($_POST["loginpassword"], FILTER_SANITIZE_STRING);
-}
-    //If there are any errors
-if($errors){
-    //print error message
-    $resultMessage = '<div class="alert alert-danger">' . $errors .'</div>';
-    echo $resultMessage;   
-}
-else{
-    //else: No errors
-    //Prepare variables for the query
+    $email=$_POST['email'];
+    $password=$_POST['password'];
     $email = mysqli_real_escape_string($link, $email);
     $password = mysqli_real_escape_string($link, $password);
     $password = hash('sha256', $password);
@@ -45,7 +21,12 @@ else{
             //If email & password don't match print error
     $count = mysqli_num_rows($result);
     if($count !== 1){
-        echo '<div class="alert alert-danger">Wrong Username or Password</div>';
+        ?>
+        <script type="text/javascript">swal("Wrong Username or Password");</script>
+        <?php
+    
+       header('Location: http://www.example.com/');
+           exit;
     }
     else {
         //log the user in: Set session variables
@@ -53,7 +34,9 @@ else{
         $_SESSION['id']=$row['id'];
         $_SESSION['name']=$row['name'];
         $_SESSION['email']=$row['email'];
-        echo 'success';
-    }
-}
+         header('Location: dashboard.php');
+exit;
+             }
 
+
+?>

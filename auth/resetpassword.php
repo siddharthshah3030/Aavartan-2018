@@ -15,23 +15,64 @@
          color:purple;   
          }
          .contactForm{
-         border:1px solid #7c73f6;
+         border:1px solid #cca969;
          margin-top: 50px;
          border-radius: 15px;
          }
-         
+              form { max-width:420px; margin:50px auto; }
+
+.feedback-input {
+  color:white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #CC6666;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:90%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { border:2px solid #CC4949; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 90%;
+  background:#CC6666;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
       </style>
    </head>
-   <body>
+   <body style="background:black;">
       <div class="container-fluid">
          <div class="row">
             <div class="col-sm-offset-1 col-sm-10 contactForm">
-               <h1>Reset Password:</h1>
-               <div id="resultmessage"></div>
+               <h1 style="color:#cca969;">Reset Password:</h1>
+               <div id="resultmessage" style="background:#291B2C;color:#cca969;"></div>
                <?php
                   //If user_id or key is missing
                   if(!isset($_GET['id']) || !isset($_GET['key'])){
-                      echo '<div class="alert alert-danger">There was an error. Please click on the link you received by email.</div>'; exit;
+                      echo '<div class="alert alert-danger" style="background:#291B2C;color:#cca969;border:2px solid #cca969;">There was an error. Please click on the link you received by email.</div>'; exit;
                   }
                   //else
                       //Store them in two variables
@@ -56,17 +97,16 @@
                   }
                   //print reset password form with hidden user_id and key fields
                   echo "
+
                   <form method=post id='passwordreset'>
                   <input type=hidden name=key value=$key>
                   <input type=hidden name=id value=$id>
-                  <div class='form-group'>
+                  
                       <label for='password'>Enter your new Password:</label>
-                      <input type='password' name='password' id='password' placeholder='Enter Password' class='form-control'>
-                  </div>
-                  <div class='form-group'>
+                      <input type='password' name='password' id='password' placeholder='Enter Password' class='feedback-input'>
+               
                       <label for='password2'>Re-enter Password::</label>
-                      <input type='password' name='password2' id='password2' placeholder='Re-enter Password' class='form-control'>
-                  </div>
+                      <input type='password' name='password2' id='password2' placeholder='Re-enter Password' class='feedback-input'>
                   <input type='submit' name='resetpassword' class='btn btn-success btn-lg' value='Reset Password'>
                   
                   

@@ -13,6 +13,8 @@
       <!-- csstransforms3d-shiv-cssclasses-prefixed-teststyles-testprop-testallprops-prefixes-domprefixes-load -->
       <script src="js/modernizr.custom.25376.js"></script>
       <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.0/sweetalert.min.js"></script>
+
       <style>
       .button {
          width: 110px;
@@ -40,137 +42,138 @@
          box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3;
          border: 3px solid #00d7c3;
          }
-         body{
-         overflow-y:scroll;
-         color:white;
-         }
-         #signupform {
-         background-color:rgba(72,72,72,0.4);
-         padding-left:25px;
-         padding-right:52px;
-         padding-top:35px;
-         padding-bottom:50px;
-         width: 450px;
-         float: left;
-         left: 50%;
-         position: absolute;
+    form { max-width:420px; margin:50px auto; }
 
-         margin-top:30px;
-         margin-left: -210px;
-         -moz-border-radius: 7px;
-         -webkit-border-radius: 7px;
-         }
-         #signupform{
+.feedback-input {
+  color:white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #CC6666;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:90%;
+  box-sizing: border-box;
+  outline:0;
+}
 
-         background-attachment: fixed;
-         background-position: center;
-         background-repeat: no-repeat;
-         background-size: cover;
-         }
-         select,input {
-           padding-left: 5%;
-           padding-right:5%;
-         color:black;
-         font-family: Helvetica, Arial, sans-serif;
-         font-weight:500;
-         font-size: 18px;
-         border-radius: 0;
-         line-height: 22px;
-         background-color: white;
-         padding: 10px 10px ;
-         margin-bottom: 10px;
-         margin-right:10%;
-         width:100%;
-         color:black;
-         border: 3px solid rgba(0,0,0,0);
-         }
-         form label{
-         color:WHITE;
-         text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #00ffff , 0 0 70px #00ffff , 0 0 80px #00ffff , 0 0 100px #00ffff ;
-         }
-         .form-group p a{
-         color: aqua;
-         }
-         .form-group p a:hover{
-         color: mediumvioletred;
-         }
+
+.feedback-input:focus { border:2px solid #CC4949; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 90%;
+  background:#CC6666;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background:#CC4949; }
       </style>
+      <script>
+      window.onload = function(){
+    document.forms["mihir"].onsubmit = check;
+};
+</script>
+      <script>
+
+function check() {
+
+    var email = document.getElementById('email');
+    var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+    var password = document.getElementById('password1');
+    var password3 = document.getElementById('password2');
+   var passw=  /^[A-Za-z]\w{7,14}$/;
+    if (!filter.test(email.value)) {
+    swal('Please provide a valid email address','',"warning");
+    email.focus;
+    return false;
+ }
+ 
+ else if (!passw.test(password.value)) {
+    swal(' password between 7 to 16 characters should only characters, numeric digits, underscore and first character must be a letter','',"warning");
+    password.focus;
+    return false;
+ } else if (password.value != password3.value) {
+    swal('password must be same','',"warning");
+    password3.focus;
+    return false;
+ }
+ else{
+   return true;
+ }
+
+
+}
+      </script>
       <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
    </head>
-   <body style="background: black;" class="particletext confetti">
+   <body style="background:#291B2C;
+   overflow-y:scroll;" class="particletext confetti">
 
-         <div id="perspective" class="perspective effect-laydown">
-            <div class="container" style="background:black;">
+         <div id="perspective" class="perspective effect-laydown" style="background:#black;">
+            <div class="container" style="background:#black;">
                <div class="wrapper"  >
                   <!-- wrapper needed for scroll -->
                   <div id="menunavbar" style="margin-bottom:1vw;position:sticky;top:0px;width:100%;background-image: url('test.gif'); height: 100%;   background-position: center;background-repeat: no-repeat;background-size: cover;" >
                      <button id="showMenu" class="button button-1" style="display: inline-block;float:right;background:black;color:white;text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #ff00de , 0 0 70px #ff00de , 0 0 80px #ff00de , 0 0 100px #ff00de ;">Menu</button>
-                     <img src="images/Aavartan.png" height="70vw" width="auto" style="display: inline-block;">
-                     <h2 style="color: white; text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #00ffff , 0 0 70px #00ffff , 0 0 80px #00ffff , 0 0 100px #00ffff ;">
-                     <span></span>Registration Portal</h1>
-                     <br>
+                     <img src="images/Aavartan.png" height="50vw" width="auto" style="display: inline-block;">
+                    
                   </div>
                   <br>
-                  <br>
-                  <br>
                   <center>
-                     <form id="signupform" method="POST"  class="col-sm-offset-3 col-sm-6">
-                        <!--Sign up message from PHP file-->
-                        <div id="signupmessage"></div>
-                        <div class="form-group">
-                           <label for="name" >Name</label>
-                           <input type="text" class="form-control" id="name" name="name" autofocus required>
-                        </div>
-                        <div class="form-group">
-                           <label for="contact">Contact Number</label>
-                           <input type="number" class="form-control" id="contact" name="contact" minlength="10" maxlength="10" required>
-                        </div>
-                        <div class="form-group">
-                           <label for="branch">Branch</label>
-                           <input type="text" class="form-control" id="branch" name="branch" required>
-                        </div>
-                        <div class="form-group">
-                           <label for="course">Course/Degree</label>
-                           <input type="text" class="form-control" id="course" name="course" required>
-                        </div>
-                        <div class="form-group">
-                           <label for="semester">Semester</label>
-                           <!--<input type="number" class="form-control" id="semester" name="semester" min="1" max="10" required>-->
-                           <select class="form-control" id="semester" name="semester" required>
-                              <option value="1st">1st</option>
-                              <option value="2nd">2nd</option>
-                              <option value="3rd">3rd</option>
-                              <option value="4th">4th</option>
-                              <option value="5th">5th</option>
-                              <option value="6th">6th</option>
-                              <option value="7th">7th</option>
-                              <option value="8th">8th</option>
-                              <option value="9th">9th</option>
-                              <option value="10th">10th</option>
+                      <h2 style="color: white; text-shadow: 0 0 10px rgba(255,255,255,0) , 0 0 20px rgba(255,255,255,0) , 0 0 30px rgba(255,255,255,0) , 0 0 40px #00ffff , 0 0 70px #00ffff , 0 0 80px #00ffff , 0 0 100px #00ffff ;">
+                     <span></span>Registration Portal</h1>
+                     <form  name="mihir" action="signupsubmit.php" method="POST" onsubmit="return check()">      
+  <input  type="text" class="feedback-input" placeholder="Name" id="name" name="name" autofocus required /> 
+   <input type="number" class="feedback-input" id="contact" placeholder="Contact number" name="contact" minlength="10" maxlength="10"autofocus autofocus  required>
+    <input type="text" class="feedback-input" id="branch"  placeholder="Branch" name="branch" autofocus  required>
+    <input type="text" class="feedback-input" id="course"  placeholder="Course" name="course" autofocus required>
+     <select class="feedback-input" id="semester" name="semester"  placeholder="Semester" autofocus required>
+                              <option value="1st" style="color:black;">1st</option>
+                              <option value="2nd" style="color:black;">2nd</option>
+                              <option value="2nd"style="color:black;" >2nd</option>
+                              <option value="3rd" style="color:black;">3rd</option>
+                              <option value="4th" style="color:black;">4th</option>
+                              <option value="5th" style="color:black;">5th</option>
+                              <option value="6th" style="color:black;">6th</option>
+                              <option value="7th" style="color:black;">7th</option>
+                              <option value="8th" style="color:black;">8th</option>
+                              <option value="9th" style="color:black;">9th</option>
+                              <option value="10th" style="color:black;">10th</option>
                            </select>
-                        </div>
-                        <div class="form-group">
-                           <label for="college">College/University</label>
-                           <input type="text" class="form-control" id="college" name="college" required>
-                        </div>
-                        <div class="form-group">
-                           <label for="email">Email</label>
-                           <input type="email" class="form-control" id="email" name="email" required>
-                        </div>
-                        <div class="form-group">
-                           <label for="password1">Create Password</label>
-                           <input type="password" class="form-control" id="password1" name="password1" required>
-                        </div>
-                        <div class="form-group">
-                           <label for="password2">Re-enter Password</label>
-                           <input type="password" class="form-control" id="password2" name="password2" required>
-                        </div>
-                        <br>
-                        <div class="form-group">
-                           <button type="submit" class="btn btn-lg btn-success" style="float:left;">Sign up</button>
-                           <p style="float:right;margin-right:4%;">Already Registered?<a href="login.php">login</a></p>
-                        </div>
-                     </form>
+   <input type="text" class="feedback-input" Placeholder="college/University" id="college" name="college" autofocus required>
+  <input name="email" type="text" class="feedback-input" placeholder="Email" id="email" required />
+   <input type="password" class="feedback-input" id="password1" name="password1" placeholder="Enter Password" autofocus required>
+   <input type="password" class="feedback-input" id="password2" name="password2" placeholder="Re Enter Password" autofocus required>
+
+  <input type="submit" value="SUBMIT" />
+  <p style="float:right;margin-right:4%;color:white;">Already Registered?<a href="login.php">login</a></p>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+</form>
+                    
                   </center>
                </div>
                <!-- wrapper -->
@@ -181,9 +184,9 @@
          </div>
          <!-- /perspective -->
       </div>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
       <script src="js/classie.js"></script>
       <script src="js/menu.js"></script>
       <script src="js/custom.js"></script>
-      <script src="js/auth.js"></script>
    </body>
 </html>

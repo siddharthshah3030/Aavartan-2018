@@ -58,7 +58,6 @@
 		});
 
 		container.addEventListener( clickevent, function( ev ) {
-			console.log("click event of menu triggere")
 			if( classie.has( perspectiveWrapper, 'animate') ) {
 				var onEndTransFn = function( ev ) {
 					if( support && ( ev.target.className !== 'container' || ev.propertyName.indexOf( 'transform' ) == -1 ) ) return;

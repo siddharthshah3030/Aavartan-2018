@@ -1,9 +1,5 @@
 /* ---- reset ---- */
 
-body {
-  margin: 0;
-  background-color: #17182f;
-}
 
 canvas {
   display: block;

@@ -1,4 +1,4 @@
-   <?php
+     <?php
 
   error_reporting(E_ERROR | E_PARSE);
   session_start();
@@ -121,15 +121,15 @@
          }
       </style>
    </head>
-   <body>
+   <body style="background: #291B2C;">
       <div id="perspective" class="perspective effect-laydown">
          <div class="container" style="background:black;">
             <div class="wrapper"  >
                <!-- wrapper needed for scroll -->
                <div id="menunavbar" style="margin-bottom:1vw;position:sticky;top:0px;width:100%;background-image: url('test.gif'); height: 100%;   background-position: center;background-repeat: no-repeat;background-size: cover;" >
                   <button id="showMenu" class="button button-1" style="display: inline-block;float:right;background:black;color:white;text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #ff00de , 0 0 70px #ff00de , 0 0 80px #ff00de , 0 0 100px #ff00de ;">Menu</button>
-                  <img src="images/Aavartan.png" height="70vw" width="auto" style="display: inline-block;">
-                  <h2 style="color: white; text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #00ffff , 0 0 70px #00ffff , 0 0 80px #00ffff , 0 0 100px #00ffff ;"><span></span>DASHBOARD</h2>
+                  <img src="images/Aavartan.png" height="50vw" width="auto" style="display: inline-block;">
+                  <h2 style="color: white; text-shadow: 0 0 10px rgba(255,255,255,0) , 0 0 20px rgba(255,255,255,0) , 0 0 30px rgba(255,255,255,0) , 0 0 40px #00ffff , 0 0 70px #00ffff , 0 0 80px #00ffff , 0 0 100px #00ffff ;"><span></span>DASHBOARD</h2>
                   <br>
                </div>
                <br>
@@ -140,7 +140,7 @@
 
                      include('connection.php');
                      if(!isset($_SESSION['id'])){
-                        echo'<h1 class="heading" style="margin:70px 0px 50px 0px;">You must login first to access your dashboard!</h1>';
+                        echo'<h1 class="heading" style="margin:70px 0px 50px 0px;color:#cca969;">You must login first to access your dashboard!</h1>';
                      }
                      else{
                           $id = $_SESSION['id'];
@@ -152,10 +152,10 @@
                          }
                          $row = mysqli_fetch_array($result, MYSQLI_ASSOC);
                       ?>
-                  <a id='logout' href='logout.php' style='position:absolute;right:4%;top:20%;color: white; text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #00ffff , 0 0 70px #00ffff , 0 0 80px #00ffff , 0 0 100px #00ffff ;'><img src='images\logout.png' width='50px' height='50px'><br/>LOGOUT</a>
+                  <a id='logout' href='logout.php' style='position:absolute;right:2%;top:24 %;color: white; text-shadow: 0 0 10px rgba(255,255,255,0) , 0 0 20px rgba(255,255,255,0) , 0 0 30px rgba(255,255,255,0) , 0 0 40px #00ffff , 0 0 70px #00ffff , 0 0 80px #00ffff , 0 0 100px #00ffff ;'><img src='images\logout.png' width='50px' height='50px' ><br/>LOGOUT</a>
                   <?php  echo " <div class='row'>
                      <div class='col-lg-7'>
-                          <h2>Personal Info</h2>
+                          <h2 style='color:#cca969;'>Personal Info</h2>
                      <table id='personalinfo' class='table table-hover table-bordered' style='text-align: center;'>
                      <tr>
                          <th>User id</th>
@@ -192,7 +192,7 @@
                      </table>
                      </div>
                      <div class='col-lg-5''>
-                          <h2>Registered Events</h2>
+                          <h2 style='color:#cca969;'>Registered Events</h2>
                      <table class='table table-condensed table-hover table-bordered' style='text-align: center;'>";
 
 

@@ -1,4 +1,4 @@
-            <nav class="outer-nav top horizontal" style="text-shadow: 0 0 10px rgba(255,255,255,0) , 0 0 20px rgba(255,255,255,0) , 0 0 30px rgba(255,255,255,0) , 0 0 40px #ff00de , 0 0 70px #ff00de , 0 0 80px #ff00de , 0 0 100px #ff00de ;">
+            <nav class="outer-nav top horizontal">
                <a href="/index.php" class="icon-home">Home</a>
                <a href="/pages/about.php" class="icon-news">About US</a>
                <a href="/pages/initiative.php" class="icon-news">Initiatives</a>

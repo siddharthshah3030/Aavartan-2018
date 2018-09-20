@@ -42,9 +42,9 @@
       </style>
       <!-- csstransforms3d-shiv-cssclasses-prefixed-teststyles-testprop-testallprops-prefixes-domprefixes-load -->
       <script src="js/modernizr.custom.25376.js"></script>
-      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+      <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
    </head>
-   <body style="background: black;" class="particletext confetti demo-1">
+   <body style="background: #291B2C;" class="particletext confetti demo-1">
       <div class="w3-row">
          <div id="perspective" class="perspective effect-laydown">
             <div class="container" style="background:black;">
@@ -56,7 +56,7 @@
 
                      <br>
                      <br>
-             <center>      <h2 style="text-align:center;color: white; text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #00ffff , 0 0 70px #00ffff , 0 0 80px #00ffff , 0 0 100px #00ffff ;">
+             <center>      <h2 style="text-align:center;color: white; text-shadow: 0 0 10px rgba(255,255,255,0) , 0 0 20px rgba(255,255,255,0) , 0 0 30px rgba(255,255,255,0) , 0 0 40px #00ffff , 0 0 70px #00ffff , 0 0 80px #00ffff , 0 0 100px #00ffff ;">
                     Gallery</h2></center>
                   </div>
                   <!-- <div id="particles-js"></div> -->

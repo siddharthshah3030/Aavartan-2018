@@ -2,7 +2,6 @@
 <html lang="en" class="no-js">
    <head>
       <?php include 'meta.php' ?>
-
       <link rel="stylesheet" type="text/css" href="css/normalize.css" />
       <link rel="stylesheet" type="text/css" href="css/demo.css" />
       <link rel="stylesheet" type="text/css" href="css/component.css" />
@@ -15,7 +14,6 @@
       <script src="https://use.fontawesome.com/dbb72ac4f9.js"></script>
       <link rel="stylesheet" type="text/css" href="css/social.css">
       <script src="js/modernizr.custom.25376.js"></script>
-      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
       <style>
       audio { 
    display:none;
@@ -48,11 +46,11 @@
          }
       </style>
    </head>
-   <body style="background: black;" class="particletext confetti">
+   <body  class="particletext confetti" style="background: #291B2C;">
     
          <div class="w3-row">
          <div id="perspective" class="perspective effect-laydown">
-            <div class="container" style="background:black;">
+            <div class="container" style="background: #291B2C;">
                <div class="wrapper"  >
                   <!-- wrapper needed for scroll -->
                   <!--<div id="particles-js"></div>-->
@@ -89,7 +87,7 @@
                               </div>
                            </div>
                         </div>
-                        <div class="world" id="world" style="background-color: black">
+                        <div class="world" id="world" style="background: #291B2C;">
                         </div>
                         <div class="message message--replay" id="replayMessage">Click to Replay</div>
                      </div>
@@ -113,14 +111,7 @@ aria-hidden="true"></i></a></li>
          </div>
          <!-- /perspective -->
       </div>
-	  <script>
-		var audio = $("audio").get(0);
-audio.src = "";
-audio.src = "/Streaming/GetStream?type=" + type + "'&token=" + audioApp.MakeId();
-
-audio.load();
-audio.play();
-	  </script>
+      <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
       <script src="js/classie.js"></script>
       <script src="js/menu.js"></script>
       <script src="js/custom.js"></script>

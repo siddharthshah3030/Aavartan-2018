@@ -12,37 +12,39 @@
     <script>document.documentElement.className = 'js';</script>
     <!-- csstransforms3d-shiv-cssclasses-prefixed-teststyles-testprop-testallprops-prefixes-domprefixes-load -->
     <script src="js/modernizr.custom.25376.js"></script>
+
+      <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <style>
-      .buttonxyz {
-      width: 110px;
-      padding-top: 5px;
-      padding-bottom: 5px;
-      text-align: center;
-      color: #000;
-      text-transform: uppercase;
-      font-weight: 90;
-      margin-top:8px;
-      margin-left: 30px;
-      margin-bottom: 30px;
-      cursor: pointer;
-      display: inline-block;
-      }
-      .buttonxyz-1{
-      background-color: transparent;
-      border: 3px solid #00d7c3;
-      border-radius: 50px;
-      -webkit-transition: all .15s ease-in-out;
-      transition: all .15s ease-in-out;
-      color: #00d7c3;
-      }
-      .buttonxyz-1:hover {
-      box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3;
-      border: 3px solid #00d7c3;
-      }
+      .button {
+         width: 110px;
+         padding-top: 5px;
+         padding-bottom: 5px;
+         text-align: center;
+         color: #000;
+         text-transform: uppercase;
+         font-weight: 60;
+         margin-top:8px;
+         margin-left: 30px;
+         margin-bottom: 30px;
+         cursor: pointer;
+         display: inline-block;
+         }
+         .button-1 {
+         background-color: transparent;
+         border: 3px solid #00d7c3;
+         border-radius: 50px;
+         -webkit-transition: all .15s ease-in-out;
+         transition: all .15s ease-in-out;
+         color: #00d7c3;
+         }
+         .button-1:hover {
+         box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3;
+         border: 3px solid #00d7c3;
+         }
     </style>
   </head>
-  <body style="font-family:Helvetica Neue,Helvetica,Arial,sans-serif" class="particletext confetti" >
+  <body style="style="background: #291B2C;font-family:Helvetica Neue,Helvetica,Arial,sans-serif" class="particletext confetti" >
 
     <div class="w3-row">
       <div id="perspective" class="perspective effect-laydown">
@@ -53,9 +55,9 @@
               <!-- <div id="particles-js"></div> -->
               <!-- wrapper needed for scroll -->
                 <div id="menunavbar" style="margin-bottom:1vw;position:static;top:0px;width:100%;" >
-                <button id="showMenu" class="buttonxyz buttonxyz-1" style="display: inline-block;float:right;color:white">Menu</button>
+                <button id="showMenu"class="button button-1" style="display: inline-block;float:right;color:white">Menu</button>
                 <img src="images/Aavartan.png" height="50px" width="160px" style="display: inline-block;">
-                    <h2 style="color: white; text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #00ffff , 0 0 70px #00ffff , 0 0 80px #00ffff , 0 0 100px #00ffff ;"><span></span> Vigyaan </h2>
+                    <h2 style="color: white; text-shadow: 0 0 10px rgba(255,255,255,0) , 0 0 20px rgba(255,255,255,0) , 0 0 30px rgba(255,255,255,0) , 0 0 40px #00ffff , 0 0 70px #00ffff , 0 0 80px #00ffff , 0 0 100px #00ffff ;"><span></span> Vigyaan </h2>
               </div>
             </div>
            
@@ -271,7 +273,6 @@
     </div>
    <!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
     <script src="js/classie.js"></script>
-    <script src="js/update.js"></script>
     <script src="js/menu.js"></script>
     <script src="js/custom.js"></script>
     <script src="js/sponsor/anime.min.js"></script>

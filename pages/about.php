@@ -48,7 +48,7 @@
       }
     </style>
   </head>
-  <body style="background: black;font-family:Helvetica Neue,Helvetica,Arial,sans-serif" class="particletext confetti">
+  <body style="background: #291B2C;font-family:Helvetica Neue,Helvetica,Arial,sans-serif" class="particletext confetti">
     <div class="w3-row">
       <div id="perspective" class="perspective effect-laydown">
         <div class="container" style="background:black;">
@@ -57,13 +57,14 @@
             <div id="menunavbar" style="margin-bottom:1vw;position:sticky;top:0px;width:100%;" >
               <button id="showMenu" class="buttonxyz buttonxyz-1" style="display: inline-block;float:right;background:black;color:white">Menu</button>
               <img src="images/Aavartan.png" height="50px" width="160px" style="display: inline-block;">
-              <h2 style="color: white; text-shadow: 0 0 10px rgba(255,255,255,0) , 0 0 20px rgba(255,255,255,0) , 0 0 30px rgba(255,255,255,0) , 0 0 40px #00ffff , 0 0 70px #00ffff , 0 0 80px #00ffff , 0 0 100px #00ffff ;
-                ">
-              <span></span>About Us</h1>
+           
               <br>
               <br>
               <div class="con" id="fullpage">
                 <div class="sub_con" >
+                     <h2 style="color: white; text-align:center;text-shadow: 0 0 10px rgba(255,255,255,0) , 0 0 20px rgba(255,255,255,0) , 0 0 30px rgba(255,255,255,0) , 0 0 40px #00ffff , 0 0 70px #00ffff , 0 0 80px #00ffff , 0 0 100px #00ffff ;
+                ">
+              <span></span>About Us</h2>
                   <section style="background:rgba(255,100,100, 0.3);padding-left:3%;padding-top:3%;padding-bottom:3%;padding-right:3%;opacity:0.5;" >
                     <div class="topic" >Who are we?</div>
                     <div class="content" class="wow fadeInLeft">Started in 2007 with the aim of inspiring technology, innovation and scientific thinking, AAVARTAN is now accepted as Central India’s Largest Science and Technological fest with a footfall of more than 10,000 yearly and a reach of over 150+ Indian Colleges.</div>
@@ -87,31 +88,8 @@
                 </div>
                 <div></div>
               </div>
-              <script type="text/javascript">
-                $(document).ready(function() {
-                    
-                    //activate wow.js
-                     new WOW().init();
-                  
-                    //activate fullpage.js
-                    $('#fullpage').fullpage({
-                      scrollBar: true,
-                
-                      loopBottom: true,
-                      sectionSelector: 'section'
-                    });
-                  
-                  //apply color to each section from array
-                  int = -1;
-                  color_array = ['#1abc9c','#c0392b','#9b59b6','#3498db','#f1c40f','#16a085'];
-                
-                  $('section').each(function(){
-                    int++
-                    $(this).addClass('grid-item-' + int).css('background-color', color_array[int]);
-                  });
-                  
-                });
-              </script>
+
+      <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
             </div>
             <br><br><br>
           </div>
@@ -123,9 +101,7 @@
       </div>
       <!-- /perspective -->
     </div>
-    <!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
-    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-    <script src="js/classie.js"></script>
+      <script src="js/classie.js"></script>
     <script src="js/menu.js"></script>
     <script src="js/custom.js"></script>
   </body>

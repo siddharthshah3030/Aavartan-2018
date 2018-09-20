@@ -190,13 +190,9 @@ button {
 
 button {
 	font-size: 75%;
-	background: #ed8151;
+
 }
 
-button:hover,
-button:active {
-	background: #e86a32;
-}
 
 .related {
 	text-align: center;

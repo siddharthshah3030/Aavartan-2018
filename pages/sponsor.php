@@ -12,7 +12,8 @@
     <script>document.documentElement.className = 'js';</script>
     <!-- csstransforms3d-shiv-cssclasses-prefixed-teststyles-testprop-testallprops-prefixes-domprefixes-load -->
     <script src="js/modernizr.custom.25376.js"></script>
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+ 
+      <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
     <style>
       .buttonxyz {
       width: 110px;
@@ -42,7 +43,7 @@
       }
     </style>
   </head>
-  <body style="background: black;font-family:Helvetica Neue,Helvetica,Arial,sans-serif" class="particletext confetti">
+  <body style="background: #291B2C;font-family:Helvetica Neue,Helvetica,Arial,sans-serif" class="particletext confetti">
       <div id="perspective" class="perspective effect-laydown">
         <div class="container" style="background:black;">
           <div id="wrapper" class="wrapper"  >
@@ -52,7 +53,7 @@
               <div id="menunavbar" style="margin-bottom:1vw;position:static;top:0px;width:100%;" >
                 <button id="showMenu" class="buttonxyz buttonxyz-1" style="display: inline-block;float:right;background:black;color:white">Menu</button>
                 <img src="images/Aavartan.png" height="50px" width="160px" style="display: inline-block;">
-                    <h2 style="color: white; text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #00ffff , 0 0 70px #00ffff , 0 0 80px #00ffff , 0 0 100px #00ffff ;"><span></span> Sponsors </h2>
+                    <h2 style="color: white; text-shadow: 0 0 10px rgba(255,255,255,0) , 0 0 20px rgba(255,255,255,0) , 0 0 30px rgba(255,255,255,0) , 0 0 40px #00ffff , 0 0 70px #00ffff , 0 0 80px #00ffff , 0 0 100px #00ffff ;"><span></span> Sponsors </h2>
               </div>
               <!-- <h2 style="color: white; text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #00ffff , 0 0 70px #00ffff , 0 0 80px #00ffff , 0 0 100px #00ffff ;"><span></span> Sponsors </h2> -->
         

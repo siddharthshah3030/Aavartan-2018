@@ -12,6 +12,8 @@
       <script src="js/modernizr.custom.25376.js"></script>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
       <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.0/sweetalert.min.js"></script>
       <style>
       .button {
          width: 110px;
@@ -39,50 +41,77 @@
          box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3;
          border: 3px solid #00d7c3;
          }
-         #forgotpasswordform {
-         background-color:rgba(72,72,72,0.4);
-         padding-left:25px;
-         padding-right:52px;
-         padding-top:35px;
-         padding-bottom:50px;
-         width: 450px;
-         float: left;
-         left: 50%;
-         position: absolute;
-         margin-top:30px;
-         margin-left: -210px;
-         -moz-border-radius: 7px;
-         -webkit-border-radius: 7px;
-         }
-         select,input {
-         color:#3c3c3c;
-         font-family: Helvetica, Arial, sans-serif;
-         font-weight:500;
-         font-size: 18px;
-         border-radius: 0;
-         line-height: 22px;
-         background-color: #fbfbfb;
-         padding: 13px 13px 13px 54px;
-         margin-bottom: 10px;
-         width:100%;
-         color:black;
-         border: 3px solid rgba(0,0,0,0);
-         }
-         #forgotpasswordform{
-         /* background: url("https://media.giphy.com/media/KVZWZQoS0yqfIiTAKq/giphy.gif"); */
-         background-attachment: fixed;
-         background-position: center;
-         background-repeat: no-repeat;
-         background-size: cover;
-         }
-         form label{
-         color:WHITE;
-         text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #00ffff , 0 0 70px #00ffff , 0 0 80px #00ffff , 0 0 100px #00ffff ;
-         }
+      form { max-width:420px; margin:50px auto; }
+
+.feedback-input {
+  color:white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #CC6666;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:90%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { border:2px solid #CC4949; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 90%;
+  background:#CC6666;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background:#CC4949; }
       </style>
+         <script>
+      window.onload = function(){
+    document.forms["mihir"].onsubmit = check;
+};
+</script>
+      <script type="text/javascript">
+          function check() {
+
+    var email = document.getElementById('email');
+    var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+    var password = document.getElementById('password1');
+    var password3 = document.getElementById('password2');
+   var passw=  /^[A-Za-z]\w{7,14}$/;
+    if (!filter.test(email.value)) {
+    swal('Please provide a valid email address','',"warning");
+    email.focus;
+    return false;
+ }else{
+   return true;
+ }}
+
+
+ </script>
+  
       <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
    </head>
-   <body style="background: black;" class="particletext confetti">
+   <body style="background: #291B2C;" class="particletext confetti">
       <div class="w3-row">
          <div id="perspective" class="perspective effect-laydown">
             <div class="container" style="background:black;">
@@ -91,7 +120,7 @@
                   <div id="menunavbar" style="margin-bottom:1vw;position:sticky;top:0px;width:100%;background-image: url('test.gif'); height: 100%;   background-position: center;background-repeat: no-repeat;background-size: cover;" >
                      <button id="showMenu" class="button button-1" style="display: inline-block;float:right;background:black;color:white;text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #ff00de , 0 0 70px #ff00de , 0 0 80px #ff00de , 0 0 100px #ff00de ;">Menu</button>
                      <img src="images/Aavartan.png" height="70vw" width="auto" style="display: inline-block;">
-                     <h2 style="color: white; text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #00ffff , 0 0 70px #00ffff , 0 0 80px #00ffff , 0 0 100px #00ffff ;">
+                     <h2 style="color: white; text-shadow: 0 0 10px rgba(255,255,255,0) , 0 0 20px rgba(255,255,255,0) , 0 0 30px rgba(255,255,255,0) , 0 0 40px #00ffff , 0 0 70px #00ffff , 0 0 80px #00ffff , 0 0 100px #00ffff ;">
                      <span></span> Password Reset Form</h1>
                      <br>
                   </div>
@@ -99,17 +128,37 @@
                   <br>
                   <br>
                   <center>
-                     <form id="forgotpasswordform" method="POST"  class="col-lg-offset-3 col-lg-6">
-                        <div id="forgotpasswordmessage"></div>
-                        <div class="form-group">
-                           <label for="forgotemail">Email</label>
-                           <input type="email" class="form-control" id="forgotemail" name="forgotemail" required>
-                        </div>
-                        <br>
-                        <div class="form-group">
-                           <button type="submit" class="btn btn-lg btn-success">Login</button>
-                        </div>
+                     <form name="mihir" id="forgotpasswordform" action="forgot-password.php" method="POST" >
+                       
+                        <input name="email" id="email" type="text" class="feedback-input" placeholder="Email" required />
+                         <button type="submit" class="btn btn-lg btn-success">Login</button>
+               
+                       
+
                      </form>
+                      <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                         <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
                   </center>
                </div>
                <!-- wrapper -->
@@ -123,7 +172,5 @@
       <script src="js/classie.js"></script>
       <script src="js/menu.js"></script>
       <script src="js/custom.js"></script>
-      <script  src="js/index.js"></script>
-      <script src="js/auth.js"></script>
    </body>
 </html>

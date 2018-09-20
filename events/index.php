@@ -48,35 +48,35 @@ error_reporting(E_ERROR | E_PARSE);
       <script src="js/modernizr.custom.25376.js"></script>
       <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
       <style>
-               .button {
-         width: 110px;
-         padding-top: 5px;
-         padding-bottom: 5px;
-         text-align: center;
-         color: #000;
-         text-transform: uppercase;
-         font-weight: 60;
-         margin-top:8px;
-         margin-left: 30px;
-         margin-bottom: 30px;
-         cursor: pointer;
-         display: inline-block;
-         }
-         .button-1 {
-         background-color: transparent;
-         border: 3px solid #00d7c3;
-         border-radius: 50px;
-         -webkit-transition: all .15s ease-in-out;
-         transition: all .15s ease-in-out;
-         color: #00d7c3;
-         }
-         .button-1:hover {
-         box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3;
-         border: 3px solid #00d7c3;
-         }
+       .buttonxyz {
+      width: 110px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      text-align: center;
+      color: #000;
+      text-transform: uppercase;
+      font-weight: 90;
+      margin-top:8px;
+      margin-left: 30px;
+      margin-bottom: 30px;
+      cursor: pointer;
+      display: inline-block;
+      }
+      .buttonxyz-1{
+      background-color: transparent;
+      border: 3px solid #00d7c3;
+      border-radius: 50px;
+      -webkit-transition: all .15s ease-in-out;
+      transition: all .15s ease-in-out;
+      color: #00d7c3;
+      }
+      .buttonxyz-1:hover {
+      box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3;
+      border: 3px solid #00d7c3;
+      }
          </style>
    </head>
-   <body style="background: black;" class="particletext confetti">
+   <body style="background: #291B2C;" class="particletext confetti">
       <?php
          include('connection.php');
          session_start();
@@ -106,18 +106,27 @@ error_reporting(E_ERROR | E_PARSE);
       <div class="w3-row">
          <div id="perspective" class="perspective effect-laydown">
             <div class="container" style="background:black;">
-               <div class="wrapper"  >
+               <div class="wrapper"   >
                   <!-- wrapper needed for scroll -->
-                  <div id="menunavbar" style="margin-bottom:1vw;position:sticky;top:0px;width:100%;background-image: url('test.gif'); height: auto;   background-position: center;background-repeat: no-repeat;background-size: cover;" >
-                     <button id="showMenu" class="button button-1"  style="display: inline-block;float:right;background:black;color:white;text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #ff00de , 0 0 70px #ff00de , 0 0 80px #ff00de , 0 0 100px #ff00de ;">Menu</button>
-                     <img src="images/Aavartan.png" height="70vw" width="auto" style="display: inline-block;">
-                     <h2 style="color: white; text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #00ffff , 0 0 70px #00ffff , 0 0 80px #00ffff , 0 0 100px #00ffff ;">
+                  <div id="menunavbar" style="margin-bottom:1vw;position:sticky;top:0px;width:100%;" >
+              <button id="showMenu" class="buttonxyz buttonxyz-1" style="display: inline-block;float:right;background:black;color:white">Menu</button>
+              <img src="images/Aavartan.png" height="50px" width="160px" style="display: inline-block;">
+             
+              <br>
+              <br>
+                     <h2 style="color: white; text-shadow: 0 0 10px rgba(255,255,255,0) , 0 0 20px rgba(255,255,255,0) , 0 0 30px rgba(255,255,255,0) , 0 0 40px #00ffff , 0 0 70px #00ffff , 0 0 80px #00ffff , 0 0 100px #00ffff ;">
                      <span></span>Events</h1>
-                     <br>
-                     <br>
+                   
                   </div>
-                  <div class="container">
-                     <section id="main" class="main">
+                    <br>
+                     <br>
+
+                  <div class="container" style="background:black;">
+
+                                 <div class="stars"></div>
+<div class="twinkling"></div>
+                     <section id="main" class="main" style="z-index:9;" >
+
                         <div class="pb-wrapper pb-wrapper-1">
                            <h3 class="pb-title">Technical</h3>
                            <div class="pb-scroll">
@@ -196,17 +205,32 @@ error_reporting(E_ERROR | E_PARSE);
                                     -->
                               </ul>
                            </div>
+
                         </div>
+                                          <br> <br>
+         <br> <br>
+         <br> <br>
+         <br> <br>
+         <br>
+     <br>
+        
+
                      </section>
+ <br>
+        
                   </div>
+
                </div>
                <!-- wrapper -->
+
             </div>
+
             <!-- /container -->
             <a id="menuclose" href="#" ><span class="close">&times;</span></a>
            <?php include '../header.php' ?>
          </div>
          <!-- /perspective -->
+
       </div>
 
       <script src="js/classie.js"></script>

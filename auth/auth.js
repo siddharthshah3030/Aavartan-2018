@@ -1,6 +1,3 @@
-//Ajax Call for the sign up form 
-//Once the form is submitted
-console.log("hi");
 $("#signupform").submit(function(event){ 
     console.log("in ajax");
 /*    //prevent default php processing

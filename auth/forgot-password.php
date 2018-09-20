@@ -1,33 +1,13 @@
+<header>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.0/sweetalert.min.js"></script>
+</header>
 <?php
    //Start session
    session_start();
    //Connect to the database
    include('connection.php');
    
-   //Check user inputs
-       //Define error messages
-   $missingEmail = '<p><strong>Please enter your email address!</strong></p>';
-   $invalidEmail = '<p><strong>Please enter a valid email address!</strong></p>';
-       //Get email
-       //Store errors in errors variable
-   if(empty($_POST["forgotemail"])){
-       $errors .= $missingEmail;   
-   }else{
-       $email = filter_var($_POST["forgotemail"], FILTER_SANITIZE_EMAIL);
-       if(!filter_var($email, FILTER_VALIDATE_EMAIL)){
-           $errors .= $invalidEmail;   
-       }
-   }
-       
-       //If there are any errors
-           //print error message
-   if($errors){
-       $resultMessage = '<div class="alert alert-danger">' . $errors .'</div>';
-       echo $resultMessage;
-       exit;
-   }
-       //else: No errors
-           //Prepare variables for the query
+$email=$_POST['email'];
    $email = mysqli_real_escape_string($link, $email);
            //Run query to check if the email exists in the users table
    $sql = "SELECT * FROM users WHERE email = '$email'";
@@ -39,7 +19,13 @@
    //If the email does not exist
                //print error message
    if($count != 1){
-       echo '<div class="alert alert-danger">That email does not exist on our database!</div>';  exit;
+?>
+<script type="text/javascript">swal("This email does not exist on our database!","","error");</script>
+<?php
+header();
+exit;
+
+       echo '<div class="alert alert-danger"></div>';  exit;
    }
            
            //else
@@ -61,7 +47,7 @@
                //Send email with link to resetpassword.php with user id and activation code
    
    $message = "Please click on this link to reset your password:\n\n";
-   $message .= "http://beta.aavartan.org/akash/resetpassword.php?id=$id&key=$key";
+   $message .= "http://batman.aavartan.org/auth/resetpassword.php?id=$id&key=$key";
    if(mail($email, 'Reset your password', $message, 'From:'.'technocracy@aavartan.org')){
            //If email sent successfully
                    //print success message

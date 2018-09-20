@@ -1,60 +1,15 @@
+<header>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.0/sweetalert.min.js"></script>
+</header>
 <?php
    //<!--Start session-->
    session_start();
    include('connection.php');
-
-   //<!--Check user inputs-->
-   //    <!--Define error messages-->
-   $errors ='';
-   $missingUsername = '<p><strong>Please enter a username!</strong></p>';
-    $missingEmail = '<p><strong>Please enter your email address!</strong></p>';
-   $invalidEmail = '<p><strong>Please enter a valid email address!</strong></p>';
-   $missingPassword = '<p><strong>Please enter a Password!</strong></p>';
-   $invalidPassword = '<p><strong>Your password should be at least 6 characters long and inlcude one capital letter and one number!</strong></p>';
-   $differentPassword = '<p><strong>Passwords don\'t match!</strong></p>';
-   $missingPassword2 = '<p><strong>Please confirm your password</strong></p>';
-   //    <!--Get username, email, password, password2-->
-   //Get username
-   if(empty($_POST["name"])){
-       $errors .= $missingUsername;
-   }else{
-       $name = filter_var($_POST["name"], FILTER_SANITIZE_STRING);
-   }
-   //Get email
-   if(empty($_POST["email"])){
-       $errors .= $missingEmail;
-   }else{
-       $email = filter_var($_POST["email"], FILTER_SANITIZE_EMAIL);
-       if(!filter_var($email, FILTER_VALIDATE_EMAIL)){
-           $errors .= $invalidEmail;
-       }
-   }
-   //Get passwords
-   if(empty($_POST["password1"])){
-       $errors .= $missingPassword;
-   }elseif(!(strlen($_POST["password1"])>6
-            and preg_match('/[A-Z]/',$_POST["password1"])
-            and preg_match('/[0-9]/',$_POST["password1"])
-           )
-          ){
-       $errors .= $invalidPassword;
-   }else{
-       $password1 = filter_var($_POST["password1"], FILTER_SANITIZE_STRING);
-       if(empty($_POST["password2"])){
-           $errors .= $missingPassword2;
-       }else{
-           $password2 = filter_var($_POST["password2"], FILTER_SANITIZE_STRING);
-           if($password1 !== $password2){
-               $errors .= $differentPassword;
-           }
-       }
-   }
-   //If there are any errors print error
-   if($errors){
-       $resultMessage = '<div class="alert alert-danger">' . $errors .'</div>';
-       echo $resultMessage;
-       exit;
-   }
+   $name=$_POST['name'];
+   $email=$_POST['email'];
+   $password1=$_POST['password1'];
+    $password2=$_POST['password2'];
+  
    $contact = filter_var($_POST["contact"], FILTER_SANITIZE_NUMBER_INT);
    $branch = filter_var($_POST["branch"], FILTER_SANITIZE_STRING);
    $course = filter_var($_POST["course"], FILTER_SANITIZE_STRING);
@@ -70,8 +25,6 @@
    $course = mysqli_real_escape_string($link, $course);
    $semester = mysqli_real_escape_string($link, $semester);
    $college = mysqli_real_escape_string($link, $college);
-
-   $password1 = mysqli_real_escape_string($link, $password1);
    //$password = md5($password);
    $password1 = hash('sha256', $password1);
    //128 bits -> 32 characters
@@ -96,7 +49,10 @@
    }
    $results = mysqli_num_rows($result);
    if($results){
-       echo '<div class="alert alert-danger">That email is already registered. Do you want to log in?</div>';  exit;
+    ?>
+    <script type="text/javascript">swal("That email is already registered. Do you want to log in?");</script>
+    <?php
+    exit;     
    }
    //Create a unique  activation code
    $activationKey = bin2hex(openssl_random_pseudo_bytes(16));
@@ -129,12 +85,15 @@
      $message = "Please click on this link to activate your account:\n\n";
      $message .= "http://test.aavartan.org/auth/activate.php?email=" . urlencode($email) . "&key=$activationKey";
      if(mail($email, 'Confirm your Registration', $message, 'From:'.'technocracy@aavartan.org')){
-            echo "<div class='alert alert-success'>Thank for your registring! A confirmation email has been sent to $email. Please click on the activation link to activate your account.</div>";
-            header('Location: localhost/index.php');
+           ?>
+           <script type="text/javascript">swal("Thank for your registring! A confirmation email has been sent to $email. Please click on the activation link to activate your account");</script>
+           <?php
+            header('Location: https://www.batman.aavartan.org/auth/login.php');
             exit();
    }
 
 
    }
+
 
            ?>

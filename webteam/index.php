@@ -33,7 +33,7 @@
 			</div> -->
 <br>
 <br>
-<center><h1 style="font-size:50px;">Web Team</h2>  </center>
+<center><h1 style="font-size:50px;color:#291B2C;"><b>Web Team</b></h2>  </center>
 <div class="w3-row">
 				<div class="grid">
 					<a class="grid__item" href="#preview-3">

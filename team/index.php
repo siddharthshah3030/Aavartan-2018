@@ -48,7 +48,7 @@
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <link rel="stylesheet" type="text/css" href="css/team.css">
     </head>
-    <body style="background: black;" class="particletext confetti">
+    <body style="background: #291B2C;" class="particletext confetti">
         <div class="w3-row">
         <div id="perspective" class="perspective effect-laydown">
             <div class="container" style="background:black;">
@@ -57,7 +57,7 @@
                 <div id="menunavbar" style="margin-bottom:1vw;position:sticky;top:0px;width:100%;background-image: url('test.gif'); height: 100%;   background-position: center;background-repeat: no-repeat;background-size: cover;" >
                      <button id="showMenu" class="button button-1" style="display: inline-block;float:right;background:black;color:white;text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #ff00de , 0 0 70px #ff00de , 0 0 80px #ff00de , 0 0 100px #ff00de ;">Menu</button>
                      <img src="images/Aavartan.png" height="50px" width="160px" style="display: inline-block;">
-                     <h2 style="color: white; text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #00ffff , 0 0 70px #00ffff , 0 0 80px #00ffff , 0 0 100px #00ffff ;"><span></span>Team Technocracy!</h2>
+                     <h2 style="color: white; text-shadow: 0 0 10px rgba(255,255,255,0) , 0 0 20px rgba(255,255,255,0) , 0 0 30px rgba(255,255,255,0) , 0 0 40px #00ffff , 0 0 70px #00ffff , 0 0 80px #00ffff , 0 0 100px #00ffff ;"><span></span>Team Technocracy!</h2>
 <br>
 <br>
                  </div>
@@ -87,18 +87,20 @@
                     </ul>
                 </div>
             </div>
-        </div>  <div class="col-lg-3 col-md-4 col-sm-6 ">
+        </div>   
+  <div class="col-lg-3 col-md-4 col-sm-6 ">
             <div class="our-team">
-                <img src="images/vedant.jpg">
+                <img src="images/simran.jpg">
                 <div class="team-content">
-                    <h3 class="title">Vedant Sahu</h3>
+                    <h3 class="title">Simran Goyal</h3>
                     <span class="post">Head Cordinator</span>
                     <ul class="social">
-                        <li><a href="https://www.facebook.com/vedant.aseven?fb_dtsg_ag=Adxb0vuhA6LvlODGEJc_p4GIhxqi5XO4wSv4gFL7twOHlw%3AAdxnp-204SYILeRvcWg2Ox3ubwNw0yY5l_iQ2RN4m5Br7w"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="https://www.facebook.com/simran.goyal.5494"><i class="fab fa-facebook-f"></i></a></li>
                     </ul>
                 </div>
             </div>
-        </div>  <div class="col-lg-3 col-md-4 col-sm-6 ">
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 ">
             <div class="our-team">
                 <img src="images/sagar.jpg">
                 <div class="team-content">
@@ -189,7 +191,20 @@
                     </ul>
                 </div>
             </div>
-        </div><div class="col-lg-3 col-md-4 col-sm-6 ">
+        </div>
+ <div class="col-lg-3 col-md-4 col-sm-6 ">
+            <div class="our-team">
+                <img src="images/vedant.jpg">
+                <div class="team-content">
+                    <h3 class="title">Vedant Sahu</h3>
+                    <span class="post">Head Cordinator</span>
+                    <ul class="social">
+                        <li><a href="https://www.facebook.com/vedant.aseven?fb_dtsg_ag=Adxb0vuhA6LvlODGEJc_p4GIhxqi5XO4wSv4gFL7twOHlw%3AAdxnp-204SYILeRvcWg2Ox3ubwNw0yY5l_iQ2RN4m5Br7w"><i class="fab fa-facebook-f"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div> 
+        <div class="col-lg-3 col-md-4 col-sm-6 ">
             <div class="our-team">
                 <img src="images/varull.jpg">
                 <div class="team-content">
@@ -224,18 +239,8 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 ">
-            <div class="our-team">
-                <img src="images/simran.jpg">
-                <div class="team-content">
-                    <h3 class="title">Simran Goyal</h3>
-                    <span class="post">Head Cordinator</span>
-                    <ul class="social">
-                        <li><a href="https://www.facebook.com/simran.goyal.5494"><i class="fab fa-facebook-f"></i></a></li>
-                    </ul>
-                </div>
-            </div>
-        </div><div class="col-lg-3 col-md-4 col-sm-6 ">
+       
+      <div class="col-lg-3 col-md-4 col-sm-6 ">
             <div class="our-team">
                 <img src="images/avinash.jpg">
                 <div class="team-content">

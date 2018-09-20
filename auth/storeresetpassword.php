@@ -83,6 +83,6 @@ $result = mysqli_query($link, $sql);
 if(!$result){
     echo '<div class="alert alert-danger">Error running the query</div>';
 }else{
-    echo '<div class="alert alert-success">Your password has been update successfully!<a href="http://beta.aavartan.org/akash/login.html">Login</a></div>';  
+    echo '<div class="alert alert-success">Your password has been update successfully!<a href="http://www.batman.aavartan.org/auth/login.html">Login</a></div>';  
 }
 ?>

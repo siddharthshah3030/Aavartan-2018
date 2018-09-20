@@ -46,94 +46,91 @@
          box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3;
          border: 3px solid #00d7c3;
          }
-         #loginform {
-         background-color:rgba(72,72,72,0.4);
-         padding-left:15px;
-         padding-right:35px;
-         padding-top:35px;
-         padding-bottom:50px;
-         width: 450px;
-         float: left;
-         left: 50%;
-         position: absolute;
-         margin-top:30px;
-         margin-left: -210px;
-         -moz-border-radius: 7px;
-         -webkit-border-radius: 7px;
-         }
-         input {
-         color:#3c3c3c;
-         font-family: Helvetica, Arial, sans-serif;
-         font-weight:500;
-         font-size: 18px;
-         border-radius: 0;
-         line-height: 32px;
-         background-color: #fbfbfb;
-         padding: 13px 13px 13px 54px;
-         margin-bottom: 10px;
-         padding-left: 10%;
-         padding-right:10%;
-         width:100%;
-         -webkit-box-sizing: border-box;
-         -moz-box-sizing: border-box;
-         -ms-box-sizing: border-box;
-         box-sizing: border-box;
-         border: 3px solid rgba(0,0,0,0);
-         }
-         #loginform{
-         /* background: url("https://media.giphy.com/media/KVZWZQoS0yqfIiTAKq/giphy.gif"); */
-         background-attachment: fixed;
-         background-position: center;
-         background-repeat: no-repeat;
-         background-size: cover;
-         }
-         form label{
-         color:WHITE;
-         text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #00ffff , 0 0 70px #00ffff , 0 0 80px #00ffff , 0 0 100px #00ffff ;
-         }
-         .form-group a{
-         color: aqua;
-         }
-         .form-group a:hover{
-         color: mediumvioletred;
-         }
+     form { max-width:420px; margin:50px auto; }
+
+.feedback-input {
+  color:white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #CC6666;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:90%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { border:2px solid #CC4949; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 90%;
+  background:#CC6666;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background:#CC4949; }
       </style>
       <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
    </head>
-   <body style="background: black;" class="particletext confetti">
+   <body style="background: #291B2C;" class="particletext confetti">
       <div class="w3-row">
-         <div id="perspective" class="perspective effect-laydown">
+         <div id="perspective"  style="background:#black;" class="perspective effect-laydown">
             <div class="container" style="background:black;">
                <div class="wrapper"  >
                   <!-- wrapper needed for scroll -->
                   <div id="menunavbar" style="margin-bottom:1vw;position:sticky;top:0px;width:100%;background-image: url('test.gif'); height: 100%;   background-position: center;background-repeat: no-repeat;background-size: cover;" >
                      <button id="showMenu" class="button button-1" style="display: inline-block;float:right;background:black;color:white;text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #ff00de , 0 0 70px #ff00de , 0 0 80px #ff00de , 0 0 100px #ff00de ;">Menu</button>
-                     <img src="images/Aavartan.png" height="50px" width="160px" style="display: inline-block;">
-                     <h2 style="color: white; text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #00ffff , 0 0 70px #00ffff , 0 0 80px #00ffff , 0 0 100px #00ffff ;">
-                     <span></span>Login Portal</h1>
+                     <img src="images/Aavartan.png" height="50vw"  width="160px" style="display: inline-block;">
+                    
                      <br>
                   </div>
                   <br>
                   <br>
                   <br>
                   <center>
-                     <form id="loginform" method="POST"  class="col-lg-offset-3 col-lg-6">
-                        <div id="loginmessage"></div>
-                        <div class="form-group">
-                           <label for="loginemail">Email</label>
-                           <input type="email" class="form-control" id="loginemail" name="loginemail" required>
-                        </div>
-                        <br>
-                        <div class="form-group">
-                           <label for="loginpassword">Enter Password</label>
-                           <input type="password" class="form-control" id="loginpassword" name="loginpassword" required>
-                        </div>
-                        <div class="form-group">
-                           <br>
-                           <button type="submit" class="btn btn-success btn-lg" style="float: left;">Login</button>
-                           <a  href="forgotpassword.php" style="float: right;padding-top: 6px;margin-right:40px;">Forgot Password</a>
-                        </div>
-                     </form>
+                      <h2 style="color: white; text-shadow: 0 0 10px rgba(255,255,255,0) , 0 0 20px rgba(255,255,255,0) , 0 0 30px rgba(255,255,255,0) , 0 0 40px #00ffff , 0 0 70px #00ffff , 0 0 80px #00ffff , 0 0 100px #00ffff ;">
+                     <span></span>Login Portal</h1>
+                     <form id="loginform" method="POST" action="loginsubmit.php" >      
+
+  <input name="email" id="email" type="text" class="feedback-input" placeholder="Email" required />
+  <input name="password" id="password" type="password" class="feedback-input" placeholder="Password" required />
+ <a  href="forgotpassword.php" style="float: right;padding-bottom:4%;margin-right:40px;color:white;">Forgot Password</a>
+ <br>
+  <input type="submit" value="SUBMIT"/>
+   <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+   <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+</form>
+                  
                   </center>
                </div>
                <!-- wrapper -->

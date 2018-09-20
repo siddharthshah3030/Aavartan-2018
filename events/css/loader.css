@@ -19,6 +19,8 @@ h1 {
   left: 50%;
   top: 58%;
   margin-left: -20px;
+  z-index: 9;
+
 }
 h2 {
   position: absolute;
@@ -29,6 +31,7 @@ h2 {
   left: 50%;
   top: 57%;
   margin-left: -20px;
+  z-index: 9;
 }
 .body {
   background-color: white;
