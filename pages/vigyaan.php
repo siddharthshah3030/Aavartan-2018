@@ -14,6 +14,8 @@
     <script src="js/modernizr.custom.25376.js"></script>
 
       <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+            <script src="https://use.fontawesome.com/dbb72ac4f9.js"></script>
+
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <style>
       .button {

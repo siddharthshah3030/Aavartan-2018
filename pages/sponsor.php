@@ -12,6 +12,8 @@
     <script>document.documentElement.className = 'js';</script>
     <!-- csstransforms3d-shiv-cssclasses-prefixed-teststyles-testprop-testallprops-prefixes-domprefixes-load -->
     <script src="js/modernizr.custom.25376.js"></script>
+          <script src="https://use.fontawesome.com/dbb72ac4f9.js"></script>
+
  
       <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
     <style>

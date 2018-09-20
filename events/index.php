@@ -39,12 +39,14 @@ error_reporting(E_ERROR | E_PARSE);
       <link rel="stylesheet" type="text/css" href="css/star.css" />
       <link rel="stylesheet" type="text/css" href="css/custom.css" />
       <link rel="stylesheet" type="text/css" href="css/background.css">
+
       <link rel="stylesheet" type="text/css" href="css/eventnormalize.css" />
       <link rel="stylesheet" type="text/css" href="css/eventdemo.css" />
       <link rel="stylesheet" type="text/css" href="css/lightbox.css" />
       <link rel="stylesheet" type="text/css" href="css/style.css">
       <link rel="stylesheet" type="text/css" href="css/checkbox.css">
       <!-- csstransforms3d-shiv-cssclasses-prefixed-teststyles-testprop-testallprops-prefixes-domprefixes-load -->
+            <script src="https://use.fontawesome.com/dbb72ac4f9.js"></script>
       <script src="js/modernizr.custom.25376.js"></script>
       <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
       <style>

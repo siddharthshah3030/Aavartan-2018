@@ -14,6 +14,8 @@
       <link rel="stylesheet" type="text/css" href="css/component.css" />
       <link rel="stylesheet" type="text/css" href="css/star.css" />
       <link rel="stylesheet" type="text/css" href="css/custom.css" />
+            <script src="https://use.fontawesome.com/dbb72ac4f9.js"></script>
+
       <link rel="stylesheet" type="text/css" href="css/background.css">
       <!-- csstransforms3d-shiv-cssclasses-prefixed-teststyles-testprop-testallprops-prefixes-domprefixes-load -->
       <script src="js/modernizr.custom.25376.js"></script>

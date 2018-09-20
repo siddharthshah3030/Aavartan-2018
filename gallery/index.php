@@ -12,6 +12,8 @@
       <link rel="stylesheet" type="text/css" href="css/custom.css" />
       <link rel="stylesheet" type="text/css" href="css/grid.css" />
       <link rel="stylesheet" type="text/css" href="css/slider.css">
+            <script src="https://use.fontawesome.com/dbb72ac4f9.js"></script>
+
             <style>
          .button {
          width: 110px;

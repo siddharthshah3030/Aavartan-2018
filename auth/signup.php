@@ -6,6 +6,8 @@
       ?>
       <link rel="stylesheet" type="text/css" href="css/normalize.css" />
       <link rel="stylesheet" type="text/css" href="css/demo.css" />
+            <script src="https://use.fontawesome.com/dbb72ac4f9.js"></script>
+
       <link rel="stylesheet" type="text/css" href="css/component.css" />
       <link rel="stylesheet" type="text/css" href="css/star.css" />
       <link rel="stylesheet" type="text/css" href="css/custom.css" />

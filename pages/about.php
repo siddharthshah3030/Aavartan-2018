@@ -12,6 +12,8 @@
     <!-- csstransforms3d-shiv-cssclasses-prefixed-teststyles-testprop-testallprops-prefixes-domprefixes-load -->
     <script src="js/modernizr.custom.25376.js"></script>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+          <script src="https://use.fontawesome.com/dbb72ac4f9.js"></script>
+
     <style>
       section {
       font-size: 35px;
