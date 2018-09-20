@@ -3,18 +3,46 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Grid Layout with Motion Hover Effect | Codrops</title>
+		<title>Web Team</title>
 		<meta name="description" content="Grid Layout with Motion Hover Effect and Content Preview" />
 		<meta name="keywords" content="grid, css, layout, template, hover, content, gsap, tweenmax, overlay" />
 		<meta name="author" content="Codrops" />
 		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/loader.css" />
+		      <div id = "loaderbody">
+         <div class="stars"></div>
+<div class="twinkling"></div><!-- 
+<div class="clouds"></div> -->
+         <div  class="body">
+            <span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            </span>
+            <div class="base">
+               <span></span>
+               <div class="face"></div>
+            </div>
+         </div>
+         <div class="longfazers">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+         </div>
+         <h2>Brace Yourselves</h2>
+         <br/>
+         <h1>Reaching Aavartan18</h1>
+      </div>
 		<link rel="stylesheet" type="text/css" href="css/base.css" />
 		<link rel="stylesheet" type="text/css" href="css/title.css" />
+
 		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
 		<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
 	</head>
-	<body class="loading" style="background:#ececec;">
+	<body  style="background:#ececec;">
 		<svg class="hidden">
 			<symbol id="icon-cross" viewBox="0 0 24 23">
 				<title>cross</title>
@@ -33,7 +61,7 @@
 			</div> -->
 <br>
 <br>
-<center><h1 style="font-size:50px;color:#291B2C;"><b>Web Team</b></h2>  </center>
+<center><h1 style="font-size:50px;">Web Team</h2>  </center>
 <div class="w3-row">
 				<div class="grid">
 					<a class="grid__item" href="#preview-3">
@@ -60,7 +88,7 @@
 							<img class="box__img" src="img/2.png" alt="Some image"/>
 							<h3 class="box__title  box__title--bottom"><span class="box__title-inner" data-hover="WebDev">WebDev</span></h3>
 							<h4 class="box__text box__text--bottom"><span class="box__text-inner box__text-inner--rotated1">Siddharth Shah</span></h4>
-							<div class="box__deco box__deco--top">&#10115;</div>
+							<div class="box__deco box__deco--top">&#10032</div>
 						</div>
 					</a>
 					<a class="grid__item" href="#preview-1">
@@ -77,7 +105,7 @@
 					<a class="grid__item" href="#preview-5">
 						<div class="box">
 							<div class="box__shadow"></div>
-							<img class="box__img" src="img/5.png" alt="Some image"/>
+							<img class="box__img" src="img/5.jpg" alt="Some image"/>
 							<h3 class="box__title"><span class="box__title-inner" data-hover="WebDev">WebDev</span></h3>
 							<h4 class="box__text box__text--bottomcloser"><span class="box__text-inner">Nagendra Jha</span></h4>
 						</div>
@@ -85,7 +113,7 @@
 					<a class="grid__item" href="#preview-6">
 						<div class="box">
 							<div class="box__shadow"></div>
-							<img class="box__img" src="img/6.png" alt="Some image"/>
+							<img class="box__img" src="img/6.jpg" alt="Some image"/>
 							<h3 class="box__title"><span class="box__title-inner" data-hover="WebDev">WebDev</span></h3>
 							<h4 class="box__text"><span class="box__text-inner">Aadarsh Shrivastava</span></h4>s
 						</div>
@@ -102,17 +130,22 @@
 						<h4 class="box__text"><span class="box__text-inner">Cse</span></h4>
 						<div class="box__deco">&#10014;</div>
 					</div>
-					<p class="overlay__content">It's time the tale were told of how you took a child and you made him old.</p>
+					<p class="overlay__content">Akash Gayakwad
+Cse 3rd sem
+Full stack developer
+Php & laravel developer</p>
 				</div>
 				<div class="overlay__item" id="preview-2">
 					<div class="box">
 						<div class="box__shadow"></div>
-						<img class="box__img box__img--original" src="img/original/2.png" alt="Some image"/>
-						<h3 class="box__title box__title--straight box__title--bottom"><span class="box__title-inner">Executive</span></h3>
-						<h4 class="box__text box__text--bottom"><span class="box__text-inner box__text-inner--rotated1">Cse</span></h4>
+						<img class="box__img box__img--original" src="img/original/2.jpeg" alt="Some image"/>
+						<h3 class="box__title box__title--straight box__title--bottom"><span class="box__title-inner">DamnAwesome</span></h3>
+						<h4 class="box__text box__text--bottom"><span class="box__text-inner box__text-inner--rotated1">Coderman</span></h4>
 						<div class="box__deco box__deco--top">&#10115;</div>
 					</div>
-					<p class="overlay__content">It's time the tale were told of how you took a child and you made him old.</p>
+					<p class="overlay__content">TechFreak | Node.js | FullStack | Breaking_The_Web<br>
+I know there are lot's of Bugs, coz It's Deadline_Driven_Development<br>
+#turning_coffee_into_code</p>
 				</div>
 				<div class="overlay__item" id="preview-3">
 					<div class="box">
@@ -143,20 +176,20 @@ FullStack | Django | Java | Web Development
 				<div class="overlay__item" id="preview-5">
 					<div class="box">
 						<div class="box__shadow"></div>
-						<img class="box__img box__img--original" src="img/original/5.jpg" alt="Some image"/>
+						<img class="box__img box__img--original" src="img/original/5.jpeg" alt="Some image"/>
 						<h3 class="box__title"><span class="box__title-inner">Executive</span></h3>
 						<h4 class="box__text box__text--bottomcloser"><span class="box__text-inner">IT</span></h4>
 					</div>
-					<p class="overlay__content">It's time the tale were told of how you took a child and you made him old.</p>
+					<p class="overlay__content">Web Developer | Introvert | Philomath</p>
 				</div>
 				<div class="overlay__item" id="preview-6">
 					<div class="box">
 						<div class="box__shadow"></div>
-						<img class="box__img box__img--original" src="img/original/6.jpg" alt="Some image"/>
+						<img class="box__img box__img--original" src="img/original/6.jpeg" alt="Some image"/>
 						<h3 class="box__title"><span class="box__title-inner">Executive</span></h3>
 						<h4 class="box__text"><span class="box__text-inner">Cse</span></h4>
 					</div>
-					<p class="overlay__content">It's time the tale were told of how you took a child and you made him old.</p>
+					<p class="overlay__content">Loves Python. Likes ML , AI and Naruto</p>
 				</div>
 			
 				<button class="overlay__close"><svg class="icon icon--cross"><use xlink:href="#icon-cross"></use></svg></button>
@@ -166,5 +199,6 @@ FullStack | Django | Java | Web Development
 		<script src="js/imagesloaded.pkgd.min.js"></script>
 		<script src="js/TweenMax.min.js"></script>
 		<script src="js/demo.js"></script>
+		<script src="js/loader.js"></script>
 	</body>
 </html>
