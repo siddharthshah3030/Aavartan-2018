@@ -105,11 +105,11 @@
             <?php include 'header.php';?>
             <ul>
 
-<li class="vertical"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+<li class="vertical"><a href="https://www.facebook.com/NITRR.Aavartan/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+<li><a href="https://twitter.com/nitrr_aavartan"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
 
-<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-<li><a href="#"><i class="fa fa-instagram"
+<li><a href="https://www.linkedin.com/company/aavartan/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+<li><a href="https://www.instagram.com/nitrr.aavartan/?hl=en"><i class="fa fa-instagram"
 aria-hidden="true"></i></a></li>
 </ul>
    
