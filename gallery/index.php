@@ -98,7 +98,7 @@
                               <h2 class="pieces-slider__text">Fun Fun Run</h2>
                            </div>
                            <div class="pieces-slider__slide">
-                              <img class="pieces-slider__image" data-echo="img/8.jpg" src="img/8.jpg" alt="">
+                              <img class="pieces-slider__image"  src="img/8.jpg" alt="">
                               <h2 class="pieces-slider__text">NFS fever ahead</h2>
                            </div>
                            <!-- Canvas to draw the pieces -->
@@ -167,6 +167,233 @@
                         <span class="rig-text">amazin caption here</span>
                         </a>
                      </li>
+                          <li onClick=getIndex(this) value=9>
+                        <a class="rig-cell" >
+                        <img class="rig-img "  data-echo="img/9.jpg" src="loading.svg"  >
+                        <span class="rig-overlay"></span>
+                        <span class="rig-text">amazin caption here</span>
+                        </a>
+                     </li>
+                             <li onClick=getIndex(this) value=10>
+                        <a class="rig-cell" >
+                        <img class="rig-img "  data-echo="img/10.jpg" src="loading.svg"  >
+                        <span class="rig-overlay"></span>
+                        <span class="rig-text">amazin caption here</span>
+                        </a>
+                     </li>
+                             <li onClick=getIndex(this) value=11>
+                        <a class="rig-cell" >
+                        <img class="rig-img "  data-echo="img/11.jpg" src="loading.svg"  >
+                        <span class="rig-overlay"></span>
+                        <span class="rig-text">amazin caption here</span>
+                        </a>
+                     </li>
+                             <li onClick=getIndex(this) value=12>
+                        <a class="rig-cell" >
+                        <img class="rig-img "  data-echo="img/12.jpg" src="loading.svg"  >
+                        <span class="rig-overlay"></span>
+                        <span class="rig-text">amazin caption here</span>
+                        </a>
+                     </li>
+                             <li onClick=getIndex(this) value=13>
+                        <a class="rig-cell" >
+                        <img class="rig-img "  data-echo="img/13.jpg" src="loading.svg"  >
+                        <span class="rig-overlay"></span>
+                        <span class="rig-text">amazin caption here</span>
+                        </a>
+                     </li>
+                             <li onClick=getIndex(this) value=14>
+                        <a class="rig-cell" >
+                        <img class="rig-img "  data-echo="img/14.jpg" src="loading.svg"  >
+                        <span class="rig-overlay"></span>
+                        <span class="rig-text">amazin caption here</span>
+                        </a>
+                     </li>
+                             <li onClick=getIndex(this) value=15>
+                        <a class="rig-cell" >
+                        <img class="rig-img "  data-echo="img/15.jpg" src="loading.svg"  >
+                        <span class="rig-overlay"></span>
+                        <span class="rig-text">amazin caption here</span>
+                        </a>
+                     </li>
+                             <li onClick=getIndex(this) value=16>
+                        <a class="rig-cell" >
+                        <img class="rig-img "  data-echo="img/16.jpg" src="loading.svg"  >
+                        <span class="rig-overlay"></span>
+                        <span class="rig-text">amazin caption here</span>
+                        </a>
+                     </li>        <li onClick=getIndex(this) value=17>
+                        <a class="rig-cell" >
+                        <img class="rig-img "  data-echo="img/17.jpg" src="loading.svg"  >
+                        <span class="rig-overlay"></span>
+                        <span class="rig-text">amazin caption here</span>
+                        </a>
+                     </li>
+                             <li onClick=getIndex(this) value=18>
+                        <a class="rig-cell" >
+                        <img class="rig-img "  data-echo="img/18.jpg" src="loading.svg"  >
+                        <span class="rig-overlay"></span>
+                        <span class="rig-text">amazin caption here</span>
+                        </a>
+                     </li>
+                             <li onClick=getIndex(this) value=19>
+                        <a class="rig-cell" >
+                        <img class="rig-img "  data-echo="img/19.jpg" src="loading.svg"  >
+                        <span class="rig-overlay"></span>
+                        <span class="rig-text">amazin caption here</span>
+                        </a>
+                     </li>
+                             <li onClick=getIndex(this) value=20>
+                        <a class="rig-cell" >
+                        <img class="rig-img "  data-echo="img/20.jpg" src="loading.svg"  >
+                        <span class="rig-overlay"></span>
+                        <span class="rig-text">amazin caption here</span>
+                        </a>
+                     </li>        <li onClick=getIndex(this) value=21>
+                        <a class="rig-cell" >
+                        <img class="rig-img "  data-echo="img/21.jpg" src="loading.svg"  >
+                        <span class="rig-overlay"></span>
+                        <span class="rig-text">amazin caption here</span>
+                        </a>
+                     </li>        <li onClick=getIndex(this) value=22>
+                        <a class="rig-cell" >
+                        <img class="rig-img "  data-echo="img/22.jpg" src="loading.svg"  >
+                        <span class="rig-overlay"></span>
+                        <span class="rig-text">amazin caption here</span>
+                        </a>
+                     </li>        <li onClick=getIndex(this) value=23>
+                        <a class="rig-cell" >
+                        <img class="rig-img "  data-echo="img/23.jpg" src="loading.svg"  >
+                        <span class="rig-overlay"></span>
+                        <span class="rig-text">amazin caption here</span>
+                        </a>
+                     </li>        <li onClick=getIndex(this) value=24>
+                        <a class="rig-cell" >
+                        <img class="rig-img "  data-echo="img/24.jpg" src="loading.svg"  >
+                        <span class="rig-overlay"></span>
+                        <span class="rig-text">amazin caption here</span>
+                        </a>
+                     </li>        <li onClick=getIndex(this) value=25>
+                        <a class="rig-cell" >
+                        <img class="rig-img "  data-echo="img/25.jpg" src="loading.svg"  >
+                        <span class="rig-overlay"></span>
+                        <span class="rig-text">amazin caption here</span>
+                        </a>
+                     </li>        <li onClick=getIndex(this) value=26>
+                        <a class="rig-cell" >
+                        <img class="rig-img "  data-echo="img/26.jpg" src="loading.svg"  >
+                        <span class="rig-overlay"></span>
+                        <span class="rig-text">amazin caption here</span>
+                        </a>
+                     </li>        <li onClick=getIndex(this) value=27>
+                        <a class="rig-cell" >
+                        <img class="rig-img "  data-echo="img/27.jpg" src="loading.svg"  >
+                        <span class="rig-overlay"></span>
+                        <span class="rig-text">amazin caption here</span>
+                        </a>
+                     </li>        <li onClick=getIndex(this) value=28>
+                        <a class="rig-cell" >
+                        <img class="rig-img "  data-echo="img/28.jpg" src="loading.svg"  >
+                        <span class="rig-overlay"></span>
+                        <span class="rig-text">amazin caption here</span>
+                        </a>
+                     </li>        <li onClick=getIndex(this) value=29>
+                        <a class="rig-cell" >
+                        <img class="rig-img "  data-echo="img/29.jpg" src="loading.svg"  >
+                        <span class="rig-overlay"></span>
+                        <span class="rig-text">amazin caption here</span>
+                        </a>
+                     </li>        <li onClick=getIndex(this) value=30>
+                        <a class="rig-cell" >
+                        <img class="rig-img "  data-echo="img/30.jpg" src="loading.svg"  >
+                        <span class="rig-overlay"></span>
+                        <span class="rig-text">amazin caption here</span>
+                        </a>
+                     </li>        <li onClick=getIndex(this) value=31>
+                        <a class="rig-cell" >
+                        <img class="rig-img "  data-echo="img/31.jpg" src="loading.svg"  >
+                        <span class="rig-overlay"></span>
+                        <span class="rig-text">amazin caption here</span>
+                        </a>
+                     </li>        <li onClick=getIndex(this) value=32>
+                        <a class="rig-cell" >
+                        <img class="rig-img "  data-echo="img/32.jpg" src="loading.svg"  >
+                        <span class="rig-overlay"></span>
+                        <span class="rig-text">amazin caption here</span>
+                        </a>
+                     </li>        <li onClick=getIndex(this) value=33>
+                        <a class="rig-cell" >
+                        <img class="rig-img "  data-echo="img/33.jpg" src="loading.svg"  >
+                        <span class="rig-overlay"></span>
+                        <span class="rig-text">amazin caption here</span>
+                        </a>
+                     </li>        <li onClick=getIndex(this) value=34>
+                        <a class="rig-cell" >
+                        <img class="rig-img "  data-echo="img/34.jpg" src="loading.svg"  >
+                        <span class="rig-overlay"></span>
+                        <span class="rig-text">amazin caption here</span>
+                        </a>
+                     </li>        <li onClick=getIndex(this) value=35>
+                        <a class="rig-cell" >
+                        <img class="rig-img "  data-echo="img/35.jpg" src="loading.svg"  >
+                        <span class="rig-overlay"></span>
+                        <span class="rig-text">amazin caption here</span>
+                        </a>
+                     </li>        <li onClick=getIndex(this) value=36>
+                        <a class="rig-cell" >
+                        <img class="rig-img "  data-echo="img/36.jpg" src="loading.svg"  >
+                        <span class="rig-overlay"></span>
+                        <span class="rig-text">amazin caption here</span>
+                        </a>
+                     </li>        <li onClick=getIndex(this) value=37>
+                        <a class="rig-cell" >
+                        <img class="rig-img "  data-echo="img/37.jpg" src="loading.svg"  >
+                        <span class="rig-overlay"></span>
+                        <span class="rig-text">amazin caption here</span>
+                        </a>
+                     </li>        <li onClick=getIndex(this) value=38>
+                        <a class="rig-cell" >
+                        <img class="rig-img "  data-echo="img/38.jpg" src="loading.svg"  >
+                        <span class="rig-overlay"></span>
+                        <span class="rig-text">amazin caption here</span>
+                        </a>
+                     </li>        <li onClick=getIndex(this) value=39>
+                        <a class="rig-cell" >
+                        <img class="rig-img "  data-echo="img/39.jpg" src="loading.svg"  >
+                        <span class="rig-overlay"></span>
+                        <span class="rig-text">amazin caption here</span>
+                        </a>
+                     </li>        <li onClick=getIndex(this) value=40>
+                        <a class="rig-cell" >
+                        <img class="rig-img "  data-echo="img/40.jpg" src="loading.svg"  >
+                        <span class="rig-overlay"></span>
+                        <span class="rig-text">amazin caption here</span>
+                        </a>
+                     </li>        <li onClick=getIndex(this) value=41>
+                        <a class="rig-cell" >
+                        <img class="rig-img "  data-echo="img/41.jpg" src="loading.svg"  >
+                        <span class="rig-overlay"></span>
+                        <span class="rig-text">amazin caption here</span>
+                        </a>
+                     </li>        <li onClick=getIndex(this) value=42>
+                        <a class="rig-cell" >
+                        <img class="rig-img "  data-echo="img/42.jpg" src="loading.svg"  >
+                        <span class="rig-overlay"></span>
+                        <span class="rig-text">amazin caption here</span>
+                        </a>
+                     </li>        <li onClick=getIndex(this) value=43>
+                        <a class="rig-cell" >
+                        <img class="rig-img "  data-echo="img/43.jpg" src="loading.svg"  >
+                        <span class="rig-overlay"></span>
+                        <span class="rig-text">amazin caption here</span>
+                        </a>
+                     </li>        <li onClick=getIndex(this) value=44>
+                        <a class="rig-cell" >
+                        <img class="rig-img "  data-echo="img/44.jpg" src="loading.svg"  >
+                        <span class="rig-overlay"></span>
+                        <span class="rig-text">amazin caption here</span>
+                        </a>
+                     </li>       
                      <aside></aside>
                   </ul>
                </div>
