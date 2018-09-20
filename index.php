@@ -2,6 +2,34 @@
 <html lang="en" class="no-js">
    <head>
       <?php include 'meta.php' ?>
+      <link rel="stylesheet" type="text/css" href="css/loader.css">
+      <!-- loader begins -->
+      <div id = "loaderbody">
+         <div class="stars"></div>
+<div class="twinkling"></div><!-- 
+<div class="clouds"></div> -->
+         <div  class="body">
+            <span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            </span>
+            <div class="base">
+               <span></span>
+               <div class="face"></div>
+            </div>
+         </div>
+         <div class="longfazers">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+         </div>
+         <h2>Brace Yourselves</h2>
+         <br/>
+         <h1>Reaching Aavartan18</h1>
+      </div>
       <link rel="stylesheet" type="text/css" href="css/normalize.css" />
       <link rel="stylesheet" type="text/css" href="css/demo.css" />
       <link rel="stylesheet" type="text/css" href="css/component.css" />
@@ -129,8 +157,8 @@ aria-hidden="true"></i></a></li>
 
 
 	  </script>
-           <script type="text/javascript" src="js/loader.js" /></script>
            <script type="text/javascript" src="js/play.js" /></script>
+           <script type="text/javascript" src="js/loader.js" /></script>
 
    </body>
 </html>

@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300);
+/*@import url(https://fonts.googleapis.com/css?family=Open+Sans:300);*/
 body {
   background-color: #555;
   overflow: hidden;
@@ -10,25 +10,26 @@ body {
   height: 100%;
   background-color: black;
 }
-h1 {
+#loaderbody h1 {
   position: absolute;
-  font-family: 'Open Sans';
+  font-family: 'Robotto';
   font-weight: 800;
-  font-size: 20px;
+  font-size: 37px;
   /* text-transform: uppercase; */
   left: 50%;
-  top: 58%;
+  top: 65%;
   margin-left: -20px;
 }
-h2 {
+#loaderbody h2 {
   position: absolute;
-  font-family: 'Open Sans';
+  font-family: 'Robotto';
   font-weight: 800;
-  font-size: 16px;
+  font-size: 22px;
   /* text-transform: uppercase; */
   left: 50%;
   top: 57%;
   margin-left: -20px;
+  color: yellow;
 }
 .body {
   background-color: white;
@@ -256,4 +257,32 @@ h2 {
     left: -100%;
     opacity: 0;
   }
+}
+
+
+@media screen and (max-width: 600px) {
+
+#loaderbody h1 {
+  position: absolute;
+  font-family: 'Open Sans';
+  font-weight: 800;
+  font-size: 20px;
+  /* text-transform: uppercase; */
+  top: 70%;
+  left: 10%;
+  /*right: 0px;*/
+  /*margin-left: -20px;*/
+  color:white;
+}
+#loaderbody h2 {
+  position: absolute;
+  font-family: 'Open Sans';
+  font-weight: bold;
+  font-size: 26px;
+  /* text-transform: uppercase; */
+  right: 10%;
+  /*margin-left: 20px;*/
+  top: 50%;
+  color:yellow;
+}
 }
