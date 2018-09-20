@@ -9,7 +9,7 @@ top: 70vh;
           transform: translateX(-50%) translateY(-50%);
   box-sizing: content-box;
   display: block;
-  width: 32px;
+  width: auto;
   height: 44px;
   /* background: #fa183d; */
   left: 48vw;
