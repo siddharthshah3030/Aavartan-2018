@@ -113,42 +113,42 @@
                   <ul id="rig">
                      <li onClick=getIndex(this) value=1>
                         <a class="rig-cell" >
-                        <img class="rig-img"  data-echo="img/1.jpg" src="img/1.jpg">
+                        <img class="rig-img"  data-echo="img/1.jpg"  src="loading.svg">
                         <span class="rig-overlay"></span>
                         <span class="rig-text">let us bigin</span>
                         </a>
                      </li>
                      <li onClick=getIndex(this) value=2>
                         <a class="rig-cell" >
-                        <img class="rig-img" data-echo="img/2.jpg" src="img/2.jpg">
+                        <img class="rig-img" data-echo="img/2.jpg"  src="loading.svg">
                         <span class="rig-overlay"></span>
                         <span class="rig-text">i can jump</span>
                         </a>
                      </li>
                      <li onClick=getIndex(this) value=3>
                         <a class="rig-cell" >
-                        <img class="rig-img"  data-echo="img/3.jpg" src="img/3.jpg">
+                        <img class="rig-img"  data-echo="img/3.jpg" src="loading.svg">
                         <span class="rig-overlay"></span>
                         <span class="rig-text">wowwweeeeee</span>
                         </a>
                      </li>
                      <li onClick=getIndex(this) value=4>
                         <a class="rig-cell" >
-                        <img class="rig-img"   data-echo="img/4.jpg" src="img/4.jpg">
+                        <img class="rig-img"   data-echo="img/4.jpg" src="loading.svg">
                         <span class="rig-overlay"></span>
                         <span class="rig-text">let us al shout</span>
                         </a>
                      </li>
                      <li onClick=getIndex(this) value=5 >
                         <a class="rig-cell" >
-                        <img class="rig-img"  data-echo="img/5.jpg" src="img/5.jpg">
+                        <img class="rig-img"  data-echo="img/5.jpg" src="loading.svg">
                         <span class="rig-overlay"></span>
                         <span class="rig-text">hii everyone</span>
                         </a>
                      </li>
                      <li onClick=getIndex(this) value=6>
                         <a class="rig-cell" >
-                        <img class="rig-img"  data-echo="img/6.jpg" src="img/6.jpg">
+                        <img class="rig-img"  data-echo="img/6.jpg" src="loading.svg">
                         <span class="rig-overlay"></span>
                         <span class="rig-text">amazin caption here</span>
                         </a>
@@ -162,7 +162,7 @@
                      </li>
                      <li onClick=getIndex(this) value=8>
                         <a class="rig-cell" >
-                        <img class="rig-img " alt="..." data-normal="img/3.jpg" data-retina="img/8.jpg" src="img/8.jpg"  >
+                        <img class="rig-img "  data-echo="img/8.jpg" src="loading.svg"  >
                         <span class="rig-overlay"></span>
                         <span class="rig-text">amazin caption here</span>
                         </a>
