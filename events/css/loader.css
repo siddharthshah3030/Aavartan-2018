@@ -11,6 +11,7 @@ body {
   background-color: black;
 }
 h1 {
+  color: white;
   position: absolute;
   font-family: 'Open Sans';
   font-weight: 800;
@@ -22,11 +23,12 @@ h1 {
   z-index: 9;
 
 }
-h2 {
+div >h2 {
+  color: yellow;
   position: absolute;
   font-family: 'Open Sans';
   font-weight: 800;
-  font-size: 16px;
+  /*font-size: 16px;*/
   /* text-transform: uppercase; */
   left: 50%;
   top: 57%;
