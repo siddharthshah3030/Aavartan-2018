@@ -97,10 +97,156 @@
                               <img class="pieces-slider__image" data-echo="img/7.jpg" src="img/7.jpg" alt="">
                               <h2 class="pieces-slider__text">Fun Fun Run</h2>
                            </div>
+                                     <div class="pieces-slider__slide">
+                              <img class="pieces-slider__image" data-echo="img/8.jpg" src="img/8.jpg" alt="">
+                              <h2 class="pieces-slider__text">Fun Fun Run</h2>
+                           </div>
                            <div class="pieces-slider__slide">
-                              <img class="pieces-slider__image"  src="img/8.jpg" alt="">
+                              <img class="pieces-slider__image" data-echo="img/9.jpg" src="img/9.jpg" alt="">
                               <h2 class="pieces-slider__text">NFS fever ahead</h2>
                            </div>
+                                 <div class="pieces-slider__slide">
+                              <img class="pieces-slider__image" data-echo="img/10.jpg" src="img/10.jpg" alt="">
+                              <h2 class="pieces-slider__text">NFS fever ahead</h2>
+                           </div>
+                                 <div class="pieces-slider__slide">
+                              <img class="pieces-slider__image" data-echo="img/11.jpg" src="img/11.jpg" alt="">
+                              <h2 class="pieces-slider__text">NFS fever ahead</h2>
+                           </div>
+                                 <div class="pieces-slider__slide">
+                              <img class="pieces-slider__image" data-echo="img/12.jpg" src="img/12.jpg" alt="">
+                              <h2 class="pieces-slider__text">NFS fever ahead</h2>
+                           </div>
+                                 <div class="pieces-slider__slide">
+                              <img class="pieces-slider__image" data-echo="img/13.jpg" src="img/13.jpg" alt="">
+                              <h2 class="pieces-slider__text">NFS fever ahead</h2>
+                           </div>
+                                 <div class="pieces-slider__slide">
+                              <img class="pieces-slider__image" data-echo="img/14.jpg" src="img/14.jpg" alt="">
+                              <h2 class="pieces-slider__text">NFS fever ahead</h2>
+                           </div>
+                                 <div class="pieces-slider__slide">
+                              <img class="pieces-slider__image" data-echo="img/15.jpg" src="img/15.jpg" alt="">
+                              <h2 class="pieces-slider__text">NFS fever ahead</h2>
+                           </div>
+                                 <div class="pieces-slider__slide">
+                              <img class="pieces-slider__image" data-echo="img/16.jpg" src="img/16.jpg" alt="">
+                              <h2 class="pieces-slider__text">NFS fever ahead</h2>
+                           </div>
+                                 <div class="pieces-slider__slide">
+                              <img class="pieces-slider__image" data-echo="img/17.jpg" src="img/17.jpg" alt="">
+                              <h2 class="pieces-slider__text">NFS fever ahead</h2>
+                           </div>
+                                 <div class="pieces-slider__slide">
+                              <img class="pieces-slider__image" data-echo="img/18.jpg" src="img/18.jpg" alt="">
+                              <h2 class="pieces-slider__text">NFS fever ahead</h2>
+                           </div>
+                                           <div class="pieces-slider__slide">
+                              <img class="pieces-slider__image" data-echo="img/19.jpg" src="img/19.jpg" alt="">
+                              <h2 class="pieces-slider__text">NFS fever ahead</h2>
+                           </div>
+                                 <div class="pieces-slider__slide">
+                              <img class="pieces-slider__image" data-echo="img/20.jpg" src="img/20.jpg" alt="">
+                              <h2 class="pieces-slider__text">NFS fever ahead</h2>
+                           </div>
+                                 <div class="pieces-slider__slide">
+                              <img class="pieces-slider__image" data-echo="img/21.jpg" src="img/21.jpg" alt="">
+                              <h2 class="pieces-slider__text">NFS fever ahead</h2>
+                           </div>
+                                 <div class="pieces-slider__slide">
+                              <img class="pieces-slider__image" data-echo="img/22.jpg" src="img/22.jpg" alt="">
+                              <h2 class="pieces-slider__text">NFS fever ahead</h2>
+                           </div>
+                                 <div class="pieces-slider__slide">
+                              <img class="pieces-slider__image" data-echo="img/23.jpg" src="img/23.jpg" alt="">
+                              <h2 class="pieces-slider__text">NFS fever ahead</h2>
+                           </div>
+                                 <div class="pieces-slider__slide">
+                              <img class="pieces-slider__image" data-echo="img/24.jpg" src="img/24.jpg" alt="">
+                              <h2 class="pieces-slider__text">NFS fever ahead</h2>
+                           </div>
+                                 <div class="pieces-slider__slide">
+                              <img class="pieces-slider__image" data-echo="img/25.jpg" src="img/25.jpg" alt="">
+                              <h2 class="pieces-slider__text">NFS fever ahead</h2>
+                           </div>
+                                 <div class="pieces-slider__slide">
+                              <img class="pieces-slider__image" data-echo="img/26.jpg" src="img/26.jpg" alt="">
+                              <h2 class="pieces-slider__text">NFS fever ahead</h2>
+                           </div>
+                                 <div class="pieces-slider__slide">
+                              <img class="pieces-slider__image" data-echo="img/27.jpg" src="img/27.jpg" alt="">
+                              <h2 class="pieces-slider__text">NFS fever ahead</h2>
+                           </div>
+                                 <div class="pieces-slider__slide">
+                              <img class="pieces-slider__image" data-echo="img/28.jpg" src="img/28.jpg" alt="">
+                              <h2 class="pieces-slider__text">NFS fever ahead</h2>
+                           </div>
+                                 <div class="pieces-slider__slide">
+                              <img class="pieces-slider__image" data-echo="img/29.jpg" src="img/29.jpg" alt="">
+                              <h2 class="pieces-slider__text">NFS fever ahead</h2>
+                           </div>
+                                 <div class="pieces-slider__slide">
+                              <img class="pieces-slider__image" data-echo="img/30.jpg" src="img/30.jpg" alt="">
+                              <h2 class="pieces-slider__text">NFS fever ahead</h2>
+                           </div>
+                                 <div class="pieces-slider__slide">
+                              <img class="pieces-slider__image" data-echo="img/31.jpg" src="img/31.jpg" alt="">
+                              <h2 class="pieces-slider__text">NFS fever ahead</h2>
+                           </div>
+                                 <div class="pieces-slider__slide">
+                              <img class="pieces-slider__image" data-echo="img/32.jpg" src="img/32.jpg" alt="">
+                              <h2 class="pieces-slider__text">NFS fever ahead</h2>
+                           </div>
+                                 <div class="pieces-slider__slide">
+                              <img class="pieces-slider__image" data-echo="img/33.jpg" src="img/33.jpg" alt="">
+                              <h2 class="pieces-slider__text">NFS fever ahead</h2>
+                           </div>
+                                 <div class="pieces-slider__slide">
+                              <img class="pieces-slider__image" data-echo="img/34.jpg" src="img/34.jpg" alt="">
+                              <h2 class="pieces-slider__text">NFS fever ahead</h2>
+                           </div>
+                                 <div class="pieces-slider__slide">
+                              <img class="pieces-slider__image" data-echo="img/35.jpg" src="img/35.jpg" alt="">
+                              <h2 class="pieces-slider__text">NFS fever ahead</h2>
+                           </div>
+                                 <div class="pieces-slider__slide">
+                              <img class="pieces-slider__image" data-echo="img/36.jpg" src="img/36.jpg" alt="">
+                              <h2 class="pieces-slider__text">NFS fever ahead</h2>
+                           </div>
+                                 <div class="pieces-slider__slide">
+                              <img class="pieces-slider__image" data-echo="img/37.jpg" src="img/37.jpg" alt="">
+                              <h2 class="pieces-slider__text">NFS fever ahead</h2>
+                           </div>
+                                 <div class="pieces-slider__slide">
+                              <img class="pieces-slider__image" data-echo="img/38.jpg" src="img/38.jpg" alt="">
+                              <h2 class="pieces-slider__text">NFS fever ahead</h2>
+                           </div>
+                                 <div class="pieces-slider__slide">
+                              <img class="pieces-slider__image" data-echo="img/39.jpg" src="img/39.jpg" alt="">
+                              <h2 class="pieces-slider__text">NFS fever ahead</h2>
+                           </div>
+                                 <div class="pieces-slider__slide">
+                              <img class="pieces-slider__image" data-echo="img/40.jpg" src="img/40.jpg" alt="">
+                              <h2 class="pieces-slider__text">NFS fever ahead</h2>
+                           </div>
+                                 <div class="pieces-slider__slide">
+                              <img class="pieces-slider__image" data-echo="img/41.jpg" src="img/41.jpg" alt="">
+                              <h2 class="pieces-slider__text">NFS fever ahead</h2>
+                           </div>
+                                 <div class="pieces-slider__slide">
+                              <img class="pieces-slider__image" data-echo="img/42.jpg" src="img/42.jpg" alt="">
+                              <h2 class="pieces-slider__text">NFS fever ahead</h2>
+                           </div>
+                                 <div class="pieces-slider__slide">
+                              <img class="pieces-slider__image" data-echo="img/43.jpg" src="img/43.jpg" alt="">
+                              <h2 class="pieces-slider__text">NFS fever ahead</h2>
+                           </div>
+                                 <div class="pieces-slider__slide">
+                              <img class="pieces-slider__image" data-echo="img/44.jpg" src="img/44.jpg" alt="">
+                              <h2 class="pieces-slider__text">NFS fever ahead</h2>
+                           </div>
+                     
+                 
                            <!-- Canvas to draw the pieces -->
                            <canvas class="pieces-slider__canvas"></canvas>
                            <!-- Slider buttons: prev and next -->
