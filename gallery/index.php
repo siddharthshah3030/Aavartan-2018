@@ -217,7 +217,7 @@
                            </div>
                                  <div class="pieces-slider__slide">
                               <img class="pieces-slider__image" data-echo="img/38.jpg" src="img/38.jpg" alt="">
-                              <h2 class="pieces-slider__text">photographer toh sahi hai</h2>
+                              <h2 class="pieces-slider__text">moment hai yeh moment!!!</h2>
                            </div>
                                  <div class="pieces-slider__slide">
                               <img class="pieces-slider__image" data-echo="img/39.jpg" src="img/39.jpg" alt="">
