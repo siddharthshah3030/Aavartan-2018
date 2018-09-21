@@ -73,7 +73,7 @@
                            </div>
                            <div class="pieces-slider__slide">
                               <img class="pieces-slider__image" data-echo="img/2.jpg" src="img/2.jpg" alt="">
-                              <h2 class="pieces-slider__text">i can jump </h2>
+                              <h2 class="pieces-slider__text">Aaj main upar!!  </h2>
                            </div>
                            <div class="pieces-slider__slide">
                               <img class="pieces-slider__image" data-echo="img/3.jpg" src="img/3.jpg" alt="">
@@ -81,7 +81,7 @@
                            </div>
                            <div class="pieces-slider__slide">
                               <img class="pieces-slider__image" data-echo="img/4.jpg" src="img/4.jpg" alt="">
-                              <h2 class="pieces-slider__text">let's shout</h2>
+                              <h2 class="pieces-slider__text">let's all shout</h2>
                            </div>
                            <div class="pieces-slider__slide">
                               <img class="pieces-slider__image" data-echo="img/5.jpg" src="img/5.jpg" alt="">
@@ -97,83 +97,83 @@
                            </div>
                                      <div class="pieces-slider__slide">
                               <img class="pieces-slider__image" data-echo="img/8.jpg" src="img/8.jpg" alt="">
-                              <h2 class="pieces-slider__text">Fun Fun Run</h2>
+                              <h2 class="pieces-slider__text">Lan Gamers here</h2>
                            </div>
                            <div class="pieces-slider__slide">
                               <img class="pieces-slider__image" data-echo="img/9.jpg" src="img/9.jpg" alt="">
-                              <h2 class="pieces-slider__text">NFS fever ahead</h2>
+                              <h2 class="pieces-slider__text">camera focuses on phone</h2>
                            </div>
                                  <div class="pieces-slider__slide">
                               <img class="pieces-slider__image" data-echo="img/10.jpg" src="img/10.jpg" alt="">
-                              <h2 class="pieces-slider__text">NFS fever ahead</h2>
+                              <h2 class="pieces-slider__text">this shield Afff</h2>
                            </div>
                                  <div class="pieces-slider__slide">
                               <img class="pieces-slider__image" data-echo="img/11.jpg" src="img/11.jpg" alt="">
-                              <h2 class="pieces-slider__text">NFS fever ahead</h2>
+                              <h2 class="pieces-slider__text">aaj main upar</h2>
                            </div>
                                  <div class="pieces-slider__slide">
                               <img class="pieces-slider__image" data-echo="img/12.jpg" src="img/12.jpg" alt="">
-                              <h2 class="pieces-slider__text">NFS fever ahead</h2>
+                              <h2 class="pieces-slider__text">Light band karna</h2>
                            </div>
                                  <div class="pieces-slider__slide">
                               <img class="pieces-slider__image" data-echo="img/13.jpg" src="img/13.jpg" alt="">
-                              <h2 class="pieces-slider__text">NFS fever ahead</h2>
+                              <h2 class="pieces-slider__text">yeh kya chiz hai bhai</h2>
                            </div>
                                  <div class="pieces-slider__slide">
                               <img class="pieces-slider__image" data-echo="img/14.jpg" src="img/14.jpg" alt="">
-                              <h2 class="pieces-slider__text">NFS fever ahead</h2>
+                              <h2 class="pieces-slider__text">jo bhi hai sahi hai</h2>
                            </div>
                                  <div class="pieces-slider__slide">
                               <img class="pieces-slider__image" data-echo="img/15.jpg" src="img/15.jpg" alt="">
-                              <h2 class="pieces-slider__text">NFS fever ahead</h2>
+                              <h2 class="pieces-slider__text">coz it's NIT Raipur</h2>
                            </div>
                                  <div class="pieces-slider__slide">
                               <img class="pieces-slider__image" data-echo="img/16.jpg" src="img/16.jpg" alt="">
-                              <h2 class="pieces-slider__text">NFS fever ahead</h2>
+                              <h2 class="pieces-slider__text">Imagine and implement</h2>
                            </div>
                                  <div class="pieces-slider__slide">
                               <img class="pieces-slider__image" data-echo="img/17.jpg" src="img/17.jpg" alt="">
-                              <h2 class="pieces-slider__text">NFS fever ahead</h2>
+                              <h2 class="pieces-slider__text">Woh Dekho udantastadi</h2>
                            </div>
                                  <div class="pieces-slider__slide">
                               <img class="pieces-slider__image" data-echo="img/18.jpg" src="img/18.jpg" alt="">
-                              <h2 class="pieces-slider__text">NFS fever ahead</h2>
+                              <h2 class="pieces-slider__text">main nahi dikh raha</h2>
                            </div>
                                            <div class="pieces-slider__slide">
                               <img class="pieces-slider__image" data-echo="img/19.jpg" src="img/19.jpg" alt="">
-                              <h2 class="pieces-slider__text">NFS fever ahead</h2>
+                              <h2 class="pieces-slider__text">amazing sand art</h2>
                            </div>
                                  <div class="pieces-slider__slide">
                               <img class="pieces-slider__image" data-echo="img/20.jpg" src="img/20.jpg" alt="">
-                              <h2 class="pieces-slider__text">NFS fever ahead</h2>
+                              <h2 class="pieces-slider__text">good or bad photo?</h2>
                            </div>
                                  <div class="pieces-slider__slide">
                               <img class="pieces-slider__image" data-echo="img/21.jpg" src="img/21.jpg" alt="">
-                              <h2 class="pieces-slider__text">NFS fever ahead</h2>
+                              <h2 class="pieces-slider__text">Aavartan ke banners</h2>
                            </div>
                                  <div class="pieces-slider__slide">
                               <img class="pieces-slider__image" data-echo="img/22.jpg" src="img/22.jpg" alt="">
-                              <h2 class="pieces-slider__text">NFS fever ahead</h2>
+                              <h2 class="pieces-slider__text">Aavartan graffiti</h2>
                            </div>
                                  <div class="pieces-slider__slide">
                               <img class="pieces-slider__image" data-echo="img/23.jpg" src="img/23.jpg" alt="">
-                              <h2 class="pieces-slider__text">NFS fever ahead</h2>
+                              <h2 class="pieces-slider__text">AAAAiilaa</h2>
                            </div>
                                  <div class="pieces-slider__slide">
                               <img class="pieces-slider__image" data-echo="img/24.jpg" src="img/24.jpg" alt="">
-                              <h2 class="pieces-slider__text">NFS fever ahead</h2>
+                              <h2 class="pieces-slider__text">Aavartan is everywhere</h2>
                            </div>
                                  <div class="pieces-slider__slide">
                               <img class="pieces-slider__image" data-echo="img/25.jpg" src="img/25.jpg" alt="">
-                              <h2 class="pieces-slider__text">NFS fever ahead</h2>
+                              <h2 class="pieces-slider__text">laser show</h2>
                            </div>
                                  <div class="pieces-slider__slide">
                               <img class="pieces-slider__image" data-echo="img/26.jpg" src="img/26.jpg" alt="">
-                              <h2 class="pieces-slider__text">NFS fever ahead</h2>
+                              <h2 class="pieces-slider__text">amazing light show!!!</h2>
                            </div>
                                  <div class="pieces-slider__slide">
                               <img class="pieces-slider__image" data-echo="img/27.jpg" src="img/27.jpg" alt="">
-                              <h2 class="pieces-slider__text">NFS fever ahead</h2>
+                              <h2 class="pieces-slider__text">Rocket Uda hai</h2>
                            </div>
                                  <div class="pieces-slider__slide">
                               <img class="pieces-slider__image" data-echo="img/28.jpg" src="img/28.jpg" alt="">
@@ -181,67 +181,67 @@
                            </div>
                                  <div class="pieces-slider__slide">
                               <img class="pieces-slider__image" data-echo="img/29.jpg" src="img/29.jpg" alt="">
-                              <h2 class="pieces-slider__text">NFS fever ahead</h2>
+                              <h2 class="pieces-slider__text">Helicopter </h2>
                            </div>
                                  <div class="pieces-slider__slide">
                               <img class="pieces-slider__image" data-echo="img/30.jpg" src="img/30.jpg" alt="">
-                              <h2 class="pieces-slider__text">NFS fever ahead</h2>
+                              <h2 class="pieces-slider__text">#VIGYAAN</h2>
                            </div>
                                  <div class="pieces-slider__slide">
                               <img class="pieces-slider__image" data-echo="img/31.jpg" src="img/31.jpg" alt="">
-                              <h2 class="pieces-slider__text">NFS fever ahead</h2>
+                              <h2 class="pieces-slider__text">TC waale</h2>
                            </div>
                                  <div class="pieces-slider__slide">
                               <img class="pieces-slider__image" data-echo="img/32.jpg" src="img/32.jpg" alt="">
-                              <h2 class="pieces-slider__text">NFS fever ahead</h2>
+                              <h2 class="pieces-slider__text">#captured</h2>
                            </div>
                                  <div class="pieces-slider__slide">
                               <img class="pieces-slider__image" data-echo="img/33.jpg" src="img/33.jpg" alt="">
-                              <h2 class="pieces-slider__text">NFS fever ahead</h2>
+                              <h2 class="pieces-slider__text">Aavartan Graffiti</h2>
                            </div>
                                  <div class="pieces-slider__slide">
                               <img class="pieces-slider__image" data-echo="img/34.jpg" src="img/34.jpg" alt="">
-                              <h2 class="pieces-slider__text">NFS fever ahead</h2>
+                              <h2 class="pieces-slider__text">Aavartan hi Aavartan</h2>
                            </div>
                                  <div class="pieces-slider__slide">
                               <img class="pieces-slider__image" data-echo="img/35.jpg" src="img/35.jpg" alt="">
-                              <h2 class="pieces-slider__text">NFS fever ahead</h2>
+                              <h2 class="pieces-slider__text">lo yeh ud gaya</h2>
                            </div>
                                  <div class="pieces-slider__slide">
                               <img class="pieces-slider__image" data-echo="img/36.jpg" src="img/36.jpg" alt="">
-                              <h2 class="pieces-slider__text">NFS fever ahead</h2>
+                              <h2 class="pieces-slider__text">Awesome laser show</h2>
                            </div>
                                  <div class="pieces-slider__slide">
                               <img class="pieces-slider__image" data-echo="img/37.jpg" src="img/37.jpg" alt="">
-                              <h2 class="pieces-slider__text">NFS fever ahead</h2>
+                              <h2 class="pieces-slider__text">superb show</h2>
                            </div>
                                  <div class="pieces-slider__slide">
                               <img class="pieces-slider__image" data-echo="img/38.jpg" src="img/38.jpg" alt="">
-                              <h2 class="pieces-slider__text">NFS fever ahead</h2>
+                              <h2 class="pieces-slider__text">photographer toh sahi hai</h2>
                            </div>
                                  <div class="pieces-slider__slide">
                               <img class="pieces-slider__image" data-echo="img/39.jpg" src="img/39.jpg" alt="">
-                              <h2 class="pieces-slider__text">NFS fever ahead</h2>
+                              <h2 class="pieces-slider__text">#lights</h2>
                            </div>
                                  <div class="pieces-slider__slide">
                               <img class="pieces-slider__image" data-echo="img/40.jpg" src="img/40.jpg" alt="">
-                              <h2 class="pieces-slider__text">NFS fever ahead</h2>
+                              <h2 class="pieces-slider__text">#flying rockets</h2>
                            </div>
                                  <div class="pieces-slider__slide">
                               <img class="pieces-slider__image" data-echo="img/41.jpg" src="img/41.jpg" alt="">
-                              <h2 class="pieces-slider__text">NFS fever ahead</h2>
+                              <h2 class="pieces-slider__text">Lit Aff !!!!!</h2>
                            </div>
                                  <div class="pieces-slider__slide">
                               <img class="pieces-slider__image" data-echo="img/42.jpg" src="img/42.jpg" alt="">
-                              <h2 class="pieces-slider__text">NFS fever ahead</h2>
+                              <h2 class="pieces-slider__text">Funny Games </h2>
                            </div>
                                  <div class="pieces-slider__slide">
                               <img class="pieces-slider__image" data-echo="img/43.jpg" src="img/43.jpg" alt="">
-                              <h2 class="pieces-slider__text">NFS fever ahead</h2>
+                              <h2 class="pieces-slider__text">snake and ladders</h2>
                            </div>
                                  <div class="pieces-slider__slide">
                               <img class="pieces-slider__image" data-echo="img/44.jpg" src="img/44.jpg" alt="">
-                              <h2 class="pieces-slider__text">NFS fever ahead</h2>
+                              <h2 class="pieces-slider__text">Robo Football</h2>
                            </div>
                      
                  
