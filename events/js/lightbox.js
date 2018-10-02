@@ -281,10 +281,11 @@ lightbox = new Lightbox options
       }
       if (this.album.length > 1) {
         selectedevent = this;
-        if(this.album.length == 17){
+        if(this.album.length == 16){
           iterator = 0;
         }
-        if(this.album.length == 4){
+        if(this.album.length == 2){
+          console.log("second row")
           iterator = 17;
         }
         if(this.album.length == 5){
@@ -302,6 +303,8 @@ lightbox = new Lightbox options
         } else {
         usrmessage  =   "not registered"
         }
+        console.log("sid upper iteration check ")
+        console.log(this.currentImageIndex+iterator)
         var xyz=evd[this.currentImageIndex+iterator].akash;
         $lightbox.find('.lb-number').html(
            '<div class="mihir" onClick="mihirsir('+xyz+')" id="toggles">  <input  type="checkbox" name="checkbox" id="checkbox" data-value="'+evd[this.currentImageIndex+iterator].akash+'" class="ios-toggle" checked/><label for="checkbox1" class="checkbox-label" data-off="'+usrmessage+'" data-on="registered"></label> </div>'
@@ -462,7 +465,7 @@ var regis;
           regis = 0;
         }
         if(p == 4){
-          regis = 17;
+          regis = 16;
         }
         if(p == 5){
           regis = 20;

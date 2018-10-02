@@ -132,10 +132,8 @@ error_reporting(E_ERROR | E_PARSE);
                            <h3 class="pb-title">Managerial.</h3>
                            <div class="pb-scroll">
                               <ul class="pb-strip">
-                                 <li><a href="images/large/47.jpg" rel="lightbox[album2]" title="Sale your stock"><img height="150px" width="150px"  src="images/small/47.png" /></a></li>
-                                 <li><a href="#" rel="lightbox[album2]" title="Coming Soon"><img height="150px" width="150px" src="images/giphy.gif" /></a></li>
-                                 <li><a href="#" rel="lightbox[album2]" title="Coming Soon"><img height="150px" width="150px" src="images/giphy.gif" /></a></li>
-                                 <li><a href="#" rel="lightbox[album2]" title="Coming Soon"><img height="150px" width="150px" src="images/giphy.gif" /></a></li>
+                                 <li><a href="images/large/47.jpg" rel="lightbox[album2]" title="market kshetra"><img height="150px" width="150px"  src="images/small/47.png" /></a></li>
+                                 <li><a href="images/large/47.jpg" rel="lightbox[album2]" title="FOREX (Foreign Exchange Risk Management)"><img height="150px" width="150px"  src="images/small/47.png" /></a></li>
                                  <!--
                                     <li><a href="images/large/15.jpg" rel="lightbox[album2]" title="Love"><img src="images/small/15.jpg" /></a></li>
                                     <li><a href="images/large/16.jpg" rel="lightbox[album2]" title="Friendship"><img src="images/small/16.jpg" /></a></li>
