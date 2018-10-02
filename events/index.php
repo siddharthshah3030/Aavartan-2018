@@ -121,10 +121,10 @@ error_reporting(E_ERROR | E_PARSE);
                                  <li><a href="images/large/44.jpg" rel="lightbox[album1]" title="CODENESIA"><img  height="150px" width="150px" src="images/small/44.jpg" /></a></li>
                                  <li><a href="images/large/45.jpg" rel="lightbox[album1]" title="Kya aap 5vi pass se tezz h??"><img  height="150px" width="150px" src="images/small/45.jpg" /></a></li>
                                  <li><a href="images/large/18.jpg" rel="lightbox[album1]" title="GRAVITY CONTROL"><img height="150px" width="150px"  src="images/small/46.png" /></a></li>
-                                 <li><a href="images/large/43.jpg" rel="lightbox[album1]" title="AQUA-BOT "><img  height="150px" width="150px" src="images/small/43.jpg" /></a></li>
-                                 <li><a href="images/large/44.jpg" rel="lightbox[album1]" title="COSIA"><img  height="150px" width="150px" src="images/small/44.jpg" /></a></li>
-                                 <li><a href="images/large/45.jpg" rel="lightbox[album1]" title="Kh??"><img  height="150px" width="150px" src="images/small/45.jpg" /></a></li>
-                                 <li><a href="images/large/18.jpg" rel="lightbox[album1]" title="GROL"><img height="150px" width="150px"  src="images/small/46.png" /></a></li>
+                                 <li><a href="images/large/43.jpg" rel="lightbox[album1]" title="THERMO-KHALIFA"><img  height="150px" width="150px" src="images/small/43.jpg" /></a></li>
+                                 <li><a href="images/large/44.jpg" rel="lightbox[album1]" title="TECHNOMIC QUOTIENT"><img  height="150px" width="150px" src="images/small/44.jpg" /></a></li>
+                                 <li><a href="images/large/45.jpg" rel="lightbox[album1]" title="GRE-PLANER"><img  height="150px" width="150px" src="images/small/45.jpg" /></a></li>
+                                 <li><a href="images/large/18.jpg" rel="lightbox[album1]" title="Electronica"><img height="150px" width="150px"  src="images/small/46.png" /></a></li>
                               </ul>
                            </div>
                         </div>

@@ -271,7 +271,7 @@ var evd = [
 
 {   akash:19,
 
-  title: "",
+  title: "FOREX (Foreign Exchange Risk Management)",
   about:"A problem statement related to foreign exchange will be given to each participant. Each team has to analyse the role of foreign currency in payment for its goods or services for given problem statement and come with necessary measures. ",
     description:"Problem statement- To calculate the cost of bitcoin after 10 years.",
     round1: " Test based on aptitude and foreign currencies<br> 1. Each team has to give the test<br> 2. Test has 2 sections, section A and section B. <br>3. Section A consists of aptitude and section B consists of relevant questions. <br>4. Top 15 finalists will be called to NIT raipur during Aavarta'18 to give presentations based on problem statement.  ",
