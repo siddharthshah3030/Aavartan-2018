@@ -169,11 +169,9 @@ error_reporting(E_ERROR | E_PARSE);
                            <h3 class="pb-title">Fun events</h3>
                            <div class="pb-scroll">
                               <ul class="pb-strip">
-                                 <li><a href="images/large/13.jpg" rel="lightbox[album4]" title="Wire Bend"><img src="images/small/13.jpg" /></a></li>
                                  <li><a href="images/large/14.jpg" rel="lightbox[album4]" title="Tech cherades"><img src="images/small/14.jpg" /></a></li>
                                  <li><a href="images/large/2.jpg" rel="lightbox[album4]" title="Rush Hour"><img src="images/small/2.jpg" /></a></li>
-                                 <!--				<li><a href="images/large/18.jpg" rel="lightbox[album4]" title="Delicious"><img src="images/small/18.jpg" /></a></li>-->
-                                 <!--				<li><a href="images/large/19.jpg" rel="lightbox[album4]" title="Softness"><img src="images/small/19.jpg" /></a></li>-->
+            
                                  <!--
                                     <li><a href="images/large/20.jpg" rel="lightbox[album4]" title="Bliss"><img src="images/small/20.jpg" /></a></li>
                                     <li><a href="images/large/1.jpg" rel="lightbox[album4]" title="Adorable"><img src="images/small/1.jpg" /></a></li>

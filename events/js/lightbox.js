@@ -279,6 +279,7 @@ lightbox = new Lightbox options
       if (typeof this.album[this.currentImageIndex].title !== 'undefined' && this.album[this.currentImageIndex].title !== "") {
         $lightbox.find('.lb-caption').html(this.album[this.currentImageIndex].title).fadeIn('fast');
       }
+      console.log(this)
       if (this.album.length > 1) {
         selectedevent = this;
         if(this.album.length == 16){

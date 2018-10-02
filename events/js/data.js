@@ -325,79 +325,6 @@ var evd = [
   rules:"GENERAL RULES<br>1) A team may consist of maximum of 3 members. Students from different institutes may form a team.<br>2) Ready-made LEGO kits are not allowed. However, ready-made gear assemblies and development boards may be used.<br>3) Teams will have to report at least 15 minutes before the time slot allotted to them at the beginning of the event, failing to do so may result in disqualification.<br>4) No last minute repairs will be allowed in the arena. However, each team can take a time-out of 2 minutes once during a match.<br>5) Bots would be checked for their safety before the match and may be discarded if found unsafe for other team or spectators.<br>6) Organizers reserve the rights to change the rules at any point of time as they deem fit. The changes will however be highlighted on the website. So keep checking the ‘AAVARTAN’ website for latest updates.<br><strong>GAME PLAY</strong><br>The robot should traverse through the path covered with devastating hurdles. If the robot falls off, then the robot should begin from previous checkpoint. If the robot comes outside of the path, penalty of 10 seconds will be added.",
   venue: "In front of Central Garden.",
 },
-{
-            akash:19,
-
-  title: "",
-  about:"",
-    description:"",
-    round1: "",
-  round2: "",
-  round3: "",
-  judging_criteria: "",
-  venue: " ",
-  team: "",
-  coordinators: ""
-
-},
-{
-                akash:20,
-
-  title: "",
-  about:"",
-    description:"",
-    round1: "",
-  round2: "",
-  round3: "",
-  judging_criteria: "",
-  venue: " ",
-  team: "",
-  coordinators: ""
-},
-{
-                akash:21,
-
-  title: "",
-  about:"",
-    description:"",
-    round1: "",
-  round2: "",
-  round3: "",
-  judging_criteria: "",
-  venue: " ",
-  team: "",
-  coordinators: ""
-},
-{
-                akash:22,
-
-  title: "",
-  about:"",
-    description:"",
-    round1: "",
-  round2: "",
-  round3: "",
-  judging_criteria: "",
-  venue: " ",
-  team: "",
-  coordinators: ""
-
-},
-
-
-{
-                akash:23,
-
-  title: "Wire bend",
-  about: "Luck is a very thin wire between survival and disaster, and not many people can keep their balance on it. Showcase your creativity using a single piece of wire. Design a 2D or 3D structure using the given wire of a fixed length.",
-  description: "a)Individual participants must design by bending wire in diverse directions.b)It must be a single wire structure. Cutting the wire is not allowed.c)The structure should be based on a concept.",
-  round1: "Single round event in which participants needs to create a structure by bending wires following some rules.",
-  round2: "",
-  round3: "",
-  judging_criteria: "Based on tideness<br>Based on how conceptual would model is ",
-  venue: "Central Garden",
-
-},
 
 {
                 akash:24,
@@ -417,86 +344,21 @@ var evd = [
 {
                 akash:25,
 
-  title: "Rush Hour [not finalised yet the games which are going to conduct in this]",
-  about: "rush rush rush is a fun, technical based event which enhances skills of the newly introduced engineers, forcing them to implement basic technical skills under pressure. ",
-   description: "The event shall consist of a series of small events to complete in a given time. The person who completes the series in minimum time will grab the prize. The events will be as described below Event Name  Ball in the pool    Three tables are to be placed at a distance of 2ft. from each other . 9 glasses are arranged in 3x3 order and are placed on the middle table .The competition will be between two rival participants standing 2ft away from the other two tables. Participants need to get the balls inside the glass in the middle row .The participant who does this at the earliest in the given time will be declared the winner.    Event Name  Cup it up   4 plastic cups are provided along with 3 note cards to the participants.Participants will have to create a tower with provided cups by placing note cards between each cup. Once the tower is bulit , participants will have to remove each note card one-by-one , so that all 4 cups rest in a single stack.   Event Name Pyramid of cups <br>Plastic cups are provided to the particpants.Participants will have to create a pyramid of cups. Once the pyramid is built, participant will have to slide down the cups to create a single stack. The participant who achieves this feat at first will be declared aa the winner. <br>Event Name: Lift it…!!if c can… <br>Three tables are to be placed at a distance of 5-6 ft from each other . Soft drink cans will be placed on top of the tables placed at the extremes.Two teams consisting of two players each will be given a straw each which they will have to use to lift up the empty cans by passing it through the straw holder in the can held by the participants mouth on both ends.The team which successfully places three cans on the middle table by carrying them from the tables at the extremes at first wins the competition. <br>Event Name: Knock Down <br>There is a table of approx. length 2 ft. Plastic cups are placed on the table in a row. Participants have to blow the baloon provided by their mouth and use the exhaled air to knock down the plastic cups.",
+  title: "Rush Hour ",
+  about: "This is a fun, technical based event which enhances skills of the newly introduced engineers, forcing them to implement basic technical skills under pressure.The event shall consist of a series of small events to complete in minimum time. The events are as described below-",
+   description: "<strong>Event name – KNOCKDOWN</strong><br>Here, the participants will have to participate in groups of 2. Each one of them will have a rope tied around his abdomen and to the other end of the rope will be attached a small piece of wood which they have to swing themselves and with that they have to knock down several plastic cups which would be placed on the ground. They had to knockdown cups only by the wooden piece. The team which finishes knocking down all the plastic cups in accordance to the rules will be the declared the winner.<br><strong>me – Airball</strong>In this event, 3-5 small plastic balls are placed on the tables. The table tops would be covered by handmade obstacles. The tables would be slightly tilted or inclined. The participant has to blow the ball with air and let it pass through the obstacles to the finishing line. However, during the whole process the ball should not touch the boundary of the lower end of the tilted table. If the ball touches the lower boundary then the ball would be disqualified and participant would have to start with the new ball again from the starting line.<br><strong>Event name - Tyre shot</strong><br>Here the participants would have to participate in groups of two. One participant will hold the tyre/ring structure up in the air with his hands and the other one would be standing at a distance from him with few tennis balls in his hands. This person has to make the balls go through the tyre/ring by aiming the tennis balls by leaning and throwing it between his legs. The team which gets the tennis ball passed through the tyre/ring first will be the winner.<br><strong>Event Name - Word jumble</strong><br>Here, different words would be kept in the chits on the tables. The team members have to take 5 chits at a time. If the team doesn’t gets any word, they had to take 5 extra chits. The team which forms a valid word fastest from its own selected chits will be declared the winner.<br><strong>Event Name - Water Blow</strong></br>Here, 5-6 plastic cups or normal cups would be placed in a line close to each other, just next to each other. Each one of them would be filled with water. The participant would have to blow the ball to the last cup filled with water. If the ball falls down, The last cup in which the ball was properly placed has to be the place of continuation of the game. The participant which finishes by blowing the ball upto the last cup filled with water will be declared the winner.",
   round1: "",
   round2: "",
   round3: "",
-  judging_criteria: "",
+  judging_criteria: "The team that will complete all these tasks in minimum time wins.",
   venue: "Central Garden",
-  team: "individual",
-  coordinators: "sid: 9770306466, akash: 234798547"
 
 },
-{
-  title: "Rush Hour [not finalised yet the games which are going to conduct in this]",
-  about: "rush rush rush is a fun, technical based event which enhances skills of the newly introduced engineers, forcing them to implement basic technical skills under pressure. ",
-   description: "The event shall consist of a series of small events to complete in a given time. The person who completes the series in minimum time will grab the prize. The events will be as described below Event Name  Ball in the pool    Three tables are to be placed at a distance of 2ft. from each other . 9 glasses are arranged in 3x3 order and are placed on the middle table .The competition will be between two rival participants standing 2ft away from the other two tables. Participants need to get the balls inside the glass in the middle row .The participant who does this at the earliest in the given time will be declared the winner.    Event Name  Cup it up   4 plastic cups are provided along with 3 note cards to the participants.Participants will have to create a tower with provided cups by placing note cards between each cup. Once the tower is bulit , participants will have to remove each note card one-by-one , so that all 4 cups rest in a single stack.   Event Name Pyramid of cups <br>Plastic cups are provided to the particpants.Participants will have to create a pyramid of cups. Once the pyramid is built, participant will have to slide down the cups to create a single stack. The participant who achieves this feat at first will be declared aa the winner. <br>Event Name: Lift it…!!if c can… <br>Three tables are to be placed at a distance of 5-6 ft from each other . Soft drink cans will be placed on top of the tables placed at the extremes.Two teams consisting of two players each will be given a straw each which they will have to use to lift up the empty cans by passing it through the straw holder in the can held by the participants mouth on both ends.The team which successfully places three cans on the middle table by carrying them from the tables at the extremes at first wins the competition. <br>Event Name: Knock Down <br>There is a table of approx. length 2 ft. Plastic cups are placed on the table in a row. Participants have to blow the baloon provided by their mouth and use the exhaled air to knock down the plastic cups.",
-  round1: "",
-  round2: "",
-  round3: "",
-  judging_criteria: "",
-  venue: "Central Garden",
-  team: "individual",
-  coordinators: "sid: 9770306466, akash: 234798547"
 
-},
-{
-  title: "Rush Hour [not finalised yet the games which are going to conduct in this]",
-  about: "rush rush rush is a fun, technical based event which enhances skills of the newly introduced engineers, forcing them to implement basic technical skills under pressure. ",
-   description: "The event shall consist of a series of small events to complete in a given time. The person who completes the series in minimum time will grab the prize. The events will be as described below Event Name  Ball in the pool    Three tables are to be placed at a distance of 2ft. from each other . 9 glasses are arranged in 3x3 order and are placed on the middle table .The competition will be between two rival participants standing 2ft away from the other two tables. Participants need to get the balls inside the glass in the middle row .The participant who does this at the earliest in the given time will be declared the winner.    Event Name  Cup it up   4 plastic cups are provided along with 3 note cards to the participants.Participants will have to create a tower with provided cups by placing note cards between each cup. Once the tower is bulit , participants will have to remove each note card one-by-one , so that all 4 cups rest in a single stack.   Event Name Pyramid of cups <br>Plastic cups are provided to the particpants.Participants will have to create a pyramid of cups. Once the pyramid is built, participant will have to slide down the cups to create a single stack. The participant who achieves this feat at first will be declared aa the winner. <br>Event Name: Lift it…!!if c can… <br>Three tables are to be placed at a distance of 5-6 ft from each other . Soft drink cans will be placed on top of the tables placed at the extremes.Two teams consisting of two players each will be given a straw each which they will have to use to lift up the empty cans by passing it through the straw holder in the can held by the participants mouth on both ends.The team which successfully places three cans on the middle table by carrying them from the tables at the extremes at first wins the competition. <br>Event Name: Knock Down <br>There is a table of approx. length 2 ft. Plastic cups are placed on the table in a row. Participants have to blow the baloon provided by their mouth and use the exhaled air to knock down the plastic cups.",
-  round1: "",
-  round2: "",
-  round3: "",
-  judging_criteria: "",
-  venue: "Central Garden",
-  team: "individual",
-  coordinators: "sid: 9770306466, akash: 234798547"
 
-},
-{
+{akash: 26,
   title: "Rush Hour [not finalised yet the games which are going to conduct in this]",
-  about: "rush rush rush is a fun, technical based event which enhances skills of the newly introduced engineers, forcing them to implement basic technical skills under pressure. ",
-   description: "The event shall consist of a series of small events to complete in a given time. The person who completes the series in minimum time will grab the prize. The events will be as described below Event Name  Ball in the pool    Three tables are to be placed at a distance of 2ft. from each other . 9 glasses are arranged in 3x3 order and are placed on the middle table .The competition will be between two rival participants standing 2ft away from the other two tables. Participants need to get the balls inside the glass in the middle row .The participant who does this at the earliest in the given time will be declared the winner.    Event Name  Cup it up   4 plastic cups are provided along with 3 note cards to the participants.Participants will have to create a tower with provided cups by placing note cards between each cup. Once the tower is bulit , participants will have to remove each note card one-by-one , so that all 4 cups rest in a single stack.   Event Name Pyramid of cups <br>Plastic cups are provided to the particpants.Participants will have to create a pyramid of cups. Once the pyramid is built, participant will have to slide down the cups to create a single stack. The participant who achieves this feat at first will be declared aa the winner. <br>Event Name: Lift it…!!if c can… <br>Three tables are to be placed at a distance of 5-6 ft from each other . Soft drink cans will be placed on top of the tables placed at the extremes.Two teams consisting of two players each will be given a straw each which they will have to use to lift up the empty cans by passing it through the straw holder in the can held by the participants mouth on both ends.The team which successfully places three cans on the middle table by carrying them from the tables at the extremes at first wins the competition. <br>Event Name: Knock Down <br>There is a table of approx. length 2 ft. Plastic cups are placed on the table in a row. Participants have to blow the baloon provided by their mouth and use the exhaled air to knock down the plastic cups.",
-  round1: "",
-  round2: "",
-  round3: "",
-  judging_criteria: "",
-  venue: "Central Garden",
-  team: "individual",
-  coordinators: "sid: 9770306466, akash: 234798547"
-
-},
-{
-  title: "Rush Hour [not finalised yet the games which are going to conduct in this]",
-  about: "rush rush rush is a fun, technical based event which enhances skills of the newly introduced engineers, forcing them to implement basic technical skills under pressure. ",
-   description: "The event shall consist of a series of small events to complete in a given time. The person who completes the series in minimum time will grab the prize. The events will be as described below Event Name  Ball in the pool    Three tables are to be placed at a distance of 2ft. from each other . 9 glasses are arranged in 3x3 order and are placed on the middle table .The competition will be between two rival participants standing 2ft away from the other two tables. Participants need to get the balls inside the glass in the middle row .The participant who does this at the earliest in the given time will be declared the winner.    Event Name  Cup it up   4 plastic cups are provided along with 3 note cards to the participants.Participants will have to create a tower with provided cups by placing note cards between each cup. Once the tower is bulit , participants will have to remove each note card one-by-one , so that all 4 cups rest in a single stack.   Event Name Pyramid of cups <br>Plastic cups are provided to the particpants.Participants will have to create a pyramid of cups. Once the pyramid is built, participant will have to slide down the cups to create a single stack. The participant who achieves this feat at first will be declared aa the winner. <br>Event Name: Lift it…!!if c can… <br>Three tables are to be placed at a distance of 5-6 ft from each other . Soft drink cans will be placed on top of the tables placed at the extremes.Two teams consisting of two players each will be given a straw each which they will have to use to lift up the empty cans by passing it through the straw holder in the can held by the participants mouth on both ends.The team which successfully places three cans on the middle table by carrying them from the tables at the extremes at first wins the competition. <br>Event Name: Knock Down <br>There is a table of approx. length 2 ft. Plastic cups are placed on the table in a row. Participants have to blow the baloon provided by their mouth and use the exhaled air to knock down the plastic cups.",
-  round1: "",
-  round2: "",
-  round3: "",
-  judging_criteria: "",
-  venue: "Central Garden",
-  team: "individual",
-  coordinators: "sid: 9770306466, akash: 234798547"
-
-},
-{
-  title: "Rush Hour [not finalised yet the games which are going to conduct in this]",
-  about: "rush rush rush is a fun, technical based event which enhances skills of the newly introduced engineers, forcing them to implement basic technical skills under pressure. ",
-   description: "The event shall consist of a series of small events to complete in a given time. The person who completes the series in minimum time will grab the prize. The events will be as described below Event Name  Ball in the pool    Three tables are to be placed at a distance of 2ft. from each other . 9 glasses are arranged in 3x3 order and are placed on the middle table .The competition will be between two rival participants standing 2ft away from the other two tables. Participants need to get the balls inside the glass in the middle row .The participant who does this at the earliest in the given time will be declared the winner.    Event Name  Cup it up   4 plastic cups are provided along with 3 note cards to the participants.Participants will have to create a tower with provided cups by placing note cards between each cup. Once the tower is bulit , participants will have to remove each note card one-by-one , so that all 4 cups rest in a single stack.   Event Name Pyramid of cups <br>Plastic cups are provided to the particpants.Participants will have to create a pyramid of cups. Once the pyramid is built, participant will have to slide down the cups to create a single stack. The participant who achieves this feat at first will be declared aa the winner. <br>Event Name: Lift it…!!if c can… <br>Three tables are to be placed at a distance of 5-6 ft from each other . Soft drink cans will be placed on top of the tables placed at the extremes.Two teams consisting of two players each will be given a straw each which they will have to use to lift up the empty cans by passing it through the straw holder in the can held by the participants mouth on both ends.The team which successfully places three cans on the middle table by carrying them from the tables at the extremes at first wins the competition. <br>Event Name: Knock Down <br>There is a table of approx. length 2 ft. Plastic cups are placed on the table in a row. Participants have to blow the baloon provided by their mouth and use the exhaled air to knock down the plastic cups.",
-  round1: "",
-  round2: "",
-  round3: "",
-  judging_criteria: "",
-  venue: "Central Garden",
-  team: "individual",
-  coordinators: "sid: 9770306466, akash: 234798547"
-
-},
-{
-  title: "Rush Hour [not finalised yet the games which are going to conduct in this]",
-  about: "rush rush rush is a fun, technical based event which enhances skills of the newly introduced engineers, forcing them to implement basic technical skills under pressure. ",
+  about: "last rush rush is a fun, technical based event which enhances skills of the newly introduced engineers, forcing them to implement basic technical skills under pressure. ",
    description: "The event shall consist of a series of small events to complete in a given time. The person who completes the series in minimum time will grab the prize. The events will be as described below Event Name  Ball in the pool    Three tables are to be placed at a distance of 2ft. from each other . 9 glasses are arranged in 3x3 order and are placed on the middle table .The competition will be between two rival participants standing 2ft away from the other two tables. Participants need to get the balls inside the glass in the middle row .The participant who does this at the earliest in the given time will be declared the winner.    Event Name  Cup it up   4 plastic cups are provided along with 3 note cards to the participants.Participants will have to create a tower with provided cups by placing note cards between each cup. Once the tower is bulit , participants will have to remove each note card one-by-one , so that all 4 cups rest in a single stack.   Event Name Pyramid of cups <br>Plastic cups are provided to the particpants.Participants will have to create a pyramid of cups. Once the pyramid is built, participant will have to slide down the cups to create a single stack. The participant who achieves this feat at first will be declared aa the winner. <br>Event Name: Lift it…!!if c can… <br>Three tables are to be placed at a distance of 5-6 ft from each other . Soft drink cans will be placed on top of the tables placed at the extremes.Two teams consisting of two players each will be given a straw each which they will have to use to lift up the empty cans by passing it through the straw holder in the can held by the participants mouth on both ends.The team which successfully places three cans on the middle table by carrying them from the tables at the extremes at first wins the competition. <br>Event Name: Knock Down <br>There is a table of approx. length 2 ft. Plastic cups are placed on the table in a row. Participants have to blow the baloon provided by their mouth and use the exhaled air to knock down the plastic cups.",
   round1: "",
   round2: "",
