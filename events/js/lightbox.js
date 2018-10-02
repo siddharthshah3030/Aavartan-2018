@@ -288,8 +288,8 @@ lightbox = new Lightbox options
           console.log("second row")
           iterator = 17;
         }
-        if(this.album.length == 5){
-          iterator = 20;
+        if(this.album.length == 4){
+          iterator = 19;
         }
         if(this.album.length == 3){
           iterator = 26;

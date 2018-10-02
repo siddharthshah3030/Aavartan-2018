@@ -273,7 +273,7 @@ var evd = [
 {    akash:20,
 
   title: "Aqua bot",
-  about: "Set your rudders, gun your propellers and cut through choppy waves in this one of a kind Manual controlled robot event. Make a simple RC/Manual robot and run it in a competition to outpace your competitor. Design and construct a robot capable of running on water surface.The competition will consist of two rounds- qualifying round and final round.",
+  about: "20Set your rudders, gun your propellers and cut through choppy waves in this one of a kind Manual controlled robot event. Make a simple RC/Manual robot and run it in a competition to outpace your competitor. Design and construct a robot capable of running on water surface.The competition will consist of two rounds- qualifying round and final round.",
   description: "ROBO SPECIFICATION <br>• The robot should fit in a box of dimension 30 cm x 30 cm x 30cm (l*b*h) at every given point of the race.<br>• Teams can use both wireless and wired remote controls for controlling the bot. <br> The external wireless/wired remote control used to control the robot is not included in the size constraint.<br> • Maximum voltage between any two terminals should not be more than 24 V DC.<br> • In case of wired the length of wire must be minimum 3 meters and maximum 6 meters. <br>• Teams can use any mode of power supply(on-board or off-board).An external AC power supply will be supplied from a three pin socket.<br>• Violating these clauses will lead to the straight disqualification of the team.<br>DIMENSIONS <br>• Smaller cube is of size 6cm*6cm*6cm (l*b*h) <br>• Big cube is of size 9cm*9cm*9cm (l*b*h) <br>• Ball diameter – 5 cm",
   round1: "QUALIFYING ROUND <br>• In this round the robot has to travel from starting point to end point by bursting the balloon placed in intermediate positions. <br>• For bursting a single balloon 20 points will be awarded. <br>• The maximum time given for the task is 5 minutes. <br>• Top teams will be selected on the basis of no. of points scored and time taken to complete task.",
   round2: "FINAL ROUND<br>• In this round, the robot has to travel from starting point to end point by picking cubes and balls placed at intermediate positions. <br>• In intermediate position the robot first has to burst balloon then only it can start picking up cubes and balls.<br>• After picking, the robot has to reach end point within allotted time otherwise no points will be given to team for whatever it has picked. <br>• For every ball picked-10 points, smaller cube picked-20 points, big cube picked- 30 points respectively will be given. <br>• For bursting balloon 20 points will be awarded <br>• The maximum time given for the task is 7 minutes.",
@@ -288,7 +288,7 @@ var evd = [
 
   title: "ROBO-SHOOT",
   about:"",
-    description:"For all who have passion in Robotics or Sports, AAVATAN’18 presents ‘Robo ShooT’.This competition is to show how good and swift your robot can be, by playing soccer and scoring more goals. This event is a platform for participants to showcase their robotics talents and also to bring alive the football spirit. Their robot controlling and ball shooting skills will be raised above their sky high limits.<br>They are required to build manually controlled wired or wireless bots capable of playing soccer on an arena specially designed for the robotic soccer match.<br>Teams will have to play a football match against other team. 2 minutes of setup time will be provided to each team for pregame setup and testing. Each match will consist of two halves of 6 minutes each. Ball will be placed at the centre of the arena at the starting of the match.",
+    description:"21For all who have passion in Robotics or Sports, AAVATAN’18 presents ‘Robo ShooT’.This competition is to show how good and swift your robot can be, by playing soccer and scoring more goals. This event is a platform for participants to showcase their robotics talents and also to bring alive the football spirit. Their robot controlling and ball shooting skills will be raised above their sky high limits.<br>They are required to build manually controlled wired or wireless bots capable of playing soccer on an arena specially designed for the robotic soccer match.<br>Teams will have to play a football match against other team. 2 minutes of setup time will be provided to each team for pregame setup and testing. Each match will consist of two halves of 6 minutes each. Ball will be placed at the centre of the arena at the starting of the match.",
     round1: "",
   round2: "",
   round3: "",
@@ -304,8 +304,7 @@ var evd = [
 
   title: "MAZE RUNNER",
   about:"",
-    description:"JUNO crossed Mars but now in front of it lies a belt of asteroids, random stones and mountains floating in space to get past this belt it must follow a certain path directed by NASA.
-Build autonomous line follower robot to follow a given path.The event consists of 2 rounds-",
+    description:"22JUNO crossed Mars but now in front of it lies a belt of asteroids, random stones and mountains floating in space to get past this belt it must follow a certain path directed by NASA.Build autonomous line follower robot to follow a given path.The event consists of 2 rounds-",
     round1: "In this round, a path formed by black lines will be provided. The participants have to come with an autonomous robot which should traverse from the source location to the destination on that path provided. The teams who will successfully complete this round will go to the next round.",
   round2: "In this round, a maze will be provided. The robots have to solve  maze and reach the end point of the maze.",
   round3: "",
@@ -317,7 +316,7 @@ Build autonomous line follower robot to follow a given path.The event consists o
    akash:23,
 
   title: "TERRAIN TREADER",
-  about:"A satellite has crashed into the dense deep forests of Amazon the abode of wilderness with rough terrain impossible to tread even bare foot. The satellite contains data of great sensitivity and significance and must be fetched under any circumstances. For that a treader needs to made which can overcome any hurdle the wilderness has to offer <br> In this the teams have to build a manually controlled robot which is capable of grabbing different objects and crossing different types of terrain by reconstructing its path and broken bridge. ",
+  about:"23A satellite has crashed into the dense deep forests of Amazon the abode of wilderness with rough terrain impossible to tread even bare foot. The satellite contains data of great sensitivity and significance and must be fetched under any circumstances. For that a treader needs to made which can overcome any hurdle the wilderness has to offer <br> In this the teams have to build a manually controlled robot which is capable of grabbing different objects and crossing different types of terrain by reconstructing its path and broken bridge. ",
     description:"ROBOT SPECIFICATION:<br>1. Each team is allowed to have a only one robot.<br>2. The robot must fit into a cube of (30x30x30) cm at all times. It may not expand at any time during the match beyond this size even for hitting the ball. Violating this clause will lead to immediate disqualification.<br>3. Robots must be controlled manually.<br>4. Robot can be wired or wireless/sensored robotics.",
     round1: "",
   round2: "",
