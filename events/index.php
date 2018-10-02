@@ -121,10 +121,10 @@ error_reporting(E_ERROR | E_PARSE);
                                  <li><a href="images/large/44.jpg" rel="lightbox[album1]" title="CODENESIA"><img  height="150px" width="150px" src="images/small/44.jpg" /></a></li>
                                  <li><a href="images/large/45.jpg" rel="lightbox[album1]" title="Kya aap 5vi pass se tezz h??"><img  height="150px" width="150px" src="images/small/45.jpg" /></a></li>
                                  <li><a href="images/large/18.jpg" rel="lightbox[album1]" title="GRAVITY CONTROL"><img height="150px" width="150px"  src="images/small/46.png" /></a></li>
-                                 <li><a href="images/large/43.jpg" rel="lightbox[album1]" title="THERMO-KHALIFA"><img  height="150px" width="150px" src="images/small/43.jpg" /></a></li>
-                                 <li><a href="images/large/44.jpg" rel="lightbox[album1]" title="TECHNOMIC QUOTIENT"><img  height="150px" width="150px" src="images/small/44.jpg" /></a></li>
-                                 <li><a href="images/large/45.jpg" rel="lightbox[album1]" title="GRE-PLANER"><img  height="150px" width="150px" src="images/small/45.jpg" /></a></li>
-                                 <li><a href="images/large/18.jpg" rel="lightbox[album1]" title="Electronica"><img height="150px" width="150px"  src="images/small/46.png" /></a></li>
+                                 <li><a href="images/large/21.jpg" rel="lightbox[album1]" title="THERMO-KHALIFA"><img  height="150px" width="150px" src="images/large/21.jpg" /></a></li>
+                                 <li><a href="images/large/26.jpg" rel="lightbox[album1]" title="TECHNOMIC QUOTIENT"><img  height="150px" width="150px" src="images/large/26.jpg" /></a></li>
+                                 <li><a href="images/large/10.jpg" rel="lightbox[album1]" title="GRE-PLANER"><img  height="150px" width="150px" src="images/large/10.jpg" /></a></li>
+                                 <li><a href="images/large/15.jpg" rel="lightbox[album1]" title="Electronica"><img height="150px" width="150px"  src="images/large/15.jpg" /></a></li>
                               </ul>
                            </div>
                         </div>
@@ -132,8 +132,8 @@ error_reporting(E_ERROR | E_PARSE);
                            <h3 class="pb-title">Managerial.</h3>
                            <div class="pb-scroll">
                               <ul class="pb-strip">
-                                 <li><a href="images/large/47.jpg" rel="lightbox[album2]" title="market kshetra"><img height="150px" width="150px"  src="images/small/47.png" /></a></li>
-                                 <li><a href="images/large/47.jpg" rel="lightbox[album2]" title="FOREX (Foreign Exchange Risk Management)"><img height="150px" width="150px"  src="images/small/47.png" /></a></li>
+                                 <li><a href="images/large/mal.jpeg" rel="lightbox[album2]" title="market kshetra"><img height="150px" width="150px"  src="images/small/ma.png" /></a></li>
+                                 <li><a href="images/large/mbl.jpeg" rel="lightbox[album2]" title="FOREX (Foreign Exchange Risk Management)"><img height="150px" width="150px"  src="images/small/mb.png" /></a></li>
                                  <!--
                                     <li><a href="images/large/15.jpg" rel="lightbox[album2]" title="Love"><img src="images/small/15.jpg" /></a></li>
                                     <li><a href="images/large/16.jpg" rel="lightbox[album2]" title="Friendship"><img src="images/small/16.jpg" /></a></li>
@@ -149,10 +149,10 @@ error_reporting(E_ERROR | E_PARSE);
                            <h3 class="pb-title">Robotics</h3>
                            <div class="pb-scroll">
                               <ul class="pb-strip">
-                                <li><a href="images/large/47.jpg" rel="lightbox[album3]" title="AQUA-BOT"><img height="150px" width="150px"  src="images/small/47.png" /></a></li>
-                                <li><a href="images/large/47.jpg" rel="lightbox[album3]" title="ROBO-SHOOT"><img height="150px" width="150px"  src="images/small/47.png" /></a></li>
-                                <li><a href="images/large/47.jpg" rel="lightbox[album3]" title="MAZE RUNNER"><img height="150px" width="150px"  src="images/small/47.png" /></a></li>
-                                <li><a href="images/large/47.jpg" rel="lightbox[album3]" title="TERRAIN TREADER"><img height="150px" width="150px"  src="images/small/47.png" /></a></li>
+                                <li><a href="images/large/al.jpeg" rel="lightbox[album3]" title="AQUA-BOT"><img height="150px" width="150px"  src="images/large/a.jpeg" /></a></li>
+                                <li><a href="images/large/sl.jpeg" rel="lightbox[album3]" title="ROBO-SHOOT"><img height="150px" width="150px"  src="images/large/s.jpeg" /></a></li>
+                                <li><a href="images/large/ml.jpeg" rel="lightbox[album3]" title="MAZE RUNNER"><img height="150px" width="150px"  src="images/large/m.jpeg" /></a></li>
+                                <li><a href="images/large/tl.jpeg" rel="lightbox[album3]" title="TERRAIN TREADER"><img height="150px" width="150px"  src="images/large/t.png" /></a></li>
 
                                  <!--
                                     <li><a href="images/large/8.jpg" rel="lightbox[album3]" title="Softness"><img src="images/small/8.jpg" /></a></li>
@@ -171,7 +171,7 @@ error_reporting(E_ERROR | E_PARSE);
                               <ul class="pb-strip">
                                  <li><a href="images/large/14.jpg" rel="lightbox[album4]" title="Tech cherades"><img src="images/small/14.jpg" /></a></li>
                                  <li><a href="images/large/2.jpg" rel="lightbox[album4]" title="Rush Hour"><img src="images/small/2.jpg" /></a></li>
-                                 <li><a href="images/large/2.jpg" rel="lightbox[album4]" title="coming soon"><img src="images/small/2.jpg" /></a></li>
+                                 <li><a href="images/large/fun17.jpg" rel="lightbox[album4]" title="It's all FUN"><img src="images/small/fun.jpeg" /></a></li>
 
                                  <!--
                                     <li><a href="images/large/20.jpg" rel="lightbox[album4]" title="Bliss"><img src="images/small/20.jpg" /></a></li>

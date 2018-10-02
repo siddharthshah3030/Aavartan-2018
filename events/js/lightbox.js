@@ -133,7 +133,7 @@ lightbox = new Lightbox options
       $lightbox.hide().on('click', function(e) {
         if ($(e.target).attr('id') === 'lightbox') _this.end();
         return false;
-      });
+      });jpeg
       $lightbox.find('.lb-outerContainer').on('click', function(e) {
         if ($(e.target).attr('id') === 'lightbox') _this.end();
         return false;
@@ -475,7 +475,7 @@ var regis;
           regis = 23;
         }
 
-  
+
 /*console.log("regis");
   console.log(regis);
   console.log("index");

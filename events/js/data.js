@@ -357,16 +357,14 @@ var evd = [
 
 
 {akash: 26,
-  title: "Rush Hour [not finalised yet the games which are going to conduct in this]",
-  about: "last rush rush is a fun, technical based event which enhances skills of the newly introduced engineers, forcing them to implement basic technical skills under pressure. ",
-   description: "The event shall consist of a series of small events to complete in a given time. The person who completes the series in minimum time will grab the prize. The events will be as described below Event Name  Ball in the pool    Three tables are to be placed at a distance of 2ft. from each other . 9 glasses are arranged in 3x3 order and are placed on the middle table .The competition will be between two rival participants standing 2ft away from the other two tables. Participants need to get the balls inside the glass in the middle row .The participant who does this at the earliest in the given time will be declared the winner.    Event Name  Cup it up   4 plastic cups are provided along with 3 note cards to the participants.Participants will have to create a tower with provided cups by placing note cards between each cup. Once the tower is bulit , participants will have to remove each note card one-by-one , so that all 4 cups rest in a single stack.   Event Name Pyramid of cups <br>Plastic cups are provided to the particpants.Participants will have to create a pyramid of cups. Once the pyramid is built, participant will have to slide down the cups to create a single stack. The participant who achieves this feat at first will be declared aa the winner. <br>Event Name: Lift it…!!if c can… <br>Three tables are to be placed at a distance of 5-6 ft from each other . Soft drink cans will be placed on top of the tables placed at the extremes.Two teams consisting of two players each will be given a straw each which they will have to use to lift up the empty cans by passing it through the straw holder in the can held by the participants mouth on both ends.The team which successfully places three cans on the middle table by carrying them from the tables at the extremes at first wins the competition. <br>Event Name: Knock Down <br>There is a table of approx. length 2 ft. Plastic cups are placed on the table in a row. Participants have to blow the baloon provided by their mouth and use the exhaled air to knock down the plastic cups.",
+  title: "dont remove this event #developer",
+  about: " Aavartan itself is a great fun",
+   description: "",
   round1: "",
   round2: "",
   round3: "",
   judging_criteria: "",
-  venue: "Central Garden",
-  team: "individual",
-  coordinators: "sid: 9770306466, akash: 234798547"
+  venue: "",
 
 },
 
