@@ -1,0 +1,28 @@
+<!-- <?php
+   include('connection.php');
+    session_start();
+    if(isset($_SESSION['id'])){
+    $id = $_SESSION['id'];
+    $sql = "SELECT * FROM registered_events WHERE id='$id'";
+        $result = mysqli_query($link, $sql);
+        if($result){
+            $data = "";
+            $row = mysqli_fetch_array($result, MYSQLI_ASSOC);
+            for($i=1;$i<sizeOf($row);$i++)
+            {
+            $data.=$row[$i];
+            $data.=' ';
+            }
+            echo '<div data-value="'.$data.'" id="eventdata"></div>';
+        }
+        else{
+            echo '<div class="alert alert-danger">Error running the query!</div>';
+            exit;
+        }
+    }
+    else{
+        echo '<div data-value="" id="eventdata"></div>';
+    }
+    ?>  -->
+at 82 after
+<body style="background: #291B2C;" class="particletext confetti">

@@ -9,7 +9,7 @@ error_reporting(E_ERROR | E_PARSE);
       <!-- loader begins -->
       <div id = "loaderbody">
          <div class="stars"></div>
-<div class="twinkling"></div><!-- 
+<div class="twinkling"></div><!--
 <div class="clouds"></div> -->
          <div  class="body">
             <span>
@@ -79,32 +79,7 @@ error_reporting(E_ERROR | E_PARSE);
          </style>
    </head>
    <body style="background: #291B2C;" class="particletext confetti">
-     <?php
-        include('connection.php');
-         session_start();
-         if(isset($_SESSION['id'])){
-         $id = $_SESSION['id'];
-         $sql = "SELECT * FROM registered_events WHERE id='$id'";
-             $result = mysqli_query($link, $sql);
-             if($result){
-                 $data = "";
-                 $row = mysqli_fetch_array($result, MYSQLI_ASSOC);
-                 for($i=1;$i<sizeOf($row);$i++)
-                 {
-                 $data.=$row[$i];
-                 $data.=' ';
-                 }
-                 echo '<div data-value="'.$data.'" id="eventdata"></div>';
-             }
-             else{
-                 echo '<div class="alert alert-danger">Error running the query!</div>';
-                 exit;
-             }
-         }
-         else{
-             echo '<div data-value="" id="eventdata"></div>';
-         }
-         ?> 
+  
       <div class="w3-row">
          <div id="perspective" class="perspective effect-laydown">
             <div class="container" style="background:black;">
@@ -113,12 +88,12 @@ error_reporting(E_ERROR | E_PARSE);
                   <div id="menunavbar" style="margin-bottom:1vw;position:sticky;top:0px;width:100%;" >
               <button id="showMenu" class="buttonxyz buttonxyz-1" style="display: inline-block;float:right;background:black;color:white">Menu</button>
               <img src="images/Aavartan.png" height="50px" width="160px" style="display: inline-block;">
-             
+
               <br>
               <br>
                      <h2 style="color: white; text-shadow: 0 0 10px rgba(255,255,255,0) , 0 0 20px rgba(255,255,255,0) , 0 0 30px rgba(255,255,255,0) , 0 0 40px #00ffff , 0 0 70px #00ffff , 0 0 80px #00ffff , 0 0 100px #00ffff ;">
                      <span></span>Events</h1>
-                   
+
                   </div>
                     <br>
                      <br>
@@ -215,11 +190,11 @@ error_reporting(E_ERROR | E_PARSE);
          <br> <br>
          <br>
      <br>
-        
+
 
                      </section>
  <br>
-        
+
                   </div>
 
                </div>
