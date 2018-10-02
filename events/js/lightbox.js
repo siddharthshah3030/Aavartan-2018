@@ -462,18 +462,20 @@ var ar = sid.split(' '); // split string on comma space
 function firstevent(p){
 /*console.log(p);*/
 var regis;
-  if(p== 17){
+  if(p== 16){
           regis = 0;
         }
-        if(p == 4){
-          regis = 16;
+        if(p == 2){
+          regis = 17;
         }
-        if(p == 5){
-          regis = 20;
+        if(p == 4){
+          regis = 19;
         }
         if(p == 3){
-          regis = 26;
+          regis = 23;
         }
+
+  
 /*console.log("regis");
   console.log(regis);
   console.log("index");
