@@ -44,7 +44,7 @@ error_reporting(E_ERROR | E_PARSE);
       <link rel="stylesheet" type="text/css" href="css/eventdemo.css" />
       <link rel="stylesheet" type="text/css" href="css/lightbox.css" />
       <link rel="stylesheet" type="text/css" href="css/style.css">
-      <link rel="stylesheet" type="text/css" href="css/checkbox.css">
+      <!-- <link rel="stylesheet" type="text/css" href="css/checkbox.css"> -->
       <!-- csstransforms3d-shiv-cssclasses-prefixed-teststyles-testprop-testallprops-prefixes-domprefixes-load -->
             <script src="https://use.fontawesome.com/dbb72ac4f9.js"></script>
       <script src="js/modernizr.custom.25376.js"></script>

@@ -304,8 +304,14 @@ lightbox = new Lightbox options
         // } else {
         // usrmessage  =   "not registered"
         // }
-        console.log("sid upper iteration check ")
-        console.log(this.currentImageIndex+iterator)
+        // console.log("sid upper iteration check ")
+        // console.log(this.currentImageIndex+iterator)
+         string =            '<strong>download the app to register</strong>';
+if(evd[this.currentImageIndex+iterator].about.length > 2){
+  string = string        +'</br></br><strong>About Event:</strong></br>' +  evd[this.currentImageIndex+iterator].about
+
+}
+
         var xyz=evd[this.currentImageIndex+iterator].akash;
         $lightbox.find('.lb-number').html(
            // '<div class="mihir" onClick="mihirsir('+xyz+')" id="toggles">  <input  type="checkbox" name="checkbox" id="checkbox" data-value="'+evd[this.currentImageIndex+iterator].akash+'" class="ios-toggle" checked/><label for="checkbox1" class="checkbox-label" data-off="'+usrmessage+'" data-on="registered"></label> </div>'
