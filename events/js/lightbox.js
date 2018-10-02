@@ -311,25 +311,55 @@ if(evd[this.currentImageIndex+iterator].about.length > 2){
   string = string        +'</br></br><strong>About Event:</strong></br>' +  evd[this.currentImageIndex+iterator].about
 
 }
+if(evd[this.currentImageIndex+iterator].description.length > 2){
+  string =      string   + '</br></br><strong>Event Description:</strong></br>' +  evd[this.currentImageIndex+iterator].description
 
+}
+if(evd[this.currentImageIndex+iterator].rules){
+if(evd[this.currentImageIndex+iterator].rules.length>2){
+  string = string +          '</br></br><strong>Rules And Regulations</strong><br>' + evd[this.currentImageIndex+iterator].rules
+}
+}
+if(evd[this.currentImageIndex+iterator].round1.length>2){
+  string = string +  evd[this.currentImageIndex+iterator].round1
+}
+if( evd[this.currentImageIndex+iterator].round2>2){
+  string = string        + '</br></br><strong>Round2:</strong></br>' +  evd[this.currentImageIndex+iterator].round2
+
+}
+if(evd[this.currentImageIndex+iterator].round3.length >2){
+  string = string +      '</br></br><strong>Round3:</strong></br>' +  evd[this.currentImageIndex+iterator].round3
+
+}
+if( evd[this.currentImageIndex+iterator].judging_criteria.length>2){
+  string = string +          '</br></br><strong>Judging Criteria:</strong></br>' +  evd[this.currentImageIndex+iterator].judging_criteria
+
+}
+if(evd[this.currentImageIndex+iterator].venue.length > 1){
+  string = string          + '</br></br><strong>Venue</strong></br>' +  evd[this.currentImageIndex+iterator].venue + ' '
+
+}
+string = string  +'<br> event '   + (this.currentImageIndex + 1) + ' '
+   + this.options.labelOf + '  '
+   + this.album.length;
         var xyz=evd[this.currentImageIndex+iterator].akash;
-        $lightbox.find('.lb-number').html(
+        $lightbox.find('.lb-number').html(string
            // '<div class="mihir" onClick="mihirsir('+xyz+')" id="toggles">  <input  type="checkbox" name="checkbox" id="checkbox" data-value="'+evd[this.currentImageIndex+iterator].akash+'" class="ios-toggle" checked/><label for="checkbox1" class="checkbox-label" data-off="'+usrmessage+'" data-on="registered"></label> </div>'
-           '<strong>download the app to register</strong>'
-        +'</br></br><strong>About Event:</strong></br>' +  evd[this.currentImageIndex+iterator].about
-        + '</br></br><strong>Event Description:</strong></br>' +  evd[this.currentImageIndex+iterator].description
-        + '</br></br><strong>Rules And Regulations</strong><br>' + evd[this.currentImageIndex+iterator].rules
-        + '<strong>Round1:</strong></br>' +  evd[this.currentImageIndex+iterator].round1
-        + '</br></br><strong>Round2:</strong></br>' +  evd[this.currentImageIndex+iterator].round2
-        + '</br></br><strong>Round3:</strong></br>' +  evd[this.currentImageIndex+iterator].round3
-        + '</br></br><strong>Judging Criteria:</strong></br>' +  evd[this.currentImageIndex+iterator].judging_criteria
-        + '</br></br><strong>Venue</strong></br>' +  evd[this.currentImageIndex+iterator].venue + ' '
-        + '</br></br><strong>Team</strong></br>' +  evd[this.currentImageIndex+iterator].team + ' '
-        + '</br></br><strong>Coordinators</strong></br>' +  evd[this.currentImageIndex+iterator].coordinators + ' '
-
-         + (this.currentImageIndex + 1) + ' '
-         + this.options.labelOf + '  '
-         + this.album.length
+        //    '<strong>download the app to register</strong>'
+        // +'</br></br><strong>About Event:</strong></br>' +  evd[this.currentImageIndex+iterator].about
+        // + '</br></br><strong>Event Description:</strong></br>' +  evd[this.currentImageIndex+iterator].description
+        // + '</br></br><strong>Rules And Regulations</strong><br>' + evd[this.currentImageIndex+iterator].rules
+        // + '<strong>Round1:</strong></br>' +  evd[this.currentImageIndex+iterator].round1
+        // + '</br></br><strong>Round2:</strong></br>' +  evd[this.currentImageIndex+iterator].round2
+        // + '</br></br><strong>Round3:</strong></br>' +  evd[this.currentImageIndex+iterator].round3
+        // + '</br></br><strong>Judging Criteria:</strong></br>' +  evd[this.currentImageIndex+iterator].judging_criteria
+        // + '</br></br><strong>Venue</strong></br>' +  evd[this.currentImageIndex+iterator].venue + ' '
+        // + '</br></br><strong>Team</strong></br>' +  evd[this.currentImageIndex+iterator].team + ' '
+        // + '</br></br><strong>Coordinators</strong></br>' +  evd[this.currentImageIndex+iterator].coordinators + ' '
+        //
+        //  + (this.currentImageIndex + 1) + ' '
+        //  + this.options.labelOf + '  '
+        //  + this.album.length
        ).fadeIn('fast');
        // firstevent(this.album.length)
       } else {
