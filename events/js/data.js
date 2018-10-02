@@ -83,14 +83,12 @@ var evd = [
 
   title: "MARVEL bakwwas HUNT",
   about: "",
-  description: "The war will be fought. Thanos’ evil head will be buried once again at the hands of the gallant superheroes. On DATE, NIT Raipur will turn into a gigantic battleground, witnessing clashes more exciting than any of the battles in Wakanda.IEEE SB NITRR brings THE MARVEL TREASURE HUNT in which teams will compete to find all the infinity stones to complete the infinity gauntlet and establish their dominance. This event will be played in a team of 3/4",
+  description: "The war will be fought. Thanos’ evil head will be buried once again with the hands of the gallant superheroes. On DATE, NIT Raipur will turn into a gigantic battleground, witnessing clashes more exciting than any of the battles in Wakanda.<br>IEEE SB NITRR brings THE MARVEL TREASURE HUNT in which teams will compete to find all the infinity stones to complete the infinity gauntlet and establish their dominance.This event will be played in a team of 3/4.",
   round1: "All the teams have to answer a pen paper quiz based on marvel cinematic universe. From which top 20 teams will be selected for the next round.",
   round2: "This treasure hunts is information-based scavenger hunt, in which teams have to use their collective brainpower to solve clues.  Each team will presented with a group of puzzles, or clues, which teams must solve in order to find a piece of information.Each clue leads to a location, where players must find and use a vital piece of information to find an infinity stone.  This information could be words from a historical plaque, a series of numbers or an address, a landmark, or any other unique item.<br>Teams will travel through the streets of NIT Raipur campus to find all the 6 infinity stones and be declared as the winner.",
   round3: "",
   judging_criteria: "",
-  venue: "Classroom for 1st round.",
-  team: "3 or 4 Members",
-  coordinators: "sid: 9770306466, akash: 234798547"
+  venue: "round",
 
 },
 
@@ -104,9 +102,7 @@ var evd = [
   round2: "This round composes of questions related to football.<br>Each round will consist of questions with increasing difficulty level. As the difficulty of question increases accordingly points would also increase.<br>For every wrong answer there will be a negative marking of 1/5 of points for that particular question.<br>For every passed question zero points would be awarded to that team.<br>Team answering the passed question correctly would earn 1/5 of points without any negative marking.<br>Winning team from each pool will be selected for the final round",
   round3: "1. Virtual money will be provided to each teams qualified for this round.<br>2. Auction of various football players will be done and bidding will be done by each teams.<br>3. Each player will be rated according to their current market value.<br>4. Team having the highest overall rating will emerge as winner.",
   judging_criteria: "",
-  venue: "nitrr",
-  team: "",
-  coordinators: "sid: 9770306466, akash: 234798547"
+  venue: "S-42",
 
 },
 
@@ -114,15 +110,13 @@ var evd = [
         akash:8,
 
   title: "Crazy Codes",
-  about: "Do you have a coding knowledge. Then my friend it’s the right place to test your coding knowledge",
-  description: "This is all about testing your knowledge in the world of coding.",
+  about: "Are you a code enthusiast? Then my friend it’s the right place to test your coding skill.This is all about testing your knowledge in the world of coding.",
+  description: "",
   round1: "1. An aptitude test will be conducted in a team of two with questions related to computer and language.<br>2. The top 20 teams will qualify for the second round.",
   round2: "This will be a ppt buzzer round.Several codes will pop up on the screen.<br>Team which has found the output will press the buzzer.<br>For each correct answer you will be rewarded some points.For each incorrect answer you will lose one fourth of points you receive for a correct answer.<br>In the end team with the maximum points will be the winner.<br> [Note: for further increasing the round a treasure hunt can be added]",
   round3: "",
   judging_criteria: "",
-  venue: "",
-  team: "individual",
-  coordinators: "sid: 9770306466, akash: 234798547"
+  venue: "G-4",
 
 },
 
@@ -131,13 +125,11 @@ var evd = [
   title: "Gwiggle",
   about: "To hunt a treasure has always followed a mainstream way, why not make it bizarre.<br>Adding blend of some technical ways to it could make it fun thrilling. Each team will have 3-4 members utmost. The event has the following rounds.<br>",
   description: "",
-  round1: "APTITUDE TEST – questions based on latest breakthrough in technology would be there.<br>It will be a pen paper test.",
-  round2: "Treasure hunt – Words written in paper will be hidden at places in different languages, the participants have to use  Google translate to convert it into understandable form thereby forming a sentence which would further take them to place where some images would be kept.<br>They have to find the same image in Google. The images would be shown to us.",
+  round1: "APTITUDE TEST<br> – questions based on latest breakthrough in technology would be there.<br>It will be a pen paper test.",
+  round2: "Treasure hunt<br> – Words written in paper will be hidden at places in different languages, the participants have to use  Google translate to convert it into understandable form thereby forming a sentence which would further take them to place where some images would be kept.<br>They have to find the same image in Google. The images would be shown to us.",
   round3: "There will be a set of questions for each image , the answers of which would be a place. The qualified participants will have to find the answer of the questions and locate the places on Google map.<br>By joining all the places (answers) on Google map alphabets will be formed, which would be the password for the Gmail ID we will give them to crack.",
   judging_criteria: "whoever completes the task in proper sequence and least time wins the treasure.",
-  venue: "nitrr mein",
-  team: "individual",
-  coordinators: "sid: 9770306466, akash: 234798547"
+  venue: "F-44",
 
 },
 
@@ -152,9 +144,7 @@ var evd = [
   round2: "",
   round3: "",
   judging_criteria: "The judging can be done by following criteria<br>1. No. of likes share react on the photo<br>2, The photo which best define the current aavartan.",
-  venue: "no venue",
-  team: "individual",
-  coordinators: "sid: 9770306466, akash: 234798547"
+  venue: "",
 
 },
 
@@ -162,15 +152,13 @@ var evd = [
         akash:11,
 
   title: "CODENESIA",
-  about: "Codenesia is a Student Programming Competition Coding, or the basics of programming, are fast becoming a new literacy standard around the world. It presents itself as an opportunity for students to showcase expertise in a friendly yet spirited competition. It aims to introduce t",
+  about: "Codenesia is a Student Programming Competition Coding, or the basics of programming, are fast becoming a new literacy standard around the world. It presents itself as an opportunity for students to showcase expertise in a friendly yet spirited competition. It aims to introduce the students to the computing community. It is conducted in two rounds, details of which are given below.",
   description: "",
   round1: "First round of Codenesia is an individual online round. This event is conducted on Codechef’s platform. Participants are given 7 questions from some basic topics of coding. Duration of 5 hours is to be allotted for the event .After the completion of first round, 30 of them are to be shortlisted for the second round on the basis of their performance.",
   round2: "After the successful completion of first round, second round will be conducted. The second round is a pen and paper round, in which the shortlisted students will be given a set of 25 questions. These questions will be based on debugging and fundamentals of some programming languages. This round is to be conducted within the time duration of 45 minutes. The winner is the one who scores the highest according to the marking scheme.",
   round3: "",
   judging_criteria: "",
-  venue: "nitrr mein",
-  team: "individual",
-  coordinators: "sid: 9770306466, akash: 234798547"
+  venue: "CSE Lab",
 
 },
 
@@ -181,12 +169,10 @@ var evd = [
   about: "",
   description: "",
   round1: "DOUBLE TROUBLE<br>Prior to a question being asked, a team may choose to double the points on offer. However, if the answer they provide is wrong, there would be a penalty. 5 teams will be selected for the final round.",
-  round2: "HUNT THE WORD",
-  round3: "VISUAL CONNECT:<br> One last question of highest marks that can turn tables. Here, pictorial clues will be put together in a slide and asked for connect. For example, pictures of famous personalities Katrina, Ophelia, Harvey may be put together in one slide and the teams have to guess the connect (hurricanes).",
+  round2: "HUNT THE WORD<br>Connecting links via Wikipedia.",
+  round3: "VISUAL CONNECT:<br>Pictorial clues will be put together in a slide and asked for connect. For example, pictures of famous personalities Katrina, Ophelia, Harvey may be put together in one slide and the teams have to guess the connect (hurricanes).",
   judging_criteria: "",
-  venue: "nitrr mein",
-  team: "individual",
-  coordinators: "sid: 9770306466, akash: 234798547"
+  venue: "S-13",
 
 },
 
@@ -199,9 +185,7 @@ var evd = [
   round2: "In this round each group will be provided with an inclined table and fixed number of barriers.<br>The sole aim of each team is to use the barriers in such a way that the ball takes maximum time to reach the bottom of incline.<br>The ball should move continuously without stopping in between.<br>The group which holds the ball on the incline for maximum time will emerge the winner",
   round3: "",
   judging_criteria: "",
-  venue: "nitrr mein",
-  team: "individual",
-  coordinators: "sid: 9770306466, akash: 234798547"
+  venue: "D4",
 
 },
 
@@ -352,8 +336,6 @@ var evd = [
   round3: "",
   judging_criteria: "Based on tideness<br>Based on how conceptual would model is ",
   venue: "Central Garden",
-  team: "individual",
-  coordinators: "sid: 9770306466, akash: 234798547"
 
 },
 
@@ -361,15 +343,14 @@ var evd = [
                 akash:24,
 
   title: "Tech cherades",
-  about: "",
-  description: "It consists of a team of 2 or 3 members. There will be only one word for each team in round.The teams which answer correctly will be forwarded to next round and clashes between teams will be resolved by time taken.",
-  round1: "A person of the team has to act and other has to identify the term.",
-  round2: "",
+  about: "One game was loved by all in the friends’ circle in the school, dumb charades!Do you know how we engineers play dumb charades? No??",
+  description: "Then do come and participate, learn to “act” like a techie, and win superb prizes.Here is an event which is too much fun that actually makes you act like an engineer. In the event, you will be given technical terms and you have to act them for your partner to guess before your time runs out. Work up your mind and get ready for a mind boggling yet gripping time.",
+  round1: "Round one will be conducted for each team, where a team will be handed 3 technical terms which they will have to enact for their partners to guess and points awarded for every right answer. This is a time bound round (1-minute per word).",
+  round2: "Round two will be conducted for the selected teams where they will be handed inventions and one member will enact for the partners to guess and then name the invention along with the inventor. Points will be awarded for correct words as well as speed of the team.",
   round3: "",
-  judging_criteria: "",
-  venue: "Central Garden or Left Garden",
-  team: "individual",
-  coordinators: "sid: 9770306466, akash: 234798547"
+  rules: "Registration will be for teams with at least 2 and at max 3 members.",
+  judging_criteria: "    1. First round will be judged by the number of correct answers and 20 teams will be selected.<br>    2. Second round will be judged for the right answers as well as the speed of the team. We will divide the teams into groups and all the teams of a group will be given the same word but they will not be aware of it..We will keep them randomly. The team which will be able to tell the invention and the inventor will be winner. They will be given 1 minute to enact.",
+  venue: " Left Garden",
 
 },
 
