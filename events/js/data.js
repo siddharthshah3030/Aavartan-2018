@@ -12,24 +12,25 @@ var evd = [
   round3: "",
   rules: "Rules of the event are as follows-<br> 1. There should be maximum 3 members in each team. <br>2. Rocket should be made with 2 liter plastic water bottle.<br>3. Rocket should fly due to hydraulic pressure.<br>4. October sky event contains 2 levels of difficulties, whose introduction would be given on the spot.",
   judging_criteria: "Event would be judge on the following parameters: - <br>Level 1 <br>• Maximum range of the rocket. <br>Level 2<br>• Whether the October hits the target or not and if it hits the target then at what point it scores on hitting? •<br> How close it is from the target. ",
-  venue: "Hockey Ground",
+  venue: "Cricket Ground",
   team: "",
   coordinators: ""
 
 },
 {
-  akash: 2,
+        akash: 2,
+
   title: "CAD-alyst ",
   about: "In this event students will get a chance to showcase their knowledge and skills in Autocad software. Students will be given dimensions of an object and they will have to design a 3D model of the object in Autocad in the given time. ",
   description: "This event will be conducted in two rounds. ",
   round1: "Aptitude test : <br>This round is will be an aptitude test. 30 questions will be given to the students wil a time limit of 30 minutes. Questions will be related to the Autocad software and general aptitude.",
   round2: "Final round :In this round students will be given the dimensions of an object and they will have to make a 3D design of the object in Autocad in given time limit.",
   round3: "",
-  rules:"1. Use of internet, smart phones and tutorial videos is strictly prohibited. Anyone caught using any of the above means will be immediately disqualified.<br>2. A team should not have more than 3 members.",
+  rules:"1. Use of internet, smart phones and tutorial videos is strictly prohibited. Anyone caught using any of the above means will be immediately disqualified.<br>2. A team should not have more than 3 members.<br>Team requirements:<br>1. A team consists of maximum 3 members.<br>2. One laptop is mandatory in each team.<br>3. Teams must have Autocad software installed in their laptops. ",
   judging_criteria: "Round 1 This round will be judged on the basis of score obtained by the teams in aptitude test. Round 2 This round will be judged on the basis of time taken by the teams to complete the given task.",
-  venue: "any classroom",
-  team: "1. A team consists of maximum 3 members. <br>2. One laptop is mandatory in each team. <br>3. Teams must have Autocad software installed in their laptops.",
-  coordinators: "sid: 9770306466, akash: 234798547"
+  venue: "F5",
+  // team: "1. A team consists of maximum 3 members. <br>2. One laptop is mandatory in each team. <br>3. Teams must have Autocad software installed in their laptops.",
+  // coordinators: "sid: 9770306466, akash: 234798547"
 
 },
 
@@ -42,11 +43,9 @@ var evd = [
   round1: "",
   round2: "",
   round3: "",
-  rules:"• Fifa and Nfs will played by individual • All rounds will be knock out. ",
+  rules:"• Fifa and Nfs will played by individual <br>• All rounds will be knock out. ",
   judging_criteria: "",
-  venue: "Lab",
-  team: "individual",
-  coordinators: "sid: 9770306466, akash: 234798547"
+  venue: "IT Lab",
 
 },
 
@@ -54,16 +53,14 @@ var evd = [
         akash:4,
 
   title: "Sherlock Holmes ",
-  about: "This is a crime-investigation and detective event which challenges the conventional way of thinking and very much lives by the ideology:"+ "The only promise a puzzle makes is an answer."+" An event with set of clues linking to one another using team’s analytical & technical knowledge. Also a run against time and mutual understanding of team. Be the"+" 007 " + "sherlock holmes" + " and" + "spy kids"+ " of ur arena!!..and crack out d clue nuts!! If you think your navigation skills are sharp and your puzzle solving is sharper then this event is for you. The teams will be given a clue, which when solved will lead to a series of subsequent puzzles and a new location. The clues will be concealed around the campus. Teams should construe the clues and puzzles and which is first in doing so is the winner. So….Do you have the witty skills of SHERLOCK HOLMES!!?? ",
+  about: "This is a crime-investigation and detective event which challenges the conventional way of thinking and very much lives by the ideology: 'The only promise a puzzle makes is an answer.' This is an n event with set of clues linking to one another using team’s analytical & technical knowledge and also a run against time and mutual understanding of team. Be the '007', 'Sherlock Holmes' and 'spy kids' of your arena! And crack out the clue nuts! If you think your navigation skills are sharp and your puzzle solving is sharper then this event is for you. The teams will be given a clue, which when solved will lead to a series of subsequent puzzles and a new location. The clues will be concealed around the campus. Teams should construe the clues and puzzles and which is first in doing so is the winner. So….Do you have the witty skills of SHERLOCK HOLMES!!?? <br> “Once you eliminate the impossible, whatever remains, no matter how improbable, must be the truth.” -Sherlock Holmes As the name suggests Sherlock Holmes is an offline detective event filled with puzzles, riddles and clues which the participant is supposed to decipher. The event consists of total 7 rounds, first round being the aptitude test to screen the teams and the difficulty level will keep on rising in the successive rounds as one proceeds. ",
   description: "“Once you eliminate the impossible, whatever remains, no matter how improbable, must be the truth.” -Sherlock Holmes As the name suggests Sherlock Holmes is an offline detective event filled with puzzles, riddles and clues which the participant is supposed to decipher. The event consists of total 7 rounds, first round being the aptitude test to screen the teams and the difficulty level will keep on rising in the successive rounds as one proceeds. ",
   round1: "",
   round2: "",
   round3: "",
-  rules:"1. Maximum 3 members per team are allowed. 2. On the basis of aptitude round, 50 teams will go to the next level. 3. Internet usage is allowed. 4. In case of any disputes the decision taken by the technical committee will be final and binding. ",
+  rules:"1. Maximum 3 members per team are allowed. <br>2. On the basis of aptitude round, 50 teams will go to the next level.<br> 3. Internet usage is allowed. <br>4. In case of any disputes the decision taken by the technical committee will be final and binding. ",
   judging_criteria: "",
-  venue: "Any classroom",
-  team: "Max 3 Members",
-  coordinators: "sid: 9770306466, akash: 234798547"
+  venue: "S-42-A",
 
 },
 
@@ -74,16 +71,13 @@ var evd = [
   about: "In present day we utilize a lot of big instruments which utilize refractive and reflective properties of light. This property has immense application in engineering world. Hence we bring you a new event which will enhance your knowledge on properties of light. This is a team event consisting of maximum 3 members. ",
   description: "",
   round1: "In this round, basically your imagination is judged based on concept of mirror and its properties like reflection, refraction, total internal reflection etc. Description: Each team shall be given 5min and provided 8 small pieces of mirror of size 8cm*8cm. The team is given a source of laser beam and a target and is asked to make a mirror maze, or an arrangement out of their imagination using concepts of multiple reflections and strike the target with laser beam within the given time.",
-   round2: " and form the primary mechanism for directing the path the path of the laser. They are vulnerable to a hit from two of the four sides. Obelisk : Large pillars with no mirrored sides, these are vulnerable to attack from any direction, and therefore useful mostly as an emergency sacrifice to protect another piece (such as the Pharaoh). Anubis : Anubis has the advantage that, despite still being un-mirrored, they are not affected by a laser strike on the front;cvb gfklnbfgnbfgnbf gnbfgx  nbgnbj nbkjgjbhjbhbhbjhbjhbghj nbjkgnbjgnbjfgnblgfnblgfn blkfng blkfgnblgnblk gnb lgn blfgnblfgn blfgn blgfn blgfnblfgnb ln gblgnflb  gflkb nfglbn fglkb  ngf gfnlkb fgn bklfg nblkg n blfgn bl fgn blfgnb fglbnfglkbngfkb gfnkkkkkkkkkkkkkkkkkkkkkkkkkkkkkbkgb ngkb ngk nblgn bl fgnbl gfnbkgnfbl k fng blkfgnblkngf  lkbnfglbngf lkbnfgnb fgxnb kgf nbgfnblkfgnblk gfnblkgfnblkfgn bkng bngf lbnflgkbfgx bfg bfg ngh n hgncg ncgh  jch jcghh cghjch gjcg hj hjh jhf jf they must be hit on the sides or rear in order to be eliminated.",
+   round2: "Khet is a chess-like abstract strategy board game using lasers. Teams take turns moving Egyptian-themed pieces around the playing field, firing their laser after each move.<br>Each team starts the game with a few playing pieces, arranged in a pre-defined configuration and a laser. The pieces in the game are:<br><br>Sphinx :<br>The Sphinxes hold the lasers. They may not move (each team's is located at their closest right-hand corner) but may be rotated in place so as to fire down the rank instead of the file. A Sphinx is unaffected by laser fire, whether the opponent's or its own reflected back upon itself. <br>Pharaoh :<br>The Pharaoh is the most important piece for each side, similar to a king in chess. If it is hit with a laser, it is destroyed and its owner loses the game. <br>Scarab :<br>Scarabs consist primarily of large, dual-sided mirrors. They reflect a laser coming in from any direction and thus cannot be eliminated from the board. <br>Pyramid :<br>Pyramids have a single diagonal mirror, and form the primary mechanism for directing the path of the laser. They are vulnerable to a hit from two of the four sides. <br>Obelisk :<br>Large pillars with no mirrored sides, these are vulnerable to attack from any direction, and therefore useful mostly as an emergency sacrifice to protect another piece (such as the Pharaoh). <br>Anubis :<br>Anubis has the advantage that, despite still being un-mirrored, they are not affected by a laser strike on the front; they must be hit on the sides or rear in order to be eliminated.<br>",
   round3: "",
-   rules: "Silver moves first. Teams alternate turns, with each team moving only his/her own pieces. All the pieces, including Pharaohs, can be moved. <br>2. Each team has a Sphinx which contains a laser. It is not a playing piece and cannot be eliminated from play. It is located in its special corner space. The Sphinx can be rotated to point the laser down either the first column or the first row and is only optional. If a team chooses to rotate the Sphinx as his/her turn, it must be rotated before the head is pushed and the laser is fired <br>3. A turn consists of moving any one piece one step in any direction (including diagonally) or of rotating a piece a quarter turn (90 degrees) in either direction without changing squares. A piece cannot be moved and rotated on the same turn or rotated more than a quarter twist on one turn. <br>4. No red piece, including a Scarab, can move into any square containing a silvermark. No silver piece, including a Scarab, can move into any square containing a redmark that are located along portions of the edges of the board. <br>5. Except for the Scarab, no piece can move into a square occupied by another piece of either colour. <br>6. The Scarab can swap places with an adjacent Pyramid or Anubis, but not with a Pharaoh or another Scarab piece. Neither piece rotates during the swap. <br>7. If the laser beam stops on a non-mirrored surface of a Pyramid that piece is removed from the board. <br>8. If the laser beam stops on the front side of an Anubis piece, the Anubis is not removed from the board and the turn is over—this piece is impervious to a hit on its front. If the laser beam strikes a side or back of an Anubis, that piece is removed from the board. <br>9. The laser is fired only once at the end of a team’s turn. The turn is over whether or not a piece is hit. Teams may not test where the beam will go by firing the laser before completing their moves. <br>10. The game ends when a beam illuminates a Pharaoh. The winner is the team whose Pharaoh wasn’t hit. A team who illuminates his or her own Pharaoh is out of luck.",
-  judging_criteria: "1. The team which completes the game in least time wins. <br>2. If two teams complete the game in same time, then the one with least number of hits is declared winner.",
-  venue: "nitrr mein",
-  team: "Max 3 Members",
-  coordinators: "sid: 9770306466, akash: 234798547"
+   rules: "1. Silver moves first. Teams alternate turns, with each team moving only his/her own pieces. All the pieces, including Pharaohs, can be moved.<br>2. Each team has a Sphinx which contains a laser. It is not a playing piece and cannot be eliminated from play. It is located in its special corner space. The Sphinx can be rotated to point the laser down either the first column or the first row and is only optional. If a team chooses to rotate the Sphinx as his/her turn, it must be rotated before the head is pushed and the laser is fired<br>3. A turn consists of moving any one piece one step in any direction (including diagonally) or of rotating a piece a quarter turn (90 degrees) in either direction without changing squares. A piece cannot be moved and rotated on the same turn or rotated more than a quarter twist on one turn.<br>4. No red piece, including a Scarab, can move into any square containing a silvermark. No silver piece, including a Scarab, can move into any square containing a redmark that are located along portions of the edges of the board.<br>5. Except for the Scarab, no piece can move into a square occupied by another piece of either colour. <br>6. The Scarab can swap places with an adjacent Pyramid or Anubis, but not with a Pharaoh or another Scarab piece. Neither piece rotates during the swap. <br>7. If the laser beam stops on a non-mirrored surface of a Pyramid that piece is removed from the board.<br>8. If the laser beam stops on the front side of an Anubis piece, the Anubis is not removed from the board and the turn is over—this piece is impervious to a hit on its front. If the laser beam strikes a side or back of an Anubis, that piece is removed from the board.<br>9. The laser is fired only once at the end of a team’s turn. The turn is over whether or not a piece is hit. Teams may not test where the beam will go by firing the laser before completing their moves.<br>10. The game ends when a beam illuminates a Pharaoh. The winner is the team whose Pharaoh wasn’t hit. A team who illuminates his or her own Pharaoh is out of luck.",
+  judging_criteria: "1. The team which completes the game in least time wins.<br>2. If two teams complete the game in same time, then the one with least number of hits is declared winner.",
+  venue: "F-39",
 
 },
-// Khet is a chess-like abstract strategy board game using lasers. Teams take turns moving Egyptian-themed pieces around the playing field, firing their laser after each move. Description: Each team starts the game with a few playing pieces, arranged in a pre-defined configuration and a laser. The pieces in the game are: Sphinx : The Sphinxes hold the lasers. They may not move (each team's is located at their closest right-hand corner) but may be rotated in place so as to fire down the rank instead of the file. A Sphinx is unaffected by laser fire, whether the opponent's or its own reflected back upon itself. Pharaoh : The Pharaoh is the most important piece for each side, similar to a king in chess. If it is hit with a laser, it is destroyed and its owner loses the game. Scarab : Scarabs consist primarily of large, dual-sided mirrors. They reflect a laser coming in from any direction and thus cannot be eliminated from the board. Pyramid :Pyramids have a single diagonal mirror,
 {
         akash:6,
 
