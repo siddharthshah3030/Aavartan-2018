@@ -171,7 +171,8 @@ error_reporting(E_ERROR | E_PARSE);
                               <ul class="pb-strip">
                                  <li><a href="images/large/14.jpg" rel="lightbox[album4]" title="Tech cherades"><img src="images/small/14.jpg" /></a></li>
                                  <li><a href="images/large/2.jpg" rel="lightbox[album4]" title="Rush Hour"><img src="images/small/2.jpg" /></a></li>
-            
+                                 <li><a href="images/large/2.jpg" rel="lightbox[album4]" title="coming soon"><img src="images/small/2.jpg" /></a></li>
+
                                  <!--
                                     <li><a href="images/large/20.jpg" rel="lightbox[album4]" title="Bliss"><img src="images/small/20.jpg" /></a></li>
                                     <li><a href="images/large/1.jpg" rel="lightbox[album4]" title="Adorable"><img src="images/small/1.jpg" /></a></li>

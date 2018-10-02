@@ -293,7 +293,7 @@ lightbox = new Lightbox options
           iterator = 19;
         }
         if(this.album.length == 3){
-          iterator = 26;
+          iterator = 23;
         }
       var   usrmessage;
         // var usercheck =  document.getElementById('eventdata').getAttribute('data-value')
