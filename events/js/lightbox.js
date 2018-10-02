@@ -294,7 +294,8 @@ lightbox = new Lightbox options
           iterator = 22;
         }
       var   usrmessage;
-        var usercheck =  document.getElementById('eventdata').getAttribute('data-value')
+        // var usercheck =  document.getElementById('eventdata').getAttribute('data-value')
+        usercheck = true
         if(usercheck == "")  {
         usrmessage = "log in to register"
 
@@ -306,8 +307,8 @@ lightbox = new Lightbox options
            '<div class="mihir" onClick="mihirsir('+xyz+')" id="toggles">  <input  type="checkbox" name="checkbox" id="checkbox" data-value="'+evd[this.currentImageIndex+iterator].akash+'" class="ios-toggle" checked/><label for="checkbox1" class="checkbox-label" data-off="'+usrmessage+'" data-on="registered"></label> </div>'
         + '</br></br><strong>About Event:</strong></br>' +  evd[this.currentImageIndex+iterator].about
         + '</br></br><strong>Event Description:</strong></br>' +  evd[this.currentImageIndex+iterator].description
-        + '</br></br><strong>Rules And Regulations</strong>'
-        + '</br><strong>Round1:</strong></br>' +  evd[this.currentImageIndex+iterator].round1
+        + '</br></br><strong>Rules And Regulations</strong><br>' + evd[this.currentImageIndex+iterator].rules
+        + '<strong>Round1:</strong></br>' +  evd[this.currentImageIndex+iterator].round1
         + '</br></br><strong>Round2:</strong></br>' +  evd[this.currentImageIndex+iterator].round2
         + '</br></br><strong>Round3:</strong></br>' +  evd[this.currentImageIndex+iterator].round3
         + '</br></br><strong>Judging Criteria:</strong></br>' +  evd[this.currentImageIndex+iterator].judging_criteria
@@ -429,8 +430,8 @@ function secondevent() {
     // $( ".ios-toggle" ).trigger( "click" );
 
 }
- var sid = document.getElementById('eventdata').getAttribute('data-value');
-//var sid = '1 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0';
+ // var sid = document.getElementById('eventdata').getAttribute('data-value');
+var sid = '1 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 0 1 0 1';
 var ar = sid.split(' '); // split string on comma space
 /*        selectedevent = this;
         if(this.album.length == 13){

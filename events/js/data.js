@@ -10,7 +10,7 @@ var evd = [
   round1: "",
   round2: "",
   round3: "",
-  rules: "Rules of the event are as follows-<br> 1. There should be maximum 3 members in each team. <br>2. Rocket should be made with 2 liter plastic water bottle.<br>3. Rocket should fly due to hydraulic pressure.<br>4. October sky event contains 2 levels of difficulties, whose introduction would be given on the spot."
+  rules: "Rules of the event are as follows-<br> 1. There should be maximum 3 members in each team. <br>2. Rocket should be made with 2 liter plastic water bottle.<br>3. Rocket should fly due to hydraulic pressure.<br>4. October sky event contains 2 levels of difficulties, whose introduction would be given on the spot.",
   judging_criteria: "Event would be judge on the following parameters: - <br>Level 1 <br>• Maximum range of the rocket. <br>Level 2<br>• Whether the October hits the target or not and if it hits the target then at what point it scores on hitting? •<br> How close it is from the target. ",
   venue: "Hockey Ground",
   team: "",
