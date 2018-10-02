@@ -133,7 +133,7 @@ lightbox = new Lightbox options
       $lightbox.hide().on('click', function(e) {
         if ($(e.target).attr('id') === 'lightbox') _this.end();
         return false;
-      });jpeg
+      });
       $lightbox.find('.lb-outerContainer').on('click', function(e) {
         if ($(e.target).attr('id') === 'lightbox') _this.end();
         return false;
@@ -297,19 +297,20 @@ lightbox = new Lightbox options
         }
       var   usrmessage;
         // var usercheck =  document.getElementById('eventdata').getAttribute('data-value')
-        usercheck = true
-        if(usercheck == "")  {
-        usrmessage = "log in to register"
-
-        } else {
-        usrmessage  =   "not registered"
-        }
+        // usercheck = true
+        // if(usercheck == "")  {
+        // usrmessage = "log in to register"
+        //
+        // } else {
+        // usrmessage  =   "not registered"
+        // }
         console.log("sid upper iteration check ")
         console.log(this.currentImageIndex+iterator)
         var xyz=evd[this.currentImageIndex+iterator].akash;
         $lightbox.find('.lb-number').html(
-           '<div class="mihir" onClick="mihirsir('+xyz+')" id="toggles">  <input  type="checkbox" name="checkbox" id="checkbox" data-value="'+evd[this.currentImageIndex+iterator].akash+'" class="ios-toggle" checked/><label for="checkbox1" class="checkbox-label" data-off="'+usrmessage+'" data-on="registered"></label> </div>'
-        + '</br></br><strong>About Event:</strong></br>' +  evd[this.currentImageIndex+iterator].about
+           // '<div class="mihir" onClick="mihirsir('+xyz+')" id="toggles">  <input  type="checkbox" name="checkbox" id="checkbox" data-value="'+evd[this.currentImageIndex+iterator].akash+'" class="ios-toggle" checked/><label for="checkbox1" class="checkbox-label" data-off="'+usrmessage+'" data-on="registered"></label> </div>'
+           '<strong>download the app to register</strong>'
+        +'</br></br><strong>About Event:</strong></br>' +  evd[this.currentImageIndex+iterator].about
         + '</br></br><strong>Event Description:</strong></br>' +  evd[this.currentImageIndex+iterator].description
         + '</br></br><strong>Rules And Regulations</strong><br>' + evd[this.currentImageIndex+iterator].rules
         + '<strong>Round1:</strong></br>' +  evd[this.currentImageIndex+iterator].round1
@@ -324,7 +325,7 @@ lightbox = new Lightbox options
          + this.options.labelOf + '  '
          + this.album.length
        ).fadeIn('fast');
-       firstevent(this.album.length)
+       // firstevent(this.album.length)
       } else {
         $lightbox.find('.lb-number').hide();
       }
@@ -400,196 +401,81 @@ lightbox = new Lightbox options
 
 
 
-$( ".ios-toggle" ).on( "click", function() {
-  $('.ios-toggle').prop('checked', false);
-  if (evr[selectedevent.currentImageIndex] === 1 ) {
- $('.ios-toggle').attr("disabled", true);
+// $( ".ios-toggle" ).on( "click", function() {
+//   $('.ios-toggle').prop('checked', false);
+//   if (evr[selectedevent.currentImageIndex] === 1 ) {
+//  $('.ios-toggle').attr("disabled", true);
+//
+//   } else {
+//     $('.ios-toggle').prop('checked', true);
+//     evr[selectedevent.currentImageIndex] = 1;
+//
+//   }
+// });
 
-  } else {
-    $('.ios-toggle').prop('checked', true);
-    evr[selectedevent.currentImageIndex] = 1;
-
-  }
-});
-
-function secondevent() {
-  var usercheck =  document.getElementById('eventdata').getAttribute('data-value')
-
-  if(usercheck == "")  {
-  } else {
-
-    if (evr[selectedevent.currentImageIndex] === 1 ) {
-      $('.ios-toggle').attr("disabled", true);
-
-    } else {
-      $('.ios-toggle').prop('checked', true);
-      evr[selectedevent.currentImageIndex] = 1;
+// function secondevent() {
+//   var usercheck =  document.getElementById('eventdata').getAttribute('data-value')
+//
+//   if(usercheck == "")  {
+//   } else {
+//
+//     if (evr[selectedevent.currentImageIndex] === 1 ) {
+//       $('.ios-toggle').attr("disabled", true);
+//
+//     } else {
+//       $('.ios-toggle').prop('checked', true);
+//       evr[selectedevent.currentImageIndex] = 1;
+//
+//
+//     }
+//   }
 
 
-    }
-  }
 
-    // });
-    // $( ".ios-toggle" ).trigger( "click" );
-    // $( ".ios-toggle" ).trigger( "click" );
-
-}
+// }
  // var sid = document.getElementById('eventdata').getAttribute('data-value');
-var sid = '1 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 0 1 0 1';
-var ar = sid.split(' '); // split string on comma space
-/*        selectedevent = this;
-        if(this.album.length == 13){
-          regis = 0;
-        }
-        if(this.album.length == 4){
-          regis = 13;
-        }
-        if(this.album.length == 5){
-          regis = 16;
-        }
-        if(this.album.length == 3){
-          regis = 22;
-        }*/
-// var sidd = sid.splice(17, 0, "null");
-// sidd = sidd.splice(18, 0, "null");
-// sidd = sidd.splice(20, 0, "null");
-// sidd = sidd.splice(21, 0, "null");
-// sidd = sidd.splice(22, 0, "null");
-// sidd = sidd.splice(23, 0, "null");
-// sidd = sidd.splice(26, 0, "null");
-// sidd = sidd.splice(27, 0, "null");
-// sidd = sidd.splice(28, 0, "null");
-function firstevent(p){
-/*console.log(p);*/
-var regis;
-  if(p== 16){
-          regis = 0;
-        }
-        if(p == 2){
-          regis = 17;
-        }
-        if(p == 4){
-          regis = 19;
-        }
-        if(p == 3){
-          regis = 23;
-        }
+// var sid = '1 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 0 1 0 1';
+// var ar = sid.split(' '); // split string on comma space
 
-
-/*console.log("regis");
-  console.log(regis);
-  console.log("index");
-  console.log(selectedevent.currentImageIndex);
-  console.log("selectedevent.currentImageIndex");
-  console.log(ar[selectedevent.currentImageIndex]);
-          console.log(":::::::::::::");*/
-          console.log("regis" + regis);
-          console.log("index"+selectedevent.currentImageIndex );
-          console.log(selectedevent.currentImageIndex + regis)
-  if (ar[selectedevent.currentImageIndex + regis] == 1 ) {
-    $('.ios-toggle').prop('checked', true);
-
-  } else {
-    $('.ios-toggle').prop('checked', false);
-
-
-  }
-$( "#toggles" ).on( "click", function() {
-    // $( ".ios-toggle" ).on( "click", function() {
-
-secondevent()
-    // });
-    // $( ".ios-toggle" ).trigger( "click" );
-    // $( ".ios-toggle" ).trigger( "click" );
-});
-}
-
-// ios-toggle
-// $( """ ).trigger( "click" );
-
-//$( ".ios-toggle" ).on( "click", function() {
-//  alert( $( this ).text() );
+// function firstevent(p){
+// /*console.log(p);*/
+// var regis;
+//   if(p== 16){
+//           regis = 0;
+//         }
+//         if(p == 2){
+//           regis = 17;
+//         }
+//         if(p == 4){
+//           regis = 19;
+//         }
+//         if(p == 3){
+//           regis = 23;
+//         }
 //
 //
-//loadDoc("update.php", toggleTheButton());
+// /*console.log("regis");
+//   console.log(regis);
+//   console.log("index");
+//   console.log(selectedevent.currentImageIndex);
+//   console.log("selectedevent.currentImageIndex");
+//   console.log(ar[selectedevent.currentImageIndex]);
+//           console.log(":::::::::::::");*/
+//           console.log("regis" + regis);
+//           console.log("index"+selectedevent.currentImageIndex );
+//           console.log(selectedevent.currentImageIndex + regis)
+//   if (ar[selectedevent.currentImageIndex + regis] == 1 ) {
+//     $('.ios-toggle').prop('checked', true);
+//
+//   } else {
+//     $('.ios-toggle').prop('checked', false);
 //
 //
-//});
+//   }
+// $( "#toggles" ).on( "click", function() {
 //
+// // secondevent()
+//     // });
 //
-//
-//
-//
-//function loadDoc(url, cFunction) {
-//  var xhttp;
-//  xhttp=new XMLHttpRequest();
-//  xhttp.onreadystatechange = function() {
-//    if (this.readyState == 4 && this.status == 200) {
-//      cFunction(this);
-//    }
-//  };
-//  xhttp.open("GET","update.php", true);
-//  xhttp.send();
-//}
-//
-//
-//$( "checkbox-label" ).on( "click", function() {
-//  alert( $( this ).text() );
-//    console.log("button triggered");
-//
-//
-//loadDoc("update.php", toggleTheButton());
-//
-//
-//});
-//
-//
-//
-//
-//
-//function loadDoc(a, cFunction) {
-//  // var xhttp;
-//  // xhttp=new XMLHttpRequest();
-//  // xhttp.onreadystatechange = function() {
-//  //   if (this.readyState == 4 && this.status == 200) {
-//  //     cFunction(this);
-//  //   }
-//  // };
-//  // xhttp.open("GET","update.php", true);
-//  // xhttp.send();
-//  var http = new XMLHttpRequest();
-//var url = 'update.php';
-//var params = this.getAttribute('data-value');
-//http.open('POST', url, true);
-//
-////Send the proper header information along with the request
-//http.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
-//
-//http.onreadystatechange = function() {//Call a function when the state changes.
-//    if(http.readyState == 4 && http.status == 200) {
-//        alert(http.responseText);
-//
-//        if(this.prop('checked', false)){
-//          this.prop.checked = true;
-//        }
-//        else {
-//          this.prop.checked = false;
-//        }
-//
-//
-//
-//    }
-//}
-//http.send(params);
-//}
-//
-////
-//// function toggleTheButton(xhttp) {
-////   if(this.prop('checked', false)){
-////     this.prop.checked = true;
-////   }
-////   else {
-////     this.prop.checked = false;
-////   }
-//// }
-//
+// });
+// }
