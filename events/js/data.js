@@ -188,6 +188,54 @@ var evd = [
   venue: "D4",
 
 },
+{    akash:14,
+
+  title: "GRAVITY 14",
+  about: "Hate Newton or love him? Well that’s none of our concern<br>lets just see how much you love gravity.",
+  description: "This event is based on your understanding of gravity and  your logic to hold the ball for maximum time on the table.",
+  round1: "A test will be conducted in a team of 2 with questions on physics related to science.<br>The top 10 teams will qualify for the second round.",
+  round2: "In this round each group will be provided with an inclined table and fixed number of barriers.<br>The sole aim of each team is to use the barriers in such a way that the ball takes maximum time to reach the bottom of incline.<br>The ball should move continuously without stopping in between.<br>The group which holds the ball on the incline for maximum time will emerge the winner",
+  round3: "",
+  judging_criteria: "",
+  venue: "D4",
+
+},
+{    akash:15,
+
+  title: "GRAVITY 15",
+  about: "Hate Newton or love him? Well that’s none of our concern<br>lets just see how much you love gravity.",
+  description: "This event is based on your understanding of gravity and  your logic to hold the ball for maximum time on the table.",
+  round1: "A test will be conducted in a team of 2 with questions on physics related to science.<br>The top 10 teams will qualify for the second round.",
+  round2: "In this round each group will be provided with an inclined table and fixed number of barriers.<br>The sole aim of each team is to use the barriers in such a way that the ball takes maximum time to reach the bottom of incline.<br>The ball should move continuously without stopping in between.<br>The group which holds the ball on the incline for maximum time will emerge the winner",
+  round3: "",
+  judging_criteria: "",
+  venue: "D4",
+
+},
+{    akash:16,
+
+  title: "GRAVITY 16",
+  about: "Hate Newton or love him? Well that’s none of our concern<br>lets just see how much you love gravity.",
+  description: "This event is based on your understanding of gravity and  your logic to hold the ball for maximum time on the table.",
+  round1: "A test will be conducted in a team of 2 with questions on physics related to science.<br>The top 10 teams will qualify for the second round.",
+  round2: "In this round each group will be provided with an inclined table and fixed number of barriers.<br>The sole aim of each team is to use the barriers in such a way that the ball takes maximum time to reach the bottom of incline.<br>The ball should move continuously without stopping in between.<br>The group which holds the ball on the incline for maximum time will emerge the winner",
+  round3: "",
+  judging_criteria: "",
+  venue: "D4",
+
+},
+{    akash:17,
+
+  title: "GRAVITY 17",
+  about: "Hate Newton or love him? Well that’s none of our concern<br>lets just see how much you love gravity.",
+  description: "This event is based on your understanding of gravity and  your logic to hold the ball for maximum time on the table.",
+  round1: "A test will be conducted in a team of 2 with questions on physics related to science.<br>The top 10 teams will qualify for the second round.",
+  round2: "In this round each group will be provided with an inclined table and fixed number of barriers.<br>The sole aim of each team is to use the barriers in such a way that the ball takes maximum time to reach the bottom of incline.<br>The ball should move continuously without stopping in between.<br>The group which holds the ball on the incline for maximum time will emerge the winner",
+  round3: "",
+  judging_criteria: "",
+  venue: "D4",
+
+},
 
 
 

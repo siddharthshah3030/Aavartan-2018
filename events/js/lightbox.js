@@ -281,17 +281,17 @@ lightbox = new Lightbox options
       }
       if (this.album.length > 1) {
         selectedevent = this;
-        if(this.album.length == 13){
+        if(this.album.length == 17){
           iterator = 0;
         }
         if(this.album.length == 4){
-          iterator = 13;
+          iterator = 17;
         }
         if(this.album.length == 5){
-          iterator = 16;
+          iterator = 20;
         }
         if(this.album.length == 3){
-          iterator = 22;
+          iterator = 26;
         }
       var   usrmessage;
         // var usercheck =  document.getElementById('eventdata').getAttribute('data-value')
@@ -458,17 +458,17 @@ var ar = sid.split(' '); // split string on comma space
 function firstevent(p){
 /*console.log(p);*/
 var regis;
-  if(p== 13){
+  if(p== 17){
           regis = 0;
         }
         if(p == 4){
-          regis = 13;
+          regis = 17;
         }
         if(p == 5){
-          regis = 16;
+          regis = 20;
         }
         if(p == 3){
-          regis = 22;
+          regis = 26;
         }
 /*console.log("regis");
   console.log(regis);
