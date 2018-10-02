@@ -149,11 +149,11 @@ error_reporting(E_ERROR | E_PARSE);
                            <h3 class="pb-title">Robotics</h3>
                            <div class="pb-scroll">
                               <ul class="pb-strip">
-                                 <li><a href="#" rel="lightbox[album3]" title="Coming Soon"><img height="150px" width="150px" src="images/giphy.gif" /></a></li>
-                                 <li><a href="#" rel="lightbox[album3]" title="Coming Soon"><img height="150px" width="150px" src="images/giphy.gif" /></a></li>
-                                 <li><a href="#" rel="lightbox[album3]" title="Coming Soon"><img height="150px" width="150px" src="images/giphy.gif" /></a></li>
-                                 <li><a href="#" rel="lightbox[album3]" title="Coming Soon"><img height="150px" width="150px" src="images/giphy.gif" /></a></li>
-                                 <li><a href="#" rel="lightbox[album3]" title="Coming Soon"><img height="150px" width="150px" src="images/giphy.gif" /></a></li>
+                                <li><a href="images/large/47.jpg" rel="lightbox[album3]" title="market kshetra"><img height="150px" width="150px"  src="images/small/47.png" /></a></li>
+                                <li><a href="images/large/47.jpg" rel="lightbox[album3]" title="market kshetra"><img height="150px" width="150px"  src="images/small/47.png" /></a></li>
+                                <li><a href="images/large/47.jpg" rel="lightbox[album3]" title="market kshetra"><img height="150px" width="150px"  src="images/small/47.png" /></a></li>
+                                <li><a href="images/large/47.jpg" rel="lightbox[album3]" title="market kshetra"><img height="150px" width="150px"  src="images/small/47.png" /></a></li>
+
 
                                  <!--
                                     <li><a href="images/large/8.jpg" rel="lightbox[album3]" title="Softness"><img src="images/small/8.jpg" /></a></li>

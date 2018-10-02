@@ -188,19 +188,7 @@ var evd = [
   venue: "D4",
 
 },
-// {    akash:14,
-//
-//   title: "Aqua bot",
-//   about: "Set your rudders, gun your propellers and cut through choppy waves in this one of a kind Manual controlled robot event. Make a simple RC/Manual robot and run it in a competition to outpace your competitor. Design and construct a robot capable of running on water surface.The competition will consist of two rounds- qualifying round and final round.",
-//   description: "ROBO SPECIFICATION <br>• The robot should fit in a box of dimension 30 cm x 30 cm x 30cm (l*b*h) at every given point of the race.<br>• Teams can use both wireless and wired remote controls for controlling the bot. <br> The external wireless/wired remote control used to control the robot is not included in the size constraint.<br> • Maximum voltage between any two terminals should not be more than 24 V DC.<br> • In case of wired the length of wire must be minimum 3 meters and maximum 6 meters. <br>• Teams can use any mode of power supply(on-board or off-board).An external AC power supply will be supplied from a three pin socket.<br>• Violating these clauses will lead to the straight disqualification of the team.<br>DIMENSIONS <br>• Smaller cube is of size 6cm*6cm*6cm (l*b*h) <br>• Big cube is of size 9cm*9cm*9cm (l*b*h) <br>• Ball diameter – 5 cm",
-//   round1: "QUALIFYING ROUND <br>• In this round the robot has to travel from starting point to end point by bursting the balloon placed in intermediate positions. <br>• For bursting a single balloon 20 points will be awarded. <br>• The maximum time given for the task is 5 minutes. <br>• Top teams will be selected on the basis of no. of points scored and time taken to complete task.",
-//   round2: "FINAL ROUND<br>• In this round, the robot has to travel from starting point to end point by picking cubes and balls placed at intermediate positions. <br>• In intermediate position the robot first has to burst balloon then only it can start picking up cubes and balls.<br>• After picking, the robot has to reach end point within allotted time otherwise no points will be given to team for whatever it has picked. <br>• For every ball picked-10 points, smaller cube picked-20 points, big cube picked- 30 points respectively will be given. <br>• For bursting balloon 20 points will be awarded <br>• The maximum time given for the task is 7 minutes.",
-//   round3: "",
-//   rules: "• A team may consist of maximum of 4 members. <br>• Readymade kits are not allowed. <br>• Teams will have to report at least 15 minutes before the time slot allotted to them at the beginning of event, failing to do so may result in disqualification. <br>• No last minute repairs will be allowed in the arena. <br>• Organizers reserve the rights to change the rules at any point of time as they deem fit.",
-//   judging_criteria: "Winner will be decided on basis of maximum points earned by team. In case of tie time will be the factor for deciding the winner. ",
-//   venue: "Central Garden",
-//
-// },
+
 {
     akash:14,
 
@@ -282,49 +270,61 @@ var evd = [
   rules: "1. Team size should not be more than 5.<br>2. All the participants should report before 30 min before the event starts. <br>3. Every participant should have their college id or at least one proof of identity. <br>4. You are not allowed to use mobile internet simultaneously during the event. <br>5. In case of any disputes final wording will remain with the organizers. <br>6. Decision of the judges is final. <br><strong> Time Taken :</strong><br>Round 1:  Test will be of 30 minutes with section A having 25 questions and section B having 15 questions.<br>Round 2: It  will be held during second day and the duration of the event will be 3 hours. ",
 
 },
-{
-            akash:16,
+{    akash:20,
 
-  title: "",
+  title: "Aqua bot",
+  about: "Set your rudders, gun your propellers and cut through choppy waves in this one of a kind Manual controlled robot event. Make a simple RC/Manual robot and run it in a competition to outpace your competitor. Design and construct a robot capable of running on water surface.The competition will consist of two rounds- qualifying round and final round.",
+  description: "ROBO SPECIFICATION <br>• The robot should fit in a box of dimension 30 cm x 30 cm x 30cm (l*b*h) at every given point of the race.<br>• Teams can use both wireless and wired remote controls for controlling the bot. <br> The external wireless/wired remote control used to control the robot is not included in the size constraint.<br> • Maximum voltage between any two terminals should not be more than 24 V DC.<br> • In case of wired the length of wire must be minimum 3 meters and maximum 6 meters. <br>• Teams can use any mode of power supply(on-board or off-board).An external AC power supply will be supplied from a three pin socket.<br>• Violating these clauses will lead to the straight disqualification of the team.<br>DIMENSIONS <br>• Smaller cube is of size 6cm*6cm*6cm (l*b*h) <br>• Big cube is of size 9cm*9cm*9cm (l*b*h) <br>• Ball diameter – 5 cm",
+  round1: "QUALIFYING ROUND <br>• In this round the robot has to travel from starting point to end point by bursting the balloon placed in intermediate positions. <br>• For bursting a single balloon 20 points will be awarded. <br>• The maximum time given for the task is 5 minutes. <br>• Top teams will be selected on the basis of no. of points scored and time taken to complete task.",
+  round2: "FINAL ROUND<br>• In this round, the robot has to travel from starting point to end point by picking cubes and balls placed at intermediate positions. <br>• In intermediate position the robot first has to burst balloon then only it can start picking up cubes and balls.<br>• After picking, the robot has to reach end point within allotted time otherwise no points will be given to team for whatever it has picked. <br>• For every ball picked-10 points, smaller cube picked-20 points, big cube picked- 30 points respectively will be given. <br>• For bursting balloon 20 points will be awarded <br>• The maximum time given for the task is 7 minutes.",
+  round3: "",
+  rules: "• A team may consist of maximum of 4 members. <br>• Readymade kits are not allowed. <br>• Teams will have to report at least 15 minutes before the time slot allotted to them at the beginning of event, failing to do so may result in disqualification. <br>• No last minute repairs will be allowed in the arena. <br>• Organizers reserve the rights to change the rules at any point of time as they deem fit.",
+  judging_criteria: "Winner will be decided on basis of maximum points earned by team. In case of tie time will be the factor for deciding the winner. ",
+  venue: "Central Garden",
+
+},
+{
+            akash:21,
+
+  title: "ROBO-SHOOT",
   about:"",
-    description:"",
+    description:"For all who have passion in Robotics or Sports, AAVATAN’18 presents ‘Robo ShooT’.This competition is to show how good and swift your robot can be, by playing soccer and scoring more goals. This event is a platform for participants to showcase their robotics talents and also to bring alive the football spirit. Their robot controlling and ball shooting skills will be raised above their sky high limits.<br>They are required to build manually controlled wired or wireless bots capable of playing soccer on an arena specially designed for the robotic soccer match.<br>Teams will have to play a football match against other team. 2 minutes of setup time will be provided to each team for pregame setup and testing. Each match will consist of two halves of 6 minutes each. Ball will be placed at the centre of the arena at the starting of the match.",
     round1: "",
   round2: "",
   round3: "",
-  judging_criteria: "",
-  venue: " ",
+  judging_criteria: "1. Time will be the judgment criteria<br>2. TEAM WITH MAX GOAL WILL BE WINNER.<br>3. In CASE OF TIE 3 min extra time will be given. THE TEAM TO<br>SCORE FIRST GOAL DURING THE EXTRA TIME WILL WIN THE MATCH.<br><strong>ROBO SPECIFICATIONS</strong<br>1. The robot must fit into a cube of (30x30x30) cm at all times. It may not expand at any time during the match beyond this size even for hitting the ball.Violating this clause will lead to immediate disqualification.<br>1. Teams can use both on board and off board circuits for communication with computer. The bots can have on board as well as off board power supply. 2. Teams will be provided 220 volts 50 Hz AC supply.<br>3.The maximum potential difference between any two points on the robot should not exceed 24 volts.",
+  venue: "In front of Central Garden",
+  rules: "<strong>GENERAL RULES</strong><br>1. A team may consist of maximum of 3 members. Students from different institutes may form a team.<br>2. Ready-made LEGO kits are not allowed. However, ready-made gear assemblies and development boards may be used.<br>3. Teams will have to report at least 15 minutes before the time slot allotted to them at the beginning of the event, failing to do so may result in disqualification.<br> 4.No last minute repairs will be allowed in the arena. However, each team can take a time-out of 2 minutes once during a match.<br>5.Bots would be checked for their safety before the match and may be discarded if found unsafe for other team or spectators. <br>6.Organizers reserve the rights to change the rules at any point of time as they deem fit. The changes will however be highlighted on the website. So keep checking the ‘AAVARTAN’ website for latest updates.<br><strong>RULES FOR SCORING</strong><br>After the first half, goals will be swapped.<br>A goal will be considered to be scored only if the ball has crossed the goal line completely.<br><strong>RULES FOR FOULS</strong><br>1. Any kind of intentional damage caused to opponent team’s robot will be considered as foul. Intentional grabbing of the ball so as to make it impossible for other team to get the control of the ball will also be considered as foul.<br>2. A free kick will be given to other team in case of fouls during which bots of the team committing the foul will be freeze for 30 seconds and ball will be given to the other team.<br>3. In case of repeated fouls yellow card and red cards will be given. If yellow card is given the robot will not be allowed to play rest of the match whereas the in case of red card it will not be allowed to play current as well as the next match.<br>4. If a foul is committed inside the D-area, penalty will be given.<br>5. Decision of the referee will be final and binding.<br><strong>DISQUALIFICATION</strong><br>Following cases will attract immediate disqualification:-<br>1. If a team fails to adhere to size specifications.2. If a team damages the arena in any way.<br>3. If a team commits repeated fouls.<br>4. If a team fails to report in time.<br>5. If a team tries to intervene the game play without permission of the referee.",
   team: "",
   coordinators: ""
 
 },
 {
-         akash:17,
+         akash:22,
 
-  title: "",
+  title: "MAZE RUNNER",
   about:"",
-    description:"",
-    round1: "",
-  round2: "",
+    description:"JUNO crossed Mars but now in front of it lies a belt of asteroids, random stones and mountains floating in space to get past this belt it must follow a certain path directed by NASA.
+Build autonomous line follower robot to follow a given path.The event consists of 2 rounds-",
+    round1: "In this round, a path formed by black lines will be provided. The participants have to come with an autonomous robot which should traverse from the source location to the destination on that path provided. The teams who will successfully complete this round will go to the next round.",
+  round2: "In this round, a maze will be provided. The robots have to solve  maze and reach the end point of the maze.",
   round3: "",
-  judging_criteria: "",
-  venue: " ",
-  team: "",
-  coordinators: ""
+  judging_criteria: "Points and time will be the judgment criteria. In case of tie, time will be considered.",
+  venue: "G-37",
+  rules: "(A)Single hand touch of robots is only allowed during run in case robot goes out of arena.<br> (B)Lego kits not allowed.<br>(C)For every checkpoint cleared you will get 50 points and completion of path will give you additional 100 points.<br>(D)For every restart in the race 50 points will be deducted.  <br>(E)Everybody should come on time. Late comers will not be entertained.<br><strong>ROBOT SPECIFICTION-</strong><br>(a) Robot size should not exceed 25cm X 25cm. <br>(b) Battery should not be more than 12V. <br>(c) The robot should be autonomous not manual. Lego kits will not be allowed.",
 },
 {
-   akash:18,
+   akash:23,
 
-  title: "",
-  about:"",
-    description:"",
+  title: "TERRAIN TREADER",
+  about:"A satellite has crashed into the dense deep forests of Amazon the abode of wilderness with rough terrain impossible to tread even bare foot. The satellite contains data of great sensitivity and significance and must be fetched under any circumstances. For that a treader needs to made which can overcome any hurdle the wilderness has to offer <br> In this the teams have to build a manually controlled robot which is capable of grabbing different objects and crossing different types of terrain by reconstructing its path and broken bridge. ",
+    description:"ROBOT SPECIFICATION:<br>1. Each team is allowed to have a only one robot.<br>2. The robot must fit into a cube of (30x30x30) cm at all times. It may not expand at any time during the match beyond this size even for hitting the ball. Violating this clause will lead to immediate disqualification.<br>3. Robots must be controlled manually.<br>4. Robot can be wired or wireless/sensored robotics.",
     round1: "",
   round2: "",
   round3: "",
-  judging_criteria: "",
-  venue: " ",
-  team: "",
-  coordinators: ""
-
+  judging_criteria: "The time taken to traverse the path along with the penalty will be judging criteria.",
+  rules:"GENERAL RULES<br>1) A team may consist of maximum of 3 members. Students from different institutes may form a team.<br>2) Ready-made LEGO kits are not allowed. However, ready-made gear assemblies and development boards may be used.<br>3) Teams will have to report at least 15 minutes before the time slot allotted to them at the beginning of the event, failing to do so may result in disqualification.<br>4) No last minute repairs will be allowed in the arena. However, each team can take a time-out of 2 minutes once during a match.<br>5) Bots would be checked for their safety before the match and may be discarded if found unsafe for other team or spectators.<br>6) Organizers reserve the rights to change the rules at any point of time as they deem fit. The changes will however be highlighted on the website. So keep checking the ‘AAVARTAN’ website for latest updates.<br><strong>GAME PLAY</strong><br>The robot should traverse through the path covered with devastating hurdles. If the robot falls off, then the robot should begin from previous checkpoint. If the robot comes outside of the path, penalty of 10 seconds will be added.",
+  venue: "In front of Central Garden.",
 },
 {
             akash:19,
