@@ -1,44 +1,60 @@
-/*@import url(https://fonts.googleapis.com/css?family=Open+Sans:300);*/
-body {
-  background-color: #555;
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300);
+html{
   overflow: hidden;
-  z-index: ;
+  height: 100%;
+  width: 100%;
+
+
+}
+body {
+  background-color: black;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  color:white;
 }
 
 #loaderbody{
+
   width: 100%;
   height: 100%;
   background-color: black;
+
 }
-#loaderbody h1 {
+h1 {
   position: absolute;
-  font-family: 'Robotto';
+  font-family: 'Open Sans';
   font-weight: 800;
-  font-size: 37px;
+  font-size: 20px;
   /* text-transform: uppercase; */
-  left: 50%;
-  top: 50%;
-  margin-left: -20px;
+  top: 70%;
+  left: 40%;
+  /*right: 0px;*/
+  /*margin-left: -20px;*/
+  z-index: 9;
+  color:y;
 }
 #loaderbody h2 {
   position: absolute;
-  font-family: 'Robotto';
-  font-weight: 800;
-  font-size: 22px;
+  font-family: 'Open Sans';
+  font-weight: bold;
+  font-size: 26px;
   /* text-transform: uppercase; */
   left: 50%;
-  top: 57%;
-  margin-left: -20px;
-  color: yellow;
+  /*margin-left: 20px;*/
+  top: 55%;
+  z-index: 9;
+  color:yellow;
 }
 .body {
   background-color: white;
   position: absolute;
-  top: 50%;
+  top: 40%;
   margin-left: -50px;
   left: 50%;
   animation: speeder 0.4s linear infinite;
   z-index: 999999;
+
 }
 .body > span {
   height: 5px;
@@ -258,23 +274,35 @@ body {
     opacity: 0;
   }
 }
+html{
+  overflow: hidden;
+
+
+
+}
+body {
+  background-color: black;
+  overflow: hidden;
+
+  color:white;
+}
 
 
 @media screen and (max-width: 600px) {
 
-#loaderbody h1 {
+h1 {
   position: absolute;
   font-family: 'Open Sans';
   font-weight: 800;
   font-size: 20px;
   /* text-transform: uppercase; */
-  top: 60%;
+  top: 70%;
   left: 10%;
   /*right: 0px;*/
   /*margin-left: -20px;*/
-  color:white;
+  color:y;
 }
-#loaderbody h2 {
+h2 {
   position: absolute;
   font-family: 'Open Sans';
   font-weight: bold;
@@ -282,7 +310,105 @@ body {
   /* text-transform: uppercase; */
   right: 10%;
   /*margin-left: 20px;*/
-  top: 50%;
+  top: 55%;
   color:yellow;
 }
+}
+
+
+
+/* ==============================================================================================
+Nick Mkrtchyan
+https://www.facebook.com/sonick.pk
+http://www.Mkrtchyan.zz.mu
+================================================================================================= */
+
+h2{
+    margin-top: 30px;
+    text-align: center;
+}
+header h2{
+    font-size: 22px;
+    margin: 0 auto;
+    padding: 10px 0;
+    width: 80%;
+    text-align: center;
+}
+header a, a:visited {
+    text-decoration:none;
+    color:#fcfcfc;
+}
+
+@keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-webkit-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-moz-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-ms-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+
+@keyframes move-clouds-back {
+    from {background-position:0 0;}
+    to {background-position:10000px 0;}
+}
+@-webkit-keyframes move-clouds-back {
+    from {background-position:0 0;}
+    to {background-position:10000px 0;}
+}
+@-moz-keyframes move-clouds-back {
+    from {background-position:0 0;}
+    to {background-position:10000px 0;}
+}
+@-ms-keyframes move-clouds-back {
+    from {background-position: 0;}
+    to {background-position:10000px 0;}
+}
+section{
+    z-index: 9;
+}
+.stars, .twinkling, .clouds {
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  width:100%;
+  height:100%;
+  display:block;
+}
+
+.stars {
+  background:#000 url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
+  z-index:0;
+}
+
+.twinkling{
+  background: url(http://www.script-tutorials.com/demos/360/images/twinkling.png) repeat top center;
+  z-index:1;
+
+  -moz-animation:move-twink-back 200s linear infinite;
+  -ms-animation:move-twink-back 200s linear infinite;
+  -o-animation:move-twink-back 200s linear infinite;
+  -webkit-animation:move-twink-back 200s linear infinite;
+  animation:move-twink-back 200s linear infinite;
+}
+
+.clouds{
+    background:transparent url(http://www.script-tutorials.com/demos/360/images/clouds3.png) repeat top center;
+    z-index:3;
+
+  -moz-animation:move-clouds-back 200s linear infinite;
+  -ms-animation:move-clouds-back 200s linear infinite;
+  -o-animation:move-clouds-back 200s linear infinite;
+  -webkit-animation:move-clouds-back 200s linear infinite;
+  animation:move-clouds-back 200s linear infinite;
 }
