@@ -20,7 +20,7 @@ html, body, .perspective {
 }
 
 .container {
-	background: #fff;
+	background: #000;
 	min-height: 100%;
 	position: relative;
 	outline: 1px solid rgba(0,0,0,0);
@@ -115,7 +115,7 @@ html, body, .perspective {
 }
 
 .outer-nav.top {
-	top: 25%;
+	top: 10%;
 }
 
 .outer-nav.bottom {
@@ -127,7 +127,7 @@ html, body, .perspective {
 	white-space: nowrap;
 	font-weight: 300;
 	margin: 0 0 30px 0;
-	color: #fff;
+	color: #cca969;
 	-webkit-transition: color 0.3s;
 	transition: color 0.3s;
 	-webkit-transform-style: preserve-3d;
@@ -603,14 +603,14 @@ html, body, .perspective {
 @media screen and (max-width: 77em) {
 
 	.outer-nav.top {
-		top: 15%;
+		top: 5%;
 	}
 
 	.outer-nav.bottom {
 		bottom: 15%;
 	}
 }
-
+/*
 @media screen and (max-width: 36.625em), screen and (max-height: 41.75em) {
 
 	.outer-nav.top {
@@ -622,7 +622,7 @@ html, body, .perspective {
 	}
 
 	.outer-nav.horizontal {
-		font-size: 1.7em;
+		font-size: 0.8em;
 		width: 6.2em;
 	}
 
@@ -631,7 +631,6 @@ html, body, .perspective {
 		text-align: left;
 	}
 
-	/* Special Case */
 	.effect-rotatetop .outer-nav.horizontal {
 		width: 95%;
 		bottom: auto;
@@ -642,18 +641,20 @@ html, body, .perspective {
 		display: inline-block;
 	}
 
-}
+}*/
 
-@media screen and (max-width: 31em), screen and (max-height: 36.2em) {
+@media screen and (max-width: 31em), screen and (max-height: 34.2em) {
 	.outer-nav.horizontal,
 	.outer-nav.vertical {
-		font-size: 1.2em;
-		width: 6.8em;
+		font-size: 1.0em;
+		width: 90%;
 	}
-
+	.outer-nav.horizontal a {
+width: 35%;
+}
 	.outer-nav.right {
 		right: auto;
-		left: 50%;
+		left: 0%;
 	}
 }
 

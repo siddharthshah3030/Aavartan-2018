@@ -1,20 +1,41 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Aavartan18</title>
-		<meta name="description" content="Perspective Page View Navigation: Transforms the page in 3D to reveal a menu" />
-		<meta name="keywords" content="3d page, menu, navigation, mobile, perspective, css transform, web development, web design" />
-		<meta name="author" content="Codrops" />
-		<link rel="shortcut icon" href="../favicon.ico">
+    <head>
+         <?php include '../meta.php' ?>
+            <link rel="stylesheet" type="text/css" href="css/loader.css">
+      <!-- loader begins -->
+      <div id = "loaderbody">
+         <div class="stars"></div>
+<div class="twinkling"></div><!--
+<div class="clouds"></div> -->
+         <div  class="body">
+            <span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            </span>
+            <div class="base">
+               <span></span>
+               <div class="face"></div>
+            </div>
+         </div>
+         <div class="longfazers">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+         </div>
+         <h2>Brace Yourselves</h2>
+         <br/>
+         <h1>Reaching Aavartan18</h1>
+      </div>
 		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
 		<link rel="stylesheet" type="text/css" href="css/demo.css" />
 		<link rel="stylesheet" type="text/css" href="css/component.css" />
-		<link rel="stylesheet" type="text/css" href="css/star.css" />
+		<!-- <link rel="stylesheet" type="text/css" href="css/star.css" /> -->
 		<link rel="stylesheet" type="text/css" href="css/custom.css" />
-		<link rel="stylesheet" type="text/css" href="css/background.css">
+		<!-- <link rel="stylesheet" type="text/css" href="css/background.css"> -->
 		<link rel="stylesheet" type="text/css" href="css/tittle.css" />
 		<link rel="stylesheet" type="text/css" href="css/ghost.css" />
 		<link rel="stylesheet" type="text/css" href="css/attract.css" />
@@ -22,35 +43,10 @@
 		<!-- csstransforms3d-shiv-cssclasses-prefixed-teststyles-testprop-testallprops-prefixes-domprefixes-load -->
 		<script src="js/modernizr.custom.25376.js"></script>
 		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-		<link rel="stylesheet" type="text/css" href="css/loader.css" />
 	</head>
 	<body style="background: black;" class="particletext confetti">
 
-		<!-- loader begins -->
-		<div id = "loaderbody">
-
-		<div  class="body">
-  <span>
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
-  </span>
-  <div class="base">
-    <span></span>
-    <div class="face"></div>
-  </div>
-</div>
-<div class="longfazers">
-  <span></span>
-  <span></span>
-  <span></span>
-  <span></span>
-</div>
-<h2>Brace Yourselves</h2>
-</br>
-<h1>Reaching Aavartan18</h1>
-</div>
+    <script src="https://use.fontawesome.com/dbb72ac4f9.js"></script>
 
 
 		<div class="w3-row">
@@ -58,8 +54,8 @@
 			<div class="container" style="background:black;">
 				<div class="wrapper"  >
 <!-- wrapper needed for scroll -->
-				<div id="menunavbar" style="margin-bottom:1vw;position:sticky;top:0px;width:100%;background-image: url('test.gif'); height: 100%;   background-position: center;background-repeat: no-repeat;background-size: cover;" >
-					 <button id="showMenu" style="display: inline-block;float:right;background:black;color:white;text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #ff00de , 0 0 70px #ff00de , 0 0 80px #ff00de , 0 0 100px #ff00de ;">Menu</button>
+<div id="menunavbar" style="margin-bottom:1vw;position:sticky;top:0px;width:100%;background-image: url('test.gif'); height: 100%;   background-position: center;background-repeat: no-repeat;background-size: cover;" >
+  <button id="showMenu" class="button button-1" style="display: inline-block;float:right;background:black;color:white;text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #ff00de , 0 0 70px #ff00de , 0 0 80px #ff00de , 0 0 100px #ff00de ;">Menu</button>
 					 <img src="images/Aavartan.png" height="70vw" width="auto" style="display: inline-block;">
 					 <h2 style="color: white; text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #00ffff , 0 0 70px #00ffff , 0 0 80px #00ffff , 0 0 100px #00ffff ;"><span></span>Attractions</h1>
 <br>
@@ -186,18 +182,10 @@
 
     </div><!-- wrapper -->
     </div><!-- /container -->
-			<a id="menuclose" href="#" ><span class="close">&times;</span></a>
-			<nav class="outer-nav top horizontal" style="text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #ff00de , 0 0 70px #ff00de , 0 0 80px #ff00de , 0 0 100px #ff00de ;">
-				<a href="#" class="icon-home">Home</a>
-				<a href="#" class="icon-news">News</a>
-				<a href="#" class="icon-image">Images</a>
-				<a href="#" class="icon-upload">Uploads</a>
-				<a href="#" class="icon-star">Favorites</a>
-				<a href="#" class="icon-mail">Messages</a>
-				<a href="#" class="icon-lock">Security</a>
-			</nav>
-		</div><!-- /perspective -->
-	</div>
+    <a id="menuclose" href="#" ><span class="close">&times;</span></a>
+    <?php include '../header.php' ?>
+  </div><!-- /perspective -->
+  </div>
 <!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
 <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 		<script src="js/classie.js"></script>
