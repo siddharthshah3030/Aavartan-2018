@@ -5,9 +5,9 @@
             <link rel="stylesheet" type="text/css" href="css/loader.css">
       <!-- loader begins -->
       <div id = "loaderbody">
-         <div class="stars"></div>
-<div class="twinkling"></div><!--
-<div class="clouds"></div> -->
+         <!-- <div class="stars"></div> -->
+<!-- <div class="twinkling"></div><!-- -->
+<!-- <div class="clouds"></div> --> -->
          <div  class="body">
             <span>
             <span></span>
@@ -54,7 +54,7 @@
 			<div class="container" style="background:black;">
 				<div class="wrapper"  >
 <!-- wrapper needed for scroll -->
-<div id="menunavbar" style="margin-bottom:1vw;position:sticky;top:0px;width:100%;background-image: url('test.gif'); height: 100%;   background-position: center;background-repeat: no-repeat;background-size: cover;" >
+<div id="menunavbar" style="margin-bottom:1vw;position:sticky;top:0px;width:100%;background-image: url('test.gif'); height: 100px;   background-position: center;background-repeat: no-repeat;background-size: cover;" >
   <button id="showMenu" class="button button-1" style="display: inline-block;float:right;background:black;color:white;text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #ff00de , 0 0 70px #ff00de , 0 0 80px #ff00de , 0 0 100px #ff00de ;">Menu</button>
 					 <img src="images/Aavartan.png" height="70vw" width="auto" style="display: inline-block;">
 					 <h2 style="color: white; text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #00ffff , 0 0 70px #00ffff , 0 0 80px #00ffff , 0 0 100px #00ffff ;"><span></span>Attractions</h1>

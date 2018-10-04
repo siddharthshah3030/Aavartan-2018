@@ -34,7 +34,7 @@ h1 {
   z-index: 9;
   color:y;
 }
-h2 {
+#loaderbody h2 {
   position: absolute;
   font-family: 'Open Sans';
   font-weight: bold;
