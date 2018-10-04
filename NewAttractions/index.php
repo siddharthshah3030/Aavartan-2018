@@ -72,12 +72,18 @@
 						<div class="el__inner">
 							<div class="el__bg"></div>
 							<div class="el__preview-cont">
-								<h2 class="el__heading">AIR SHOW</h2>
+								<h2 class="el__heading">Liquid LED <br>Percussion <br>Drumming Show</h2>
 							</div>
 							<div class="el__content">
 								<div class="el__text">
-									A high voltage array of the latest heavy metal takes centre stage at AIRSHOW in AAVARTAN’17. The event also features the best collection of aerobatic daredevils ever to be gathered together. Their high flying antics and precision manoeuvres promise to leave the crowd spellbound. AIRSHOW 2017 will be the most dynamic pageant of its kind ever staged in AAVARTAN.
-								</div>
+                  Have you ever seen imagination coming true ? Have you ever seen lights ,liquids and thumping together?<br>
+                  Well if you haven't, the time has come to witness the most extravagant event.<br>
+                  Team Technocarcy presents you with the spectacular ,sumptous "Liquid LED Percussion Drumming Show".<br>
+                  It is the best live music entertainment in India.<br>
+
+                <br>  Come , join us this AAVARTAN and watch your imagination getting life.
+
+                <br>  6th October || 7:00 pm || Main Stage								</div>
 								<div class="el__close-btn"></div>
 							</div>
 						</div>
@@ -96,20 +102,18 @@
 						<div class="el__inner">
 							<div class="el__bg"></div>
 							<div class="el__preview-cont">
-								<h2 class="el__heading">ADVENTURE ZONE</h2>
+								<h2 class="el__heading">MJ 5</h2>
 							</div>
 							<div class="el__content">
 								<div class="el__text">
-									Adventure zone will comprise of:</br>
-									1. Bungee Trampoline</br>
-									2. Trampoline
-								</br>  3. Land Zorbing ball
-							</br>    4. Climbing wall
-						</br>      5. Darts
-							</br>    6. Archery set
-							</br>    7. Air gun set
-							</br>    and lots of fun and adventure !!!
-							</br>    So gear up for an exciting journey...                </div>
+                  All the stars are aligned and the sky is set to make the whole Cosmo whirl to the rhythm of beats, as the dancing shoes will make the movement.
+      <br> So Amigos!! We are here to amaze you to the brim of enthusiasm as AAVARTAN'18 brings you the Moonwalk Magicians, champions of India's Dancing Superstar 2013, an idolization of Michael Jackson MJ5 for the very first time to NIT Raipur this AAVARTAN'18!!
+
+       <br>Be there & witness the splendid evening!
+
+       <br>7th October || 7:00 pm || Main Stage, NIT RAIPUR
+
+      <br> #AAVARTAN18 #MJ5 #Techfest #NITRR              </div>
 								<div class="el__close-btn"></div>
 							</div>
 						</div>
@@ -123,7 +127,7 @@
 				</div>
 				<!-- el end -->
 				<!-- el start -->
-				<div class="el">
+				<!-- <div class="el">
 					<div class="el__overflow">
 						<div class="el__inner">
 							<div class="el__bg"></div>
@@ -144,10 +148,10 @@
 							<div class="el__index-overlay" data-index="3">3</div>
 						</div>
 					</div>
-				</div>
+				</div> -->
 				<!-- el end -->
 				<!-- el start -->
-				<div class="el">
+				<!-- <div class="el">
 					<div class="el__overflow">
 						<div class="el__inner">
 							<div class="el__bg"></div>
@@ -168,7 +172,7 @@
 							<div class="el__index-overlay" data-index="4">4</div>
 						</div>
 					</div>
-				</div>
+				</div> -->
 				<!-- el end -->
 				<!-- el start -->
 
