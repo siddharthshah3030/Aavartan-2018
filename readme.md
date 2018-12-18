@@ -1,6 +1,6 @@
 # Website of Aavartan 2018 Techfest NIT Raipur
 
-Official repo of techfest of NIT Raipur 
+Official repository of techfest of NIT Raipur 
 
   ###### Imagine - Improve - Implement
  
@@ -33,20 +33,22 @@ Official repo of techfest of NIT Raipur
     - admin manages events
     - registered events are shown in profile
 - Chatbot
+    - it's actual code is not here    
     - Chatbot using CBOW basic classifiers and a neural networks
     - [chatbot-repo](https://github.com/Adarsh-Shrivastava-001/training_bot)
+    - [chat with him here](https://adarsh-shrivastava-001.github.io/Chaat_aavartan/)
 
 ### Development
 - Please connect to database using Config.php file.
--  project is not clean as of now.
+- project is not clean as of now.
 - if you find any problem feel free to create issue.
 - Suggestions and feedbacks are always welcomed!
 
 ##### Design inspiration 
-* homepage game "The Aviator" inspired by [codrops](https://tympanus.net/codrops/2016/04/26/the-aviator-animating-basic-3d-scene-threejs/) 
-* front end designs were inspired by [Tympanus](https://tympanus.net)
+* homepage game "The Aviator" inspired by [Codrops](https://tympanus.net/codrops/2016/04/26/the-aviator-animating-basic-3d-scene-threejs/) 
+* front end designs are inspired by [Tympanus](https://tympanus.net)
 
-#### Contributors
+### Contributors
 * [Siddharth Shah](https://github.com/siddharthshah3030)
 * [Mihir Singh](https://github.com/Mihirkumarsingh)
 * [Ramgopal Varma](https://github.com/ramgopal18998)
@@ -54,7 +56,9 @@ Official repo of techfest of NIT Raipur
 * [Adarsh Shrivastav](https://github.com/Adarsh-Shrivastava-001)
 * [Nagendra Jha](https://github.com/njha1999)
 
-### Todos
+#### Todos
  - Organise the project sections 
  - clean the code
 
+### License
+  MIT
